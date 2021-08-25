@@ -1,2 +1,2 @@
-# ALGM-2021-1-PPG-CComp-HASH-AVL
+# Trabalho de Algoritmo - Implementação de tabela Hash com Árvores AVL.
 Repositório responsável pela elaboração da estrutura de dados Tabela Hash utilizando Árvore AVL
