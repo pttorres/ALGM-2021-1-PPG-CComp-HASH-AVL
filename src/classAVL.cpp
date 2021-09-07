@@ -5,7 +5,8 @@
 using namespace std;   // declaração global do espaço de nomes
 
 struct No_AVL {
-
+    int numTelefone;
+    string nome;
     int chave;
     int fb; // Fator de Balanço
     No_AVL* esq;  // aponta subárvore esquerda
@@ -19,33 +20,6 @@ public:
     No_AVL* T; 
     char hAum[2];
     AVL();
-    
-   
-    void insere(No_AVL** T, No_AVL* pNo){
-        if (*T==NULL){
-            (*T)=pNo;
-            (**T).fb=0;
-            (**T).esq=NULL;
-            (**T).dir=NULL;
-            this->N++;
-            strcpy(hAum,"V\0");
-           // printf("T: %p, *T:%p, **T: %p, pNo:%p, *pNo: %p, T->chave %d\n", T, (*T), (**T), pNo, *pNo, (**T).chave);
-    		
-        } else if ((**T).chave>(*pNo).chave){
-            insere(&(**T).esq, pNo);
-            if (hAum[0]=='V'){
-                atualizaBalanceamentoNoEsq(T, hAum);
-            }
-    		
-        } else if ((**T).chave<(*pNo).chave){
-            insere(&(**T).dir, pNo);
-            if (hAum[0]=='V'){
-                atualizaBalanceamentoNoDir(T, hAum);
-            }
-        } else {
-            perror("Chave ja existente!");
-        }
-    };
     
     void atualizaBalanceamentoNoEsq(No_AVL** T, char * hAum){
         if ((**T).fb==1){
@@ -135,46 +109,142 @@ public:
             }
         }
     };
-    
-        
-    //Exclui o elemento com o nome e número determinados
-    No_AVL* exclui(string nome, int telefone){          //O(1)
-    
+	
+    void insere(No_AVL** T, No_AVL* pNo){
+        if (*T==NULL){
+            (*T)=pNo;
+            (**T).fb=0;
+            (**T).esq=NULL;
+            (**T).dir=NULL;
+            this->N++;
+            strcpy(hAum,"V\0");
+         //   printf("T: %p, *T:%p, **T: %p, pNo:%p, *pNo: %p, T->chave %d\n", T, (*T), (**T), pNo, *pNo, (**T).chave);
+    		
+        } else if ((**T).chave>(*pNo).chave){
+            insere(&(**T).esq, pNo);
+            if (hAum[0]=='V'){
+                atualizaBalanceamentoNoEsq(T, hAum);
+            }
+    		
+        } else if ((**T).chave<(*pNo).chave){
+            insere(&(**T).dir, pNo);
+            if (hAum[0]=='V'){
+                atualizaBalanceamentoNoDir(T, hAum);
+            }
+        } else {
+            perror("Chave ja existente!");
+        }
     };
-    //Busca o elemento x na pilha
-    No_AVL* getElemento(No_AVL* elemento){          //O(1)
-    
-    };     
-    //imprime todos os elementos da pilha (recebe o nó raiz ou aproveita o atributo raiz da própria classe)
-    void imprime(No_AVL* T, int h){
+        
+    void imprime(No_AVL* T){
         
         if(T != NULL){
-            imprime(T->esq, h+1);
             printf(" %d ", T->chave);
-            imprime(T->dir, h+1);
+            imprime(T->esq);
+            imprime(T->dir);
         }
-    }
+    };
+	
+	void exclui(No_AVL** T, int chave){ 
+	   
+		No_AVL* qTemp;
+        printf("T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
+        printf("pNo->chave:%d, ", chave);
+        printf("T->chave %d \n\n", (**T).chave);
+        
+		if((*T) == NULL){
+			cout << "Elemento inexistente";
+			abort();
+		}
+		if(chave < (**T).chave) {
+			exclui(&(**T).esq, chave);
+			if (hAum[0]=='V')
+				atualizaBalanceamentoNoEsq(T,hAum);
+		} else if(chave > (**T).chave){
+			exclui(&(**T).dir, chave);
+			if (hAum[0]=='V')
+				atualizaBalanceamentoNoDir(T,hAum);
+		} else{
+		    
+			qTemp = *T;
+			
+			if((*qTemp).dir == NULL){ 
+    	        printf("else: T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
+                printf("pNo->chave:%d, ", chave);
+                printf("T->chave:%d, ", (**T).chave);
+                printf("Q->chave:%p \n\n", qTemp->esq);
+				
+				*T = qTemp->esq;
+				strcpy(hAum,"V\0");
+			} else if(qTemp->esq == NULL){
+				*T = (*qTemp).dir;
+				strcpy(hAum,"V\0");
+			} else{
+				removeMinimo(&qTemp, qTemp->dir);
+				if(hAum[0]=='V')
+					atualizaBalanceamentoNoDir(T,hAum);
+			}
+			delete qTemp;
+			this->N--;
+		}
+	};
+	
+	void removeMinimo(No_AVL** q, No_AVL* r){
+		if((*r).esq != NULL){ 
+			removeMinimo(q, r->esq);
+			if (hAum[0]=='V')
+				atualizaBalanceamentoNoEsq(&r,hAum);
+		} else { 
+			(**q).chave = r->chave;
+			**q = (*r);
+			r = r->dir;
+			strcpy(hAum,"V\0");
+		}
+	};
+	
 };
+
 AVL::AVL(){              //O(1)
     this->T = NULL;          //O(1)
     this->N = 0;          //O(1)
 };
 
+/*
 int main(){
     
-    AVL* avl_tree = new AVL();
+    AVL* avl_tree[1];
+    avl_tree[0] = new AVL();
     No_AVL* X;
     
-    No_AVL*T = NULL;
+    No_AVL* T[1];
+    T[0] = NULL;
     
-    for(int i; i< 7; i++){
+    for(int i; i< 15; i++){
         X = new No_AVL();
-        X->chave = rand() % 20;
+        X->nome = "Piettro";
+        X->numTelefone = 95682;
+        X->chave = 95682 +  (rand() % 100);
         X->fb = 0;
-        avl_tree->insere(&T, X);
+        printf("\nnumero: %d", X->chave);
+        avl_tree[0]->insere(&T[0], X);
     }
     
-    avl_tree->imprime(T, 1);
+    //No_AVL* x1 = new No_AVL();
+   // x1->chave = 10;
+  //  No_AVL* x2 = new No_AVL();
+//    No_AVL* x3 = new No_AVL();
+ //   x1->chave = 17;
+ //   x2->chave = 3;
+ //   x3->chave = 15;
     
+  //  avl_tree->remocao(&T, x2);
+   // avl_tree->remocao(&T, x3);
     
-}
+    printf("passou aqui %d\n\n", avl_tree[0]->N);
+    
+    avl_tree[0]->imprime(T[0]);
+    printf("\n\n\n -----------------Remocao ------------------- \n\n");
+    int xteste = 10;
+   // avl_tree->remocao(&T, 10);
+    
+}*/

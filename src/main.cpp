@@ -55,8 +55,10 @@ int main()
         listaPessoas[i]=new No_AVL();
     }
     AVL* lstBEAMS[QTD_BEAMS];
+    No_AVL* lstBEAMS_TreeRoot[QTD_BEAMS];
     for (int i=0; i < QTD_BEAMS; i++){
         lstBEAMS[i]=new AVL();
+        lstBEAMS_TreeRoot[i] = NULL;
     }
     //Leitura do arquivo de entrada:
     arqEntrada.open("listaEntrada.csv",ios::in); //Abre o arquivo com a lista de nomes e telefones
@@ -74,8 +76,7 @@ int main()
                 listaPessoas[i-1]->nome=fixSize(nome,20);
                 telefone=std::stoi(nomeEtelefone[1]);
                 listaPessoas[i-1]->numTelefone=telefone; 
-                //listaPessoas[i]->noRaiz->nome="Teste";
-                //listaPessoas[i]->noRaiz->numTelefone=999999455;
+                listaPessoas[i-1]->chave = telefone + rand() % 100; // chave de telefone
                 printf(listaPessoas[i-1]->nome.c_str());
                 printf("\t");
                 printf("%d",listaPessoas[i-1]->numTelefone);
@@ -99,13 +100,17 @@ int main()
         int idBEAM=listaPessoas[i]->nome[0]-65;
         printf ("Debug: número do idBEAM: %d\n", idBEAM);
         //A implementar (método insere da classe AVL):
-        lstBEAMS[idBEAM]->insere(listaPessoas[i]);
+        lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[i], listaPessoas[i]);
         if (lstBEAMS[idBEAM]->N % 10==0){  //Quando chegar a 10, 20, 30... elementos na AVL, ela é apresentada:
-            lstBEAMS[idBEAM]->imprimeAVL();
+            lstBEAMS[idBEAM]->imprime(lstBEAMS[idBEAM]->T);
         }
     }
-    // Aqui, faremos a exclusão de alguns nomes (sempre apresentando a árvore AVL após a exclusão)
-
+    //Impressão da Floresta
+    /*for (int i=0; i< 27-1; i++){
+        printf("\n\n---------\n");
+        lstBEAMS[i]->imprime(lstBEAMS[i]->T);
+        printf("\n\n---------\n");
+    }*/
     /* inicializa a semente (seed): */
     srand (time(NULL));
     for (int i=0; i< QTD_EXCLUSOES; i++){
@@ -121,9 +126,9 @@ int main()
         int telefone=listaPessoas[idExclusao]->numTelefone;
         int idBEAM=nome[0]-65;   
         printf ("Debug: número do idBEAM: %d\n", idBEAM);
-        lstBEAMS[idBEAM]->exclui(nome, telefone);
+        //lstBEAMS[idBEAM]->exclui(nome, telefone);
         //Apresenta a AVL após a exclusão (método imprimeAVL da classe AVL)
-        lstBEAMS[idBEAM]->imprimeAVL();
+        lstBEAMS[idBEAM]->imprime(lstBEAMS[idBEAM]->T);
     }       
     return 0;
 }
