@@ -1,0 +1,5 @@
+Comando graphviz:
+
+echo "digraph G {Hello->World,Teste Teste->Folha1,folha2 folha2->A,B,C,D Folha1->E,F,G1}" | dot -Tpng > ~/temp/tst.png
+
+https://graphviz.org/Gallery/directed/hello.html

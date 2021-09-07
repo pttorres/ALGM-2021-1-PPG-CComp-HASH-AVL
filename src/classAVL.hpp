@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstring>
 #include<string>
+#include<queue>
 
 using namespace std;   // declaração global do espaço de nomes
 
@@ -20,6 +21,22 @@ public:
     No_AVL* T; 
     char hAum[2];
     AVL();
+
+    /*
+    /* Libera a memória ocupada pela árvore AVL (dispensável, pois os objetos AVL estão sendo deletados junto com os elementos de listaPessoas)
+    void libera (No_AVL* raiz) {                                       
+        if (raiz->dir == NULL && raiz->esq == NULL){                                                  
+            delete(raiz);                                                                   
+        }else {
+            if (raiz->dir != NULL){
+                libera(raiz->dir);
+            }
+            if (raiz->esq != NULL){
+                libera(raiz->esq);
+            }
+        }        
+    } 
+    */
     
     void atualizaBalanceamentoNoEsq(No_AVL** T, char * hAum){
         if ((**T).fb==1){
@@ -139,16 +156,47 @@ public:
         
     void imprime(No_AVL* T){
         if(T != NULL){
-            printf(", %d ", T->chave);
+            if (T->chave != (int) 0){
+                printf("%d, ", T->chave);
+            }
             imprime(T->esq);
             imprime(T->dir);
-        }
+        }        
     };
+
+    void imprimeVisitaEmNiveis(No_AVL* noAtual){
+        queue<No_AVL*> fila;
+        fila.push(noAtual);
+        No_AVL* frente;
+        int i=0;
+        int nivelAtual=1;
+        int nivelAnterior=1;
+        while (!fila.empty()){
+            frente=fila.front();
+            if (frente->esq!=0){
+               fila.push(frente->esq);
+            }
+            if (frente->dir!=0){
+               fila.push(frente->dir);
+            }
+            fila.pop();
+            noAtual=frente;                      
+            nivelAnterior=(int) log2(i);
+            i++;                       
+            nivelAtual=(int) log2(i); 
+            if(nivelAtual!=nivelAnterior){
+                printf("\nNível:%d ", nivelAtual+1);
+            }           
+            printf("| %s, %d |", noAtual->nome.c_str(), noAtual->numTelefone );  
+        }
+    }
+
 	
 	void exclui(No_AVL** T, int chave){ 
 	   
 		No_AVL* qTemp;
-        printf("T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
+        //printf("T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
+        printf("T: %p, *T:%p ", T, (*T));
         printf("pNo->chave:%d, ", chave);
         printf("T->chave %d \n\n", (**T).chave);
         
@@ -169,7 +217,8 @@ public:
 			qTemp = *T;
 			
 			if((*qTemp).dir == NULL){ 
-    	        printf("else: T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
+    	        //printf("else: T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
+                printf("T: %p, *T:%p ", T, (*T));
                 printf("pNo->chave:%d, ", chave);
                 printf("T->chave:%d, ", (**T).chave);
                 printf("Q->chave:%p \n\n", qTemp->esq);

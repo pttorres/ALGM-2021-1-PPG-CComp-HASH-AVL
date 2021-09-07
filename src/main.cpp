@@ -14,6 +14,9 @@
 #define QTD_EXCLUSOES 30
 
 using namespace std;   // declaração global do espaço de nomes
+/* retorna um vetor formado pelas palavras separadas pelo caracter delimitador encontrado na string de entrada
+   Exemplo: splitStr("abc;def", ';') retorna o vetor ["abc","def"]
+ */
 std::vector<std::string> splitStr(string strEntrada, char delimitador){
     int contaPalavras=1;
     char letra;
@@ -39,6 +42,7 @@ std::vector<std::string> splitStr(string strEntrada, char delimitador){
     }
     return retorno;
 }
+/* Padroniza um tamanho fixo para todos os nomes - acrescenta espaços ao final, para igualar tamanhos */
 string fixSize(string nome, int tam){
     string strRetorno=nome;
     while (strRetorno.length()< tam){
@@ -52,13 +56,14 @@ int main()
     fstream arqEntrada;
     No_AVL* listaPessoas[QTD_PESSOAS];
     for (int i=0; i< QTD_PESSOAS; i++){
+        if (listaPessoas[i] != NULL) listaPessoas[i]=NULL;
         listaPessoas[i]=new No_AVL();
     }
     AVL* lstBEAMS[QTD_BEAMS];
-    No_AVL* lstBEAMS_TreeRoot[QTD_BEAMS];
+    //No_AVL* lstBEAMS_TreeRoot[QTD_BEAMS];
     for (int i=0; i < QTD_BEAMS; i++){
         lstBEAMS[i]=new AVL();
-        lstBEAMS_TreeRoot[i] = NULL;
+        //lstBEAMS_TreeRoot[i] = NULL;
     }
     //Leitura do arquivo de entrada:
     arqEntrada.open("listaEntrada.csv",ios::in); //Abre o arquivo com a lista de nomes e telefones
@@ -71,20 +76,20 @@ int main()
         printf("Lista de nomes e de telefones fictícios que serão incluídos na hashTable / AVLs:\n---------------------\n");
         while(getline(arqEntrada, linha)){ //leitura das linhas do arquivo de entrada    
             std::vector<std::string> nomeEtelefone=splitStr(linha,';');        
-            if (i>0 && i<200){
+            if (i>0 && i<201){
                 nome=nomeEtelefone[0];
-                listaPessoas[i-1]->nome=fixSize(nome,20);
+                listaPessoas[i-1]->nome=fixSize(nome,15);
                 telefone=std::stoi(nomeEtelefone[1]);
                 listaPessoas[i-1]->numTelefone=telefone; 
-                listaPessoas[i-1]->chave = telefone + rand() % 100; // chave de telefone
-                printf(listaPessoas[i-1]->nome.c_str());
+                //listaPessoas[i-1]->chave = telefone + rand() % 100; // chave de telefone
+                listaPessoas[i-1]->chave = telefone ; // chave de telefone
+                printf(fixSize(listaPessoas[i-1]->nome, 20).c_str());
                 printf("\t");
                 printf("%d",listaPessoas[i-1]->numTelefone);
                 printf("\n");
             }
             i++;
         }
-        printf("\n\n---------------------------\n");
         
         arqEntrada.close(); //fecha o arquivo de entrada.
         
@@ -94,41 +99,59 @@ int main()
     }
 
     // A partir daqui, começa o preenchimento dos compartimentos (BEAMS e respectivas AVLs) da hashtable
+    printf("\n==================\nInício das inserções\n==================\n");
+       printf("\nObservação: para a saída não ficar muito grande, só serão apresentadas as árvores de inserção com o valor de N entre 10 e 20.\n");
 
     // Insere os nomes de acordo com a primeira letra (O 'A' de ANDREA, por exemplo, é inserido na posição 0 o B na posição 1 e assim por diante)
-    for (int i=0; i< QTD_PESSOAS-1; i++){
-        int idBEAM=listaPessoas[i]->nome[0]-65;
-        printf ("Debug: número do idBEAM: %d\n, chave: ", idBEAM, listaPessoas[i]->chave);
-        //A implementar (método insere da classe AVL):
-        lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[idBEAM], listaPessoas[i]);
-        if (lstBEAMS[idBEAM]->N % 10==0){  //Quando chegar a 10, 20, 30... elementos na AVL, ela é apresentada:
-            lstBEAMS[idBEAM]->imprime(lstBEAMS[idBEAM]->T);
+    for (int i=0; i< QTD_PESSOAS; i++){  
+        int idBEAM=listaPessoas[i]->nome[0]-65;        
+         // Método insere da classe AVL:
+        //lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[idBEAM], listaPessoas[i]);
+        lstBEAMS[idBEAM]->insere(&lstBEAMS[idBEAM]->T, listaPessoas[i]);
+        if (lstBEAMS[idBEAM]->N > 10 && lstBEAMS[idBEAM]->N < 20){
+            printf ("\nInserção #%d: %s, %d no compartimento número %d :", i+1, listaPessoas[i]->nome.c_str(),  listaPessoas[i]->chave, idBEAM);
+            lstBEAMS[idBEAM]->imprimeVisitaEmNiveis(lstBEAMS[idBEAM]->T);
+            printf("\n");
+        } else {
+            printf ("\nInserção #%d: %s, %d no compartimento número %d (omitida a árvore de inserção, para economizar espaço).", i+1, listaPessoas[i]->nome.c_str(),  listaPessoas[i]->chave, idBEAM);
         }
     }
-    //Impressão da Floresta
-    for (int i=0; i< 27-1; i++){
-        printf("\n\n---------\n");
-        lstBEAMS[i]->imprime(lstBEAMS_TreeRoot[i]);
-        printf("\n\n---------\n");
-    }
+    printf("\n==================\nFim das inserções\n==================\n");   
+    
     /* inicializa a semente (seed): */
     srand (time(NULL));
-    for (int i=0; i< QTD_EXCLUSOES; i++){
-        
+    for (int i=0; i< QTD_EXCLUSOES; i++){        
         int idExclusao;
 
         /* gera numero entre 0 e 199: */
         idExclusao = rand() % 200;
-        printf ("Debug: número aleatório gerado para o id a ser excluído: %d\n", idExclusao); 
+        printf ("\nDebug: número aleatório gerado para o id a ser excluído: %d\n", idExclusao); 
 
-        //A implementar (método exclui da classe AVL)        
+        //Demonstração do método de exclusão de elemento da árvore AVL
         string nome=listaPessoas[idExclusao]->nome;
         int telefone=listaPessoas[idExclusao]->numTelefone;
         int idBEAM=nome[0]-65;   
-        printf ("Debug: número do idBEAM: %d\n", idBEAM);
-        //lstBEAMS[idBEAM]->exclui(nome, telefone);
+        printf ("\nNúmero aleatório selecionado para exclusão: %d\n", idBEAM);
+        //lstBEAMS[idBEAM]->exclui(lstBEAMS[idBEAM]->T, telefone);
         //Apresenta a AVL após a exclusão (método imprimeAVL da classe AVL)
-        lstBEAMS[idBEAM]->imprime(lstBEAMS[idBEAM]->T);
-    }       
+        printf("Excluído o nome , telefone , do compartimento %d, letra %c:", nome, telefone, idBEAM, idBEAM+65);
+        lstBEAMS[idBEAM]->imprimeVisitaEmNiveis(lstBEAMS[idBEAM]->T);
+    }
+
+    //Impressão da Floresta, após inserções e exclusões
+    printf("\n\n\n---------\nImpressão da Floresta (ou seja, do catálogo inteiro), após inserções e exclusões\n---------\n");    
+    for (int i=0; i< QTD_BEAMS; i++){
+        if (lstBEAMS[i]->T != NULL){
+            printf("\n---------\n");
+            printf("Compartimento %d, letra %c:", i, i+65);
+            lstBEAMS[i]->imprimeVisitaEmNiveis(lstBEAMS[i]->T);
+            printf("\n---------\n");
+        }
+    }
+
+    /* Libera memória ocupada pelas AVLs contidas na listaPessoas*/       
+    for (int i=0; i< QTD_PESSOAS; i++){
+        delete(listaPessoas[i]);
+    }
     return 0;
 }
