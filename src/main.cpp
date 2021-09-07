@@ -98,9 +98,9 @@ int main()
     // Insere os nomes de acordo com a primeira letra (O 'A' de ANDREA, por exemplo, é inserido na posição 0 o B na posição 1 e assim por diante)
     for (int i=0; i< QTD_PESSOAS-1; i++){
         int idBEAM=listaPessoas[i]->nome[0]-65;
-        printf ("Debug: número do idBEAM: %d\n", idBEAM);
+        printf ("Debug: número do idBEAM: %d\n, chave: ", idBEAM, listaPessoas[i]->chave);
         //A implementar (método insere da classe AVL):
-        lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[idBEAM], listaPessoas[idBEAM]);
+        lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[idBEAM], listaPessoas[i]);
         if (lstBEAMS[idBEAM]->N % 10==0){  //Quando chegar a 10, 20, 30... elementos na AVL, ela é apresentada:
             lstBEAMS[idBEAM]->imprime(lstBEAMS[idBEAM]->T);
         }
