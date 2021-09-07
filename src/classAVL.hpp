@@ -181,76 +181,98 @@ public:
             }
             fila.pop();
             noAtual=frente;                      
-            nivelAnterior=(int) log2(i);
+            nivelAnterior=(int) (i);
             i++;                       
-            nivelAtual=(int) log2(i); 
+            nivelAtual=(int) (i); 
             if(nivelAtual!=nivelAnterior){
                 printf("\nNível:%d ", nivelAtual+1);
             }           
             printf("| %s, %d |", noAtual->nome.c_str(), noAtual->numTelefone );  
         }
     }
-
 	
-	void exclui(No_AVL** T, int chave){ 
-	   
-		No_AVL* qTemp;
-        //printf("T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
-        printf("T: %p, *T:%p ", T, (*T));
-        printf("pNo->chave:%d, ", chave);
-        printf("T->chave %d \n\n", (**T).chave);
+   void exclui(No_AVL **T, int chave){
+      No_AVL** aux1, *aux2;
+      No_AVL*  aux = *T; 
+      
+      if(*T != NULL) {
+      
+        if((*T)->chave == chave){  // Chave encontrada
         
-		if((*T) == NULL){
-			cout << "Elemento inexistente";
-			abort();
-		}
-		if(chave < (**T).chave) {
-			exclui(&(**T).esq, chave);
-			if (hAum[0]=='V')
-				atualizaBalanceamentoNoEsq(T,hAum);
-		} else if(chave > (**T).chave){
-			exclui(&(**T).dir, chave);
-			if (hAum[0]=='V')
-				atualizaBalanceamentoNoDir(T,hAum);
-		} else{
-		    
-			qTemp = *T;
-			
-			if((*qTemp).dir == NULL){ 
-    	        //printf("else: T: %p, *T:%p, **T: %p, ", T, (*T), (**T));
-                printf("T: %p, *T:%p ", T, (*T));
-                printf("pNo->chave:%d, ", chave);
-                printf("T->chave:%d, ", (**T).chave);
-                printf("Q->chave:%p \n\n", qTemp->esq);
-				
-				*T = qTemp->esq;
-				strcpy(hAum,"V\0");
-			} else if(qTemp->esq == NULL){
-				*T = (*qTemp).dir;
-				strcpy(hAum,"V\0");
-			} else{
-				removeMinimo(&qTemp, qTemp->dir);
-				if(hAum[0]=='V')
-					atualizaBalanceamentoNoDir(T,hAum);
-			}
-			delete qTemp;
-			this->N--;
-		}
-	};
-	
-	void removeMinimo(No_AVL** q, No_AVL* r){
-		if((*r).esq != NULL){ 
-			removeMinimo(q, r->esq);
-			if (hAum[0]=='V')
-				atualizaBalanceamentoNoEsq(&r,hAum);
-		} else { 
-			(**q).chave = r->chave;
-			**q = (*r);
-			r = r->dir;
-			strcpy(hAum,"V\0");
-		}
-	};
-	
+          if((*T)->esq == (*T)->dir){ // é uma folha
+         
+            printf("\nr = %d\n",chave);
+            free(*T); 
+            *T = NULL; 
+            strcpy(hAum,"V\0");
+    
+          } else { // Nó tem filhos 
+    
+            if((*T)->esq != NULL){
+              aux1 = maiorEsquerdo(*T); 
+              aux2 = *aux1;
+              (*aux1) = (*aux1)->esq;
+            } else {
+              aux1 = menorDireito(*T);
+              aux2 = *aux1; 
+              (*aux1) = (*aux1)->dir;
+            }
+            (*T)->chave = aux2->chave; 
+            free(aux2); 
+            aux2 = NULL; 
+            strcpy(hAum,"V\0");
+    
+          }
+        } else if((*T)->chave < chave){ // Desce até encontrar ou não encontrar a chave.
+    
+            exclui(&(*T)->dir,chave);
+            if (hAum[0]=='V'){
+                atualizaBalanceamentoNoEsq(T, hAum);
+            }
+    
+        } else if((*T)->chave > chave) {
+    
+           exclui(&(*T)->esq,chave);
+           
+            if (hAum[0]=='V'){
+                atualizaBalanceamentoNoDir(T, hAum);
+            }
+    
+        }         
+      } else {// Chave não encontrada
+    	perror("chave não encontrada");
+      }
+    
+    };
+    
+    No_AVL** menorDireito(No_AVL *T)
+    { 
+      No_AVL** aux = &T;  
+      if((*aux)->dir != NULL) 
+      {
+        aux = &(*aux)->dir;  
+        while((*aux)->esq != NULL) 
+        {
+          aux = &(*aux)->esq; 
+        }
+      }
+      return aux;
+    };
+    
+    No_AVL** maiorEsquerdo(No_AVL* T)
+    {
+      No_AVL** aux = &T; 
+      if((*aux)->esq != NULL)
+      {
+        aux = &(*aux)->esq;
+        while((*aux)->dir != NULL) 
+        {
+          aux = &(*aux)->dir;
+        }
+      }
+      return aux;
+    };
+    
 };
 
 AVL::AVL(){              //O(1)

@@ -131,14 +131,17 @@ int main()
         string nome=listaPessoas[idExclusao]->nome;
         int telefone=listaPessoas[idExclusao]->numTelefone;
         int idBEAM=nome[0]-65;   
-        printf ("\nNúmero aleatório selecionado para exclusão: %d\n", idBEAM);
-        //lstBEAMS[idBEAM]->exclui(lstBEAMS[idBEAM]->T, telefone);
-        //Apresenta a AVL após a exclusão (método imprimeAVL da classe AVL)
-        printf("Excluído o nome , telefone , do compartimento %d, letra %c:", nome, telefone, idBEAM, idBEAM+65);
-        lstBEAMS[idBEAM]->imprimeVisitaEmNiveis(lstBEAMS[idBEAM]->T);
+        printf ("\nNúmero aleatório selecionado para exclusão: %d, letra %c:\n", idBEAM, nome[0]);
+        if(idBEAM >=0 && idBEAM < QTD_BEAMS){
+            lstBEAMS[idBEAM]->exclui(&lstBEAMS[idBEAM]->T, telefone);
+            //Apresenta a AVL após a exclusão (método imprimeAVL da classe AVL)
+            printf("Excluído o nome , telefone , do compartimento %d, letra %c:", nome, telefone, idBEAM, idBEAM+65);
+            //lstBEAMS[idBEAM]->imprimeVisitaEmNiveis(lstBEAMS[idBEAM]->T);
+        }
     }
 
     //Impressão da Floresta, após inserções e exclusões
+    //lstBEAMS[11]->exclui(&lstBEAMS[11]->T, 971943105);
     printf("\n\n\n---------\nImpressão da Floresta (ou seja, do catálogo inteiro), após inserções e exclusões\n---------\n");    
     for (int i=0; i< QTD_BEAMS; i++){
         if (lstBEAMS[i]->T != NULL){
@@ -149,6 +152,7 @@ int main()
         }
     }
 
+    
     /* Libera memória ocupada pelas AVLs contidas na listaPessoas*/       
     for (int i=0; i< QTD_PESSOAS; i++){
         delete(listaPessoas[i]);
