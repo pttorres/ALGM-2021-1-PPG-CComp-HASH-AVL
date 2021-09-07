@@ -1,0 +1,1081 @@
+Lista de nomes e de telefones fictícios que serão incluídos na hashTable / AVLs:
+---------------------
+Vanessa Barbosa     	992931927
+Piettro Freitas     	950186297
+Marcel Freitas      	950313546
+Piettro Souza       	961216424
+Roberto Machado     	980757555
+Igor Martins        	955554654
+Carlos Costa        	976849055
+Roberto Freitas     	952862350
+Lucas Alves         	965676688
+Igor Campos         	986007137
+Carlos Freitas      	990775211
+Vanessa Coelho      	967230729
+Márcio Barros      	969853543
+João Alves         	991124630
+Márcio Moura       	967440374
+Luciano Campos      	988896876
+Carlos Moura        	973688088
+Leonardo Porto      	960603618
+Igor Freitas        	989918743
+Luciano Barbosa     	957188337
+Washington Rodrigues	986307423
+Carlos Silva        	953897543
+Luciano Rodrigues   	992236420
+Luciano Moura       	986476438
+Luciano Alves       	972909117
+Washington Martins  	987735642
+Roberto Barbosa     	964163007
+Carlos Torres       	966439277
+Lucas Pereira       	972414839
+Alexandre Silva     	992966968
+Luciano Pereira     	976149330
+Lucas Santos        	984121948
+Carlos Freitas      	961834137
+Piettro Freitas     	977907210
+Lucas Silva         	987155913
+Roberto Barros      	980040703
+Piettro Souza       	990452401
+Carlos Souza        	961337758
+Igor Barros         	981366478
+Márcio Machado     	952329784
+Márcio Porto       	979688182
+Márcio Porto       	989927453
+Luiz Torres         	951046172
+Piettro Freitas     	984763663
+Luiz Santos         	973816454
+Washington Farias   	976087312
+Lucas Torres        	980176858
+Marcel Torres       	961020719
+Leonardo Rodrigues  	999746207
+Piettro Martins     	990058019
+Vanessa Campos      	957554329
+Luiz Campos         	955830623
+Roberto Souza       	950773441
+Marcel Pereira      	981304370
+Yago Costa          	994390255
+Yago Costa          	977426233
+Luiz Souza          	956126264
+Luiz Campos         	990920197
+Vanessa Rodrigues   	960862516
+Luciano Porto       	980828374
+Washington Rodrigues	962840590
+Vanessa Freitas     	955355373
+Luciano Campos      	980840994
+Pamella Barbosa     	973123310
+Luciano Coelho      	993487643
+Márcio Coelho      	958939859
+Luciano Souza       	950306992
+Luciano Alves       	958295711
+Marcel Coelho       	992167539
+Washington Pereira  	962181569
+Luiz Machado        	971641435
+Washington Machado  	955446445
+Washington Moura    	961697749
+Yago Santos         	980740362
+Washington Costa    	974050329
+Lucas Porto         	963044256
+Carlos Coelho       	991472947
+Igor Machado        	961029324
+Alexandre Rodrigues 	957023242
+Piettro Machado     	954392832
+Piettro Barbosa     	974394289
+Roberto Rodrigues   	966669452
+Yago Farias         	953720569
+Lucas Costa         	992305555
+Marcel Souza        	951425568
+Luciano Barbosa     	971943105
+Marcel Campos       	979142794
+Alexandre Rodrigues 	995433080
+Igor Farias         	992854722
+Márcio Moura       	975279080
+Roberto Souza       	978053544
+Roberto Alves       	982365369
+Igor Silva          	990889114
+Roberto Martins     	967828497
+Igor Pereira        	958453647
+Lucas Barros        	963940107
+Vanessa Machado     	973329930
+Pamella Moura       	995006078
+Alexandre Santos    	958538289
+João Pereira       	979323293
+João Souza         	970206539
+Washington Barros   	958678462
+Yago Barbosa        	976786212
+Marcel Silva        	962499508
+Carlos Coelho       	951673848
+Márcio Alves       	999529510
+Vanessa Coelho      	980269480
+Carlos Barbosa      	971596197
+Carlos Costa        	950852179
+Igor Machado        	988375084
+Lucas Campos        	964925108
+Leonardo Coelho     	995668512
+Luiz Silva          	991075970
+Washington Santos   	966945826
+Lucas Machado       	957445164
+Piettro Silva       	961893049
+Luciano Freitas     	958339091
+Roberto Machado     	965381960
+Luiz Souza          	984718198
+Roberto Machado     	967003251
+Igor Farias         	964632491
+Lucas Souza         	950457848
+Leonardo Rodrigues  	983683049
+Piettro Martins     	969904009
+Leonardo Machado    	994743486
+Pamella Rodrigues   	955173015
+Marcel Martins      	987782308
+Luiz Santos         	956413760
+Igor Freitas        	958680634
+Igor Coelho         	991478182
+Yago Costa          	970946418
+Washington Coelho   	967521637
+Luiz Souza          	997483635
+Vanessa Porto       	996290752
+Roberto Silva       	977964561
+Luciano Farias      	963599401
+Yago Coelho         	974069061
+Igor Santos         	997734597
+Vanessa Porto       	966870911
+Roberto Alves       	985464278
+Luciano Freitas     	974056467
+Luiz Silva          	997584532
+João Moura         	971483101
+Pamella Santos      	973283585
+Luciano Barros      	983145224
+Leonardo Moura      	962646154
+Igor Silva          	970521913
+Márcio Santos      	964181224
+Pamella Souza       	969300271
+Pamella Moura       	982357887
+João Costa         	989431090
+Luiz Barros         	991669981
+Igor Barros         	961429726
+Luiz Souza          	976115929
+João Barbosa       	982990481
+Washington Campos   	955012119
+Lucas Moura         	952857172
+Vanessa Martins     	992641688
+Igor Barbosa        	978011719
+Lucas Porto         	999152157
+Carlos Freitas      	990940187
+Pamella Pereira     	950703803
+Leonardo Moura      	952737448
+Lucas Barbosa       	964883730
+Pamella Martins     	975274044
+Luciano Souza       	960401876
+Luciano Silva       	987763914
+Luiz Machado        	961382637
+Washington Coelho   	951300701
+Igor Barbosa        	968604846
+Luciano Rodrigues   	966049029
+Washington Alves    	976017582
+Lucas Torres        	998532786
+Vanessa Barros      	958291947
+Pamella Costa       	972607915
+Alexandre Campos    	999956560
+Carlos Campos       	955323682
+Luiz Freitas        	954771739
+Luiz Martins        	996877113
+João Torres        	985127353
+Luciano Santos      	952851882
+Roberto Silva       	998535597
+Roberto Porto       	990366818
+Carlos Moura        	984972895
+Roberto Moura       	973079926
+Alexandre Coelho    	958161132
+Vanessa Martins     	952303299
+Piettro Torres      	973888400
+Luciano Moura       	988176352
+Igor Santos         	968818010
+Washington Silva    	978326149
+Márcio Barbosa     	972426994
+Marcel Santos       	996988455
+Roberto Martins     	992848433
+Yago Costa          	973031060
+Igor Martins        	976707879
+Alexandre Barros    	950500446
+Vanessa Souza       	991132853
+Lucas Pereira       	998665777
+Washington Torres   	954026800
+
+==================
+Início das inserções
+==================
+
+Observação: para a saída não ficar muito grande, só serão apresentadas as árvores de inserção com o valor de N entre 10 e 20.
+
+Inserção #1: Vanessa Barbosa, 992931927 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #2: Piettro Freitas, 950186297 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #3: Marcel Freitas , 950313546 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #4: Piettro Souza  , 961216424 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #5: Roberto Machado, 980757555 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #6: Igor Martins   , 955554654 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #7: Carlos Costa   , 976849055 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #8: Roberto Freitas, 952862350 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #9: Lucas Alves    , 965676688 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #10: Igor Campos    , 986007137 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #11: Carlos Freitas , 990775211 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #12: Vanessa Coelho , 967230729 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #13: Márcio Barros , 969853543 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #14: João Alves    , 991124630 no compartimento número 9 (omitida a árvore de inserção, para economizar espaço).
+Inserção #15: Márcio Moura  , 967440374 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #16: Luciano Campos , 988896876 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #17: Carlos Moura   , 973688088 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #18: Leonardo Porto , 960603618 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #19: Igor Freitas   , 989918743 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #20: Luciano Barbosa, 957188337 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #21: Washington Rodrigues, 986307423 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #22: Carlos Silva   , 953897543 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #23: Luciano Rodrigues, 992236420 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #24: Luciano Moura  , 986476438 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #25: Luciano Alves  , 972909117 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #26: Washington Martins, 987735642 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #27: Roberto Barbosa, 964163007 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #28: Carlos Torres  , 966439277 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #29: Lucas Pereira  , 972414839 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #30: Alexandre Silva, 992966968 no compartimento número 0 (omitida a árvore de inserção, para economizar espaço).
+Inserção #31: Luciano Pereira, 976149330 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #32: Lucas Santos   , 984121948 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #33: Carlos Freitas , 961834137 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #34: Piettro Freitas, 977907210 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #35: Lucas Silva    , 987155913 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Lucas Alves    , 965676688 || Luciano Moura  , 986476438 |
+Nível:3 | Leonardo Porto , 960603618 || Lucas Pereira  , 972414839 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luciano Barbosa, 957188337 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 |
+
+Inserção #36: Roberto Barros , 980040703 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #37: Piettro Souza  , 990452401 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #38: Carlos Souza   , 961337758 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #39: Igor Barros    , 981366478 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #40: Márcio Machado, 952329784 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #41: Márcio Porto  , 979688182 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #42: Márcio Porto  , 989927453 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #43: Luiz Torres    , 951046172 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Lucas Alves    , 965676688 || Luciano Moura  , 986476438 |
+Nível:3 | Luciano Barbosa, 957188337 || Lucas Pereira  , 972414839 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Torres    , 951046172 || Leonardo Porto , 960603618 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 |
+
+Inserção #44: Piettro Freitas, 984763663 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #45: Luiz Santos    , 973816454 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Lucas Alves    , 965676688 || Luciano Moura  , 986476438 |
+Nível:3 | Luciano Barbosa, 957188337 || Lucas Pereira  , 972414839 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Torres    , 951046172 || Leonardo Porto , 960603618 || Luiz Santos    , 973816454 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 |
+
+Inserção #46: Washington Farias, 976087312 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #47: Lucas Torres   , 980176858 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Lucas Alves    , 965676688 || Luciano Moura  , 986476438 |
+Nível:3 | Luciano Barbosa, 957188337 || Lucas Pereira  , 972414839 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Torres    , 951046172 || Leonardo Porto , 960603618 || Luiz Santos    , 973816454 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 || Lucas Torres   , 980176858 |
+
+Inserção #48: Marcel Torres  , 961020719 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #49: Leonardo Rodrigues, 999746207 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Lucas Alves    , 965676688 || Luciano Moura  , 986476438 |
+Nível:3 | Luciano Barbosa, 957188337 || Lucas Pereira  , 972414839 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Torres    , 951046172 || Leonardo Porto , 960603618 || Luiz Santos    , 973816454 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 || Lucas Torres   , 980176858 || Leonardo Rodrigues, 999746207 |
+
+Inserção #50: Piettro Martins, 990058019 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #51: Vanessa Campos , 957554329 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #52: Luiz Campos    , 955830623 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Torres    , 951046172 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Campos    , 955830623 || Leonardo Porto , 960603618 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 || Lucas Torres   , 980176858 |
+Nível:5 | Leonardo Rodrigues, 999746207 |
+
+Inserção #53: Roberto Souza  , 950773441 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #54: Marcel Pereira , 981304370 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #55: Yago Costa     , 994390255 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #56: Yago Costa     , 977426233 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #57: Luiz Souza     , 956126264 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Torres    , 951046172 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 |
+Nível:5 | Lucas Torres   , 980176858 || Leonardo Rodrigues, 999746207 |
+
+Inserção #58: Luiz Campos    , 990920197 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Torres    , 951046172 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Lucas Santos   , 984121948 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 |
+Nível:5 | Lucas Torres   , 980176858 || Luiz Campos    , 990920197 || Leonardo Rodrigues, 999746207 |
+
+Inserção #59: Vanessa Rodrigues, 960862516 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #60: Luciano Porto  , 980828374 no compartimento número 11 :
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Luciano Campos , 988896876 |
+Nível:4 | Luiz Torres    , 951046172 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luciano Porto  , 980828374 || Lucas Silva    , 987155913 || Luciano Rodrigues, 992236420 |
+Nível:5 | Lucas Torres   , 980176858 || Lucas Santos   , 984121948 || Luiz Campos    , 990920197 || Leonardo Rodrigues, 999746207 |
+
+Inserção #61: Washington Rodrigues, 962840590 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #62: Vanessa Freitas, 955355373 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #63: Luciano Campos , 980840994 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #64: Pamella Barbosa, 973123310 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #65: Luciano Coelho , 993487643 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #66: Márcio Coelho , 958939859 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #67: Luciano Souza  , 950306992 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #68: Luciano Alves  , 958295711 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #69: Marcel Coelho  , 992167539 no compartimento número 12 (omitida a árvore de inserção, para economizar espaço).
+Inserção #70: Washington Pereira, 962181569 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #71: Luiz Machado   , 971641435 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #72: Washington Machado, 955446445 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #73: Washington Moura, 961697749 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #74: Yago Santos    , 980740362 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #75: Washington Costa, 974050329 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #76: Lucas Porto    , 963044256 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #77: Carlos Coelho  , 991472947 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #78: Igor Machado   , 961029324 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #79: Alexandre Rodrigues, 957023242 no compartimento número 0 (omitida a árvore de inserção, para economizar espaço).
+Inserção #80: Piettro Machado, 954392832 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #81: Piettro Barbosa, 974394289 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #82: Roberto Rodrigues, 966669452 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #83: Yago Farias    , 953720569 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #84: Lucas Costa    , 992305555 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #85: Marcel Souza   , 951425568 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Barros , 969853543 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 |
+
+Inserção #86: Luciano Barbosa, 971943105 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #87: Marcel Campos  , 979142794 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Barros , 969853543 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 |
+
+Inserção #88: Alexandre Rodrigues, 995433080 no compartimento número 0 (omitida a árvore de inserção, para economizar espaço).
+Inserção #89: Igor Farias    , 992854722 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #90: Márcio Moura  , 975279080 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 |
+
+Inserção #91: Roberto Souza  , 978053544 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #92: Roberto Alves  , 982365369 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #93: Igor Silva     , 990889114 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #94: Roberto Martins, 967828497 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #95: Igor Pereira   , 958453647 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #96: Lucas Barros   , 963940107 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #97: Vanessa Machado, 973329930 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #98: Pamella Moura  , 995006078 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #99: Alexandre Santos, 958538289 no compartimento número 0 (omitida a árvore de inserção, para economizar espaço).
+Inserção #100: João Pereira  , 979323293 no compartimento número 9 (omitida a árvore de inserção, para economizar espaço).
+Inserção #101: João Souza    , 970206539 no compartimento número 9 (omitida a árvore de inserção, para economizar espaço).
+Inserção #102: Washington Barros, 958678462 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #103: Yago Barbosa   , 976786212 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #104: Marcel Silva   , 962499508 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 |
+
+Inserção #105: Carlos Coelho  , 951673848 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #106: Márcio Alves  , 999529510 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 || Márcio Alves  , 999529510 |
+
+Inserção #107: Vanessa Coelho , 980269480 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #108: Carlos Barbosa , 971596197 no compartimento número 2 (omitida a árvore de inserção, para economizar espaço).
+Inserção #109: Carlos Costa   , 950852179 no compartimento número 2 :
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Souza   , 961337758 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Freitas , 961834137 || Carlos Moura   , 973688088 || Carlos Freitas , 990775211 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Silva   , 953897543 || Carlos Barbosa , 971596197 || Carlos Coelho  , 991472947 |
+
+Inserção #110: Igor Machado   , 988375084 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #111: Lucas Campos   , 964925108 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #112: Leonardo Coelho, 995668512 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #113: Luiz Silva     , 991075970 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #114: Washington Santos, 966945826 no compartimento número 22 (omitida a árvore de inserção, para economizar espaço).
+Inserção #115: Lucas Machado  , 957445164 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #116: Piettro Silva  , 961893049 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Freitas, 950186297 || Pamella Barbosa, 973123310 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Machado, 954392832 || Piettro Silva  , 961893049 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+
+Inserção #117: Luciano Freitas, 958339091 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #118: Roberto Machado, 965381960 no compartimento número 17 (omitida a árvore de inserção, para economizar espaço).
+Inserção #119: Luiz Souza     , 984718198 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #120: Roberto Machado, 967003251 no compartimento número 17 :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Souza  , 978053544 || Roberto Machado, 980757555 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Alves  , 982365369 |
+
+Inserção #121: Igor Farias    , 964632491 no compartimento número 8 (omitida a árvore de inserção, para economizar espaço).
+Inserção #122: Lucas Souza    , 950457848 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #123: Leonardo Rodrigues, 983683049 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #124: Piettro Martins, 969904009 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Freitas, 950186297 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Machado, 954392832 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+
+Inserção #125: Leonardo Machado, 994743486 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #126: Pamella Rodrigues, 955173015 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+
+Inserção #127: Marcel Martins , 987782308 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 || Marcel Martins , 987782308 |
+Nível:5 | Márcio Alves  , 999529510 |
+
+Inserção #128: Luiz Santos    , 956413760 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #129: Igor Freitas   , 958680634 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Machado   , 961029324 || Igor Silva     , 990889114 |
+Nível:3 | Igor Pereira   , 958453647 || Igor Barros    , 981366478 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Martins   , 955554654 || Igor Freitas   , 958680634 || Igor Farias    , 964632491 || Igor Machado   , 988375084 |
+
+Inserção #130: Igor Coelho    , 991478182 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Machado   , 961029324 || Igor Silva     , 990889114 |
+Nível:3 | Igor Pereira   , 958453647 || Igor Barros    , 981366478 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Martins   , 955554654 || Igor Freitas   , 958680634 || Igor Farias    , 964632491 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 |
+
+Inserção #131: Yago Costa     , 970946418 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #132: Washington Coelho, 967521637 no compartimento número 22 :
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Moura, 961697749 || Washington Costa, 974050329 |
+Nível:3 | Washington Machado, 955446445 || Washington Pereira, 962181569 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Barros, 958678462 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 |
+
+Inserção #133: Luiz Souza     , 997483635 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #134: Vanessa Porto  , 996290752 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #135: Roberto Silva  , 977964561 no compartimento número 17 :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Souza  , 978053544 || Roberto Machado, 980757555 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Silva  , 977964561 || Roberto Alves  , 982365369 |
+
+Inserção #136: Luciano Farias , 963599401 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #137: Yago Coelho    , 974069061 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #138: Igor Santos    , 997734597 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Machado   , 961029324 || Igor Silva     , 990889114 |
+Nível:3 | Igor Pereira   , 958453647 || Igor Barros    , 981366478 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Martins   , 955554654 || Igor Freitas   , 958680634 || Igor Farias    , 964632491 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 |
+
+Inserção #139: Vanessa Porto  , 966870911 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #140: Roberto Alves  , 985464278 no compartimento número 17 :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Silva  , 977964561 || Roberto Machado, 980757555 || Roberto Alves  , 985464278 |
+
+Inserção #141: Luciano Freitas, 974056467 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #142: Luiz Silva     , 997584532 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #143: João Moura    , 971483101 no compartimento número 9 (omitida a árvore de inserção, para economizar espaço).
+Inserção #144: Pamella Santos , 973283585 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 || Pamella Santos , 973283585 |
+
+Inserção #145: Luciano Barros , 983145224 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #146: Leonardo Moura , 962646154 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #147: Igor Silva     , 970521913 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Machado   , 961029324 || Igor Silva     , 990889114 |
+Nível:3 | Igor Pereira   , 958453647 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Martins   , 955554654 || Igor Freitas   , 958680634 || Igor Farias    , 964632491 || Igor Barros    , 981366478 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 |
+
+Inserção #148: Márcio Santos , 964181224 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 || Márcio Santos , 964181224 |
+Nível:5 | Marcel Martins , 987782308 || Márcio Alves  , 999529510 |
+
+Inserção #149: Pamella Souza  , 969300271 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 || Pamella Souza  , 969300271 || Pamella Santos , 973283585 |
+
+Inserção #150: Pamella Moura  , 982357887 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 || Pamella Souza  , 969300271 |
+Nível:5 | Pamella Santos , 973283585 |
+
+Inserção #151: João Costa    , 989431090 no compartimento número 9 (omitida a árvore de inserção, para economizar espaço).
+Inserção #152: Luiz Barros    , 991669981 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #153: Igor Barros    , 961429726 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Machado   , 961029324 || Igor Silva     , 990889114 |
+Nível:3 | Igor Pereira   , 958453647 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Martins   , 955554654 || Igor Freitas   , 958680634 || Igor Farias    , 964632491 || Igor Barros    , 981366478 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Barros    , 961429726 |
+
+Inserção #154: Luiz Souza     , 976115929 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #155: João Barbosa  , 982990481 no compartimento número 9 (omitida a árvore de inserção, para economizar espaço).
+Inserção #156: Washington Campos, 955012119 no compartimento número 22 :
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Moura, 961697749 || Washington Costa, 974050329 |
+Nível:3 | Washington Machado, 955446445 || Washington Pereira, 962181569 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Campos, 955012119 || Washington Barros, 958678462 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 |
+
+Inserção #157: Lucas Moura    , 952857172 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #158: Vanessa Martins, 992641688 no compartimento número 21 (omitida a árvore de inserção, para economizar espaço).
+Inserção #159: Igor Barbosa   , 978011719 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Machado   , 961029324 || Igor Silva     , 990889114 |
+Nível:3 | Igor Pereira   , 958453647 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Martins   , 955554654 || Igor Freitas   , 958680634 || Igor Farias    , 964632491 || Igor Barros    , 981366478 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Barros    , 961429726 |
+Nível:5 | Igor Barbosa   , 978011719 |
+
+Inserção #160: Lucas Porto    , 999152157 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #161: Carlos Freitas , 990940187 no compartimento número 2 :
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Souza   , 961337758 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Freitas , 961834137 || Carlos Moura   , 973688088 || Carlos Freitas , 990940187 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Silva   , 953897543 || Carlos Barbosa , 971596197 || Carlos Freitas , 990775211 || Carlos Coelho  , 991472947 |
+
+Inserção #162: Pamella Pereira, 950703803 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 || Pamella Pereira, 950703803 |
+Nível:5 | Pamella Souza  , 969300271 || Pamella Santos , 973283585 |
+
+Inserção #163: Leonardo Moura , 952737448 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #164: Lucas Barbosa  , 964883730 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #165: Pamella Martins, 975274044 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Martins, 975274044 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+Nível:5 | Pamella Pereira, 950703803 || Pamella Souza  , 969300271 || Pamella Santos , 973283585 |
+
+Inserção #166: Luciano Souza  , 960401876 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #167: Luciano Silva  , 987763914 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #168: Luiz Machado   , 961382637 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #169: Washington Coelho, 951300701 no compartimento número 22 :
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Machado, 955446445 || Washington Costa, 974050329 |
+Nível:3 | Washington Campos, 955012119 || Washington Moura, 961697749 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Coelho, 951300701 || Washington Barros, 958678462 || Washington Pereira, 962181569 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 |
+
+Inserção #170: Igor Barbosa   , 968604846 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Machado   , 961029324 || Igor Silva     , 990889114 |
+Nível:3 | Igor Pereira   , 958453647 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Martins   , 955554654 || Igor Freitas   , 958680634 || Igor Farias    , 964632491 || Igor Barros    , 981366478 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Barros    , 961429726 |
+Nível:5 | Igor Barbosa   , 968604846 || Igor Barbosa   , 978011719 |
+
+Inserção #171: Luciano Rodrigues, 966049029 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #172: Washington Alves, 976017582 no compartimento número 22 :
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Machado, 955446445 || Washington Costa, 974050329 |
+Nível:3 | Washington Campos, 955012119 || Washington Moura, 961697749 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Coelho, 951300701 || Washington Barros, 958678462 || Washington Pereira, 962181569 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 || Washington Alves, 976017582 |
+
+Inserção #173: Lucas Torres   , 998532786 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #174: Vanessa Barros , 958291947 no compartimento número 21 :
+Nível:1 | Vanessa Coelho , 967230729 |
+Nível:2 | Vanessa Campos , 957554329 || Vanessa Coelho , 980269480 |
+Nível:3 | Vanessa Freitas, 955355373 || Vanessa Rodrigues, 960862516 || Vanessa Machado, 973329930 || Vanessa Barbosa, 992931927 |
+Nível:4 | Vanessa Barros , 958291947 || Vanessa Porto  , 966870911 || Vanessa Martins, 992641688 || Vanessa Porto  , 996290752 |
+
+Inserção #175: Pamella Costa  , 972607915 no compartimento número 15 :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Martins, 975274044 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+Nível:5 | Pamella Pereira, 950703803 || Pamella Souza  , 969300271 || Pamella Costa  , 972607915 || Pamella Santos , 973283585 |
+
+Inserção #176: Alexandre Campos, 999956560 no compartimento número 0 (omitida a árvore de inserção, para economizar espaço).
+Inserção #177: Carlos Campos  , 955323682 no compartimento número 2 :
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Silva   , 953897543 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Souza   , 961337758 || Carlos Moura   , 973688088 || Carlos Freitas , 990940187 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Campos  , 955323682 || Carlos Freitas , 961834137 || Carlos Barbosa , 971596197 || Carlos Freitas , 990775211 || Carlos Coelho  , 991472947 |
+
+Inserção #178: Luiz Freitas   , 954771739 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #179: Luiz Martins   , 996877113 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #180: João Torres   , 985127353 no compartimento número 9 (omitida a árvore de inserção, para economizar espaço).
+Inserção #181: Luciano Santos , 952851882 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #182: Roberto Silva  , 998535597 no compartimento número 17 :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Silva  , 977964561 || Roberto Machado, 980757555 || Roberto Alves  , 985464278 || Roberto Silva  , 998535597 |
+
+Inserção #183: Roberto Porto  , 990366818 no compartimento número 17 :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Silva  , 977964561 || Roberto Machado, 980757555 || Roberto Porto  , 990366818 || Roberto Alves  , 985464278 || Roberto Silva  , 998535597 |
+
+Inserção #184: Carlos Moura   , 984972895 no compartimento número 2 :
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Silva   , 953897543 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Souza   , 961337758 || Carlos Moura   , 973688088 || Carlos Freitas , 990940187 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Campos  , 955323682 || Carlos Freitas , 961834137 || Carlos Barbosa , 971596197 || Carlos Freitas , 990775211 || Carlos Coelho  , 991472947 || Carlos Moura   , 984972895 |
+
+Inserção #185: Roberto Moura  , 973079926 no compartimento número 17 :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Alves  , 982365369 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Machado, 980757555 || Roberto Porto  , 990366818 || Roberto Alves  , 985464278 |
+Nível:5 | Roberto Silva  , 998535597 |
+
+Inserção #186: Alexandre Coelho, 958161132 no compartimento número 0 (omitida a árvore de inserção, para economizar espaço).
+Inserção #187: Vanessa Martins, 952303299 no compartimento número 21 :
+Nível:1 | Vanessa Coelho , 967230729 |
+Nível:2 | Vanessa Campos , 957554329 || Vanessa Coelho , 980269480 |
+Nível:3 | Vanessa Freitas, 955355373 || Vanessa Rodrigues, 960862516 || Vanessa Machado, 973329930 || Vanessa Barbosa, 992931927 |
+Nível:4 | Vanessa Martins, 952303299 || Vanessa Barros , 958291947 || Vanessa Porto  , 966870911 || Vanessa Martins, 992641688 || Vanessa Porto  , 996290752 |
+
+Inserção #188: Piettro Torres , 973888400 no compartimento número 15 (omitida a árvore de inserção, para economizar espaço).
+Inserção #189: Luciano Moura  , 988176352 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #190: Igor Santos    , 968818010 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Farias    , 964632491 || Igor Silva     , 990889114 |
+Nível:3 | Igor Machado   , 961029324 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Pereira   , 958453647 || Igor Barros    , 961429726 || Igor Barbosa   , 968604846 || Igor Barros    , 981366478 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Martins   , 955554654 |
+Nível:5 | Igor Freitas   , 958680634 || Igor Santos    , 968818010 || Igor Barbosa   , 978011719 |
+
+Inserção #191: Washington Silva, 978326149 no compartimento número 22 :
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Machado, 955446445 || Washington Costa, 974050329 |
+Nível:3 | Washington Campos, 955012119 || Washington Moura, 961697749 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Coelho, 951300701 || Washington Barros, 958678462 || Washington Pereira, 962181569 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 || Washington Alves, 976017582 || Washington Silva, 978326149 |
+
+Inserção #192: Márcio Barbosa, 972426994 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Coelho  , 992167539 || Márcio Santos , 964181224 |
+Nível:5 | Márcio Barbosa, 972426994 || Marcel Martins , 987782308 || Márcio Alves  , 999529510 |
+
+Inserção #193: Marcel Santos  , 996988455 no compartimento número 12 :
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Santos  , 996988455 || Márcio Santos , 964181224 |
+Nível:5 | Márcio Barbosa, 972426994 || Marcel Martins , 987782308 || Marcel Coelho  , 992167539 || Márcio Alves  , 999529510 |
+
+Inserção #194: Roberto Martins, 992848433 no compartimento número 17 :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+
+Inserção #195: Yago Costa     , 973031060 no compartimento número 24 (omitida a árvore de inserção, para economizar espaço).
+Inserção #196: Igor Martins   , 976707879 no compartimento número 8 :
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Farias    , 964632491 || Igor Silva     , 990889114 |
+Nível:3 | Igor Machado   , 961029324 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Pereira   , 958453647 || Igor Barros    , 961429726 || Igor Barbosa   , 968604846 || Igor Barbosa   , 978011719 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Martins   , 955554654 |
+Nível:5 | Igor Freitas   , 958680634 || Igor Santos    , 968818010 || Igor Martins   , 976707879 || Igor Barros    , 981366478 |
+
+Inserção #197: Alexandre Barros, 950500446 no compartimento número 0 (omitida a árvore de inserção, para economizar espaço).
+Inserção #198: Vanessa Souza  , 991132853 no compartimento número 21 :
+Nível:1 | Vanessa Coelho , 967230729 |
+Nível:2 | Vanessa Campos , 957554329 || Vanessa Martins, 992641688 |
+Nível:3 | Vanessa Freitas, 955355373 || Vanessa Rodrigues, 960862516 || Vanessa Coelho , 980269480 || Vanessa Barbosa, 992931927 |
+Nível:4 | Vanessa Martins, 952303299 || Vanessa Barros , 958291947 || Vanessa Porto  , 966870911 || Vanessa Machado, 973329930 || Vanessa Souza  , 991132853 || Vanessa Porto  , 996290752 |
+
+Inserção #199: Lucas Pereira  , 998665777 no compartimento número 11 (omitida a árvore de inserção, para economizar espaço).
+Inserção #200: Washington Torres, 954026800 no compartimento número 22 :
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Machado, 955446445 || Washington Costa, 974050329 |
+Nível:3 | Washington Torres, 954026800 || Washington Moura, 961697749 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Coelho, 951300701 || Washington Campos, 955012119 || Washington Barros, 958678462 || Washington Pereira, 962181569 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 || Washington Alves, 976017582 |
+Nível:5 | Washington Silva, 978326149 |
+
+==================
+Fim das inserções
+==================
+
+Debug: número aleatório gerado para o id a ser excluído: 176
+
+Número aleatório selecionado para exclusão: 2
+Excluído o nome , telefone , do compartimento -1424753904, letra ":
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Silva   , 953897543 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Souza   , 961337758 || Carlos Moura   , 973688088 || Carlos Freitas , 990940187 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Campos  , 955323682 || Carlos Freitas , 961834137 || Carlos Barbosa , 971596197 || Carlos Freitas , 990775211 || Carlos Coelho  , 991472947 || Carlos Moura   , 984972895 |
+Debug: número aleatório gerado para o id a ser excluído: 118
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra v:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 186
+
+Número aleatório selecionado para exclusão: 21
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Vanessa Coelho , 967230729 |
+Nível:2 | Vanessa Campos , 957554329 || Vanessa Martins, 992641688 |
+Nível:3 | Vanessa Freitas, 955355373 || Vanessa Rodrigues, 960862516 || Vanessa Coelho , 980269480 || Vanessa Barbosa, 992931927 |
+Nível:4 | Vanessa Martins, 952303299 || Vanessa Barros , 958291947 || Vanessa Porto  , 966870911 || Vanessa Machado, 973329930 || Vanessa Souza  , 991132853 || Vanessa Porto  , 996290752 |
+Debug: número aleatório gerado para o id a ser excluído: 181
+
+Número aleatório selecionado para exclusão: 17
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+Debug: número aleatório gerado para o id a ser excluído: 119
+
+Número aleatório selecionado para exclusão: 17
+Excluído o nome , telefone , do compartimento -1424753904, letra s:
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+Debug: número aleatório gerado para o id a ser excluído: 164
+
+Número aleatório selecionado para exclusão: 15
+Excluído o nome , telefone , do compartimento -1424753904, letra <:
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Martins, 975274044 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+Nível:5 | Pamella Pereira, 950703803 || Pamella Souza  , 969300271 || Pamella Costa  , 972607915 || Pamella Santos , 973283585 || Piettro Torres , 973888400 |
+Debug: número aleatório gerado para o id a ser excluído: 32
+
+Número aleatório selecionado para exclusão: 2
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Silva   , 953897543 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Souza   , 961337758 || Carlos Moura   , 973688088 || Carlos Freitas , 990940187 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Campos  , 955323682 || Carlos Freitas , 961834137 || Carlos Barbosa , 971596197 || Carlos Freitas , 990775211 || Carlos Coelho  , 991472947 || Carlos Moura   , 984972895 |
+Debug: número aleatório gerado para o id a ser excluído: 13
+
+Número aleatório selecionado para exclusão: 9
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | João Pereira  , 979323293 |
+Nível:2 | João Souza    , 970206539 || João Costa    , 989431090 |
+Nível:3 | João Moura    , 971483101 || João Barbosa  , 982990481 || João Alves    , 991124630 || João Torres   , 985127353 |
+Debug: número aleatório gerado para o id a ser excluído: 182
+
+Número aleatório selecionado para exclusão: 17
+Excluído o nome , telefone , do compartimento -1424753904, letra b:
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+Debug: número aleatório gerado para o id a ser excluído: 36
+
+Número aleatório selecionado para exclusão: 15
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Martins, 975274044 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+Nível:5 | Pamella Pereira, 950703803 || Pamella Souza  , 969300271 || Pamella Costa  , 972607915 || Pamella Santos , 973283585 || Piettro Torres , 973888400 |
+Debug: número aleatório gerado para o id a ser excluído: 109
+
+Número aleatório selecionado para exclusão: 8
+Excluído o nome , telefone , do compartimento -1424753904, letra ,:
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Farias    , 964632491 || Igor Silva     , 990889114 |
+Nível:3 | Igor Machado   , 961029324 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Pereira   , 958453647 || Igor Barros    , 961429726 || Igor Barbosa   , 968604846 || Igor Barbosa   , 978011719 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Martins   , 955554654 |
+Nível:5 | Igor Freitas   , 958680634 || Igor Santos    , 968818010 || Igor Martins   , 976707879 || Igor Barros    , 981366478 |
+Debug: número aleatório gerado para o id a ser excluído: 169
+
+Número aleatório selecionado para exclusão: 8
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Farias    , 964632491 || Igor Silva     , 990889114 |
+Nível:3 | Igor Machado   , 961029324 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Pereira   , 958453647 || Igor Barros    , 961429726 || Igor Barbosa   , 968604846 || Igor Barbosa   , 978011719 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Martins   , 955554654 |
+Nível:5 | Igor Freitas   , 958680634 || Igor Santos    , 968818010 || Igor Martins   , 976707879 || Igor Barros    , 981366478 |
+Debug: número aleatório gerado para o id a ser excluído: 104
+
+Número aleatório selecionado para exclusão: 2
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Silva   , 953897543 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Souza   , 961337758 || Carlos Moura   , 973688088 || Carlos Freitas , 990940187 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Campos  , 955323682 || Carlos Freitas , 961834137 || Carlos Barbosa , 971596197 || Carlos Freitas , 990775211 || Carlos Coelho  , 991472947 || Carlos Moura   , 984972895 |
+Debug: número aleatório gerado para o id a ser excluído: 20
+
+Número aleatório selecionado para exclusão: 22
+Excluído o nome , telefone , do compartimento -1424753904, letra _:
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Machado, 955446445 || Washington Costa, 974050329 |
+Nível:3 | Washington Torres, 954026800 || Washington Moura, 961697749 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Coelho, 951300701 || Washington Campos, 955012119 || Washington Barros, 958678462 || Washington Pereira, 962181569 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 || Washington Alves, 976017582 |
+Nível:5 | Washington Silva, 978326149 |
+Debug: número aleatório gerado para o id a ser excluído: 79
+
+Número aleatório selecionado para exclusão: 15
+Excluído o nome , telefone , do compartimento -1424753904, letra  :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Martins, 975274044 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+Nível:5 | Pamella Pereira, 950703803 || Pamella Souza  , 969300271 || Pamella Costa  , 972607915 || Pamella Santos , 973283585 || Piettro Torres , 973888400 |
+Debug: número aleatório gerado para o id a ser excluído: 35
+
+Número aleatório selecionado para exclusão: 17
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+Debug: número aleatório gerado para o id a ser excluído: 145
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 197
+
+Número aleatório selecionado para exclusão: 21
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Vanessa Coelho , 967230729 |
+Nível:2 | Vanessa Campos , 957554329 || Vanessa Martins, 992641688 |
+Nível:3 | Vanessa Freitas, 955355373 || Vanessa Rodrigues, 960862516 || Vanessa Coelho , 980269480 || Vanessa Barbosa, 992931927 |
+Nível:4 | Vanessa Martins, 952303299 || Vanessa Barros , 958291947 || Vanessa Porto  , 966870911 || Vanessa Machado, 973329930 || Vanessa Souza  , 991132853 || Vanessa Porto  , 996290752 |
+Debug: número aleatório gerado para o id a ser excluído: 75
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 85
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 106
+
+Número aleatório selecionado para exclusão: 21
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Vanessa Coelho , 967230729 |
+Nível:2 | Vanessa Campos , 957554329 || Vanessa Martins, 992641688 |
+Nível:3 | Vanessa Freitas, 955355373 || Vanessa Rodrigues, 960862516 || Vanessa Coelho , 980269480 || Vanessa Barbosa, 992931927 |
+Nível:4 | Vanessa Martins, 952303299 || Vanessa Barros , 958291947 || Vanessa Porto  , 966870911 || Vanessa Machado, 973329930 || Vanessa Souza  , 991132853 || Vanessa Porto  , 996290752 |
+Debug: número aleatório gerado para o id a ser excluído: 53
+
+Número aleatório selecionado para exclusão: 12
+Excluído o nome , telefone , do compartimento -1424753904, letra 2:
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Santos  , 996988455 || Márcio Santos , 964181224 |
+Nível:5 | Márcio Barbosa, 972426994 || Marcel Martins , 987782308 || Marcel Coelho  , 992167539 || Márcio Alves  , 999529510 |
+Debug: número aleatório gerado para o id a ser excluído: 156
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra T:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 110
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 118
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra v:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 93
+
+Número aleatório selecionado para exclusão: 17
+Excluído o nome , telefone , do compartimento -1424753904, letra :
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+Debug: número aleatório gerado para o id a ser excluído: 91
+
+Número aleatório selecionado para exclusão: 17
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+Debug: número aleatório gerado para o id a ser excluído: 127
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra @:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+Debug: número aleatório gerado para o id a ser excluído: 143
+
+Número aleatório selecionado para exclusão: 15
+Excluído o nome , telefone , do compartimento -1424753904, letra :
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Martins, 975274044 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+Nível:5 | Pamella Pereira, 950703803 || Pamella Souza  , 969300271 || Pamella Costa  , 972607915 || Pamella Santos , 973283585 || Piettro Torres , 973888400 |
+Debug: número aleatório gerado para o id a ser excluído: 110
+
+Número aleatório selecionado para exclusão: 11
+Excluído o nome , telefone , do compartimento -1424753904, letra �:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+
+
+---------
+Impressão da Floresta (ou seja, do catálogo inteiro), após inserções e exclusões
+---------
+
+---------
+Compartimento 0, letra A:
+Nível:1 | Alexandre Silva, 992966968 |
+Nível:2 | Alexandre Coelho, 958161132 || Alexandre Rodrigues, 995433080 |
+Nível:3 | Alexandre Rodrigues, 957023242 || Alexandre Santos, 958538289 || Alexandre Campos, 999956560 || Alexandre Barros, 950500446 |
+---------
+
+---------
+Compartimento 2, letra C:
+Nível:1 | Carlos Torres  , 966439277 |
+Nível:2 | Carlos Silva   , 953897543 || Carlos Costa   , 976849055 |
+Nível:3 | Carlos Coelho  , 951673848 || Carlos Souza   , 961337758 || Carlos Moura   , 973688088 || Carlos Freitas , 990940187 |
+Nível:4 | Carlos Costa   , 950852179 || Carlos Campos  , 955323682 || Carlos Freitas , 961834137 || Carlos Barbosa , 971596197 || Carlos Freitas , 990775211 || Carlos Coelho  , 991472947 || Carlos Moura   , 984972895 |
+---------
+
+---------
+Compartimento 8, letra I:
+Nível:1 | Igor Campos    , 986007137 |
+Nível:2 | Igor Farias    , 964632491 || Igor Silva     , 990889114 |
+Nível:3 | Igor Machado   , 961029324 || Igor Silva     , 970521913 || Igor Freitas   , 989918743 || Igor Farias    , 992854722 |
+Nível:4 | Igor Pereira   , 958453647 || Igor Barros    , 961429726 || Igor Barbosa   , 968604846 || Igor Barbosa   , 978011719 || Igor Machado   , 988375084 || Igor Coelho    , 991478182 || Igor Santos    , 997734597 || Igor Martins   , 955554654 |
+Nível:5 | Igor Freitas   , 958680634 || Igor Santos    , 968818010 || Igor Martins   , 976707879 || Igor Barros    , 981366478 |
+---------
+
+---------
+Compartimento 9, letra J:
+Nível:1 | João Pereira  , 979323293 |
+Nível:2 | João Souza    , 970206539 || João Costa    , 989431090 |
+Nível:3 | João Moura    , 971483101 || João Barbosa  , 982990481 || João Alves    , 991124630 || João Torres   , 985127353 |
+---------
+
+---------
+Compartimento 11, letra L:
+Nível:1 | Luciano Alves  , 972909117 |
+Nível:2 | Luciano Barbosa, 957188337 || Luciano Moura  , 986476438 |
+Nível:3 | Luiz Campos    , 955830623 || Lucas Barros   , 963940107 || Luciano Porto  , 980828374 || Luciano Rodrigues, 992236420 |
+Nível:4 | Leonardo Moura , 952737448 || Luiz Souza     , 956126264 || Leonardo Porto , 960603618 || Lucas Alves    , 965676688 || Luciano Pereira, 976149330 || Lucas Santos   , 984121948 || Luciano Campos , 988896876 || Luiz Silva     , 997584532 |
+Nível:5 | Lucas Souza    , 950457848 || Lucas Moura    , 952857172 || Luiz Santos    , 956413760 || Luciano Alves  , 958295711 || Lucas Porto    , 963044256 || Lucas Campos   , 964925108 || Luciano Barbosa, 971943105 || Luciano Freitas, 974056467 || Lucas Torres   , 980176858 || Luciano Barros , 983145224 || Luiz Souza     , 984718198 || Luciano Silva  , 987763914 || Luiz Silva     , 991075970 || Leonardo Coelho, 995668512 || Lucas Porto    , 999152157 || Luciano Souza  , 950306992 |
+Nível:6 | Luiz Torres    , 951046172 || Luciano Santos , 952851882 || Luiz Freitas   , 954771739 || Lucas Machado  , 957445164 || Luciano Freitas, 958339091 || Leonardo Moura , 962646154 || Luciano Farias , 963599401 || Lucas Barbosa  , 964883730 || Luiz Machado   , 971641435 || Lucas Pereira  , 972414839 || Luiz Santos    , 973816454 || Luiz Souza     , 976115929 || Luciano Campos , 980840994 || Leonardo Rodrigues, 983683049 || Lucas Silva    , 987155913 || Luciano Moura  , 988176352 || Luiz Campos    , 990920197 || Luiz Barros    , 991669981 || Luciano Coelho , 993487643 || Luiz Souza     , 997483635 || Lucas Torres   , 998532786 || Leonardo Rodrigues, 999746207 || Luciano Souza  , 960401876 || Luiz Machado   , 961382637 || Luciano Rodrigues, 966049029 || Lucas Costa    , 992305555 || Leonardo Machado, 994743486 || Luiz Martins   , 996877113 || Lucas Pereira  , 998665777 |
+---------
+
+---------
+Compartimento 12, letra M:
+Nível:1 | Márcio Moura  , 967440374 |
+Nível:2 | Márcio Machado, 952329784 || Márcio Porto  , 979688182 |
+Nível:3 | Marcel Freitas , 950313546 || Marcel Torres  , 961020719 || Márcio Moura  , 975279080 || Márcio Porto  , 989927453 |
+Nível:4 | Marcel Souza   , 951425568 || Márcio Coelho , 958939859 || Marcel Silva   , 962499508 || Márcio Barros , 969853543 || Marcel Campos  , 979142794 || Marcel Pereira , 981304370 || Marcel Santos  , 996988455 || Márcio Santos , 964181224 |
+Nível:5 | Márcio Barbosa, 972426994 || Marcel Martins , 987782308 || Marcel Coelho  , 992167539 || Márcio Alves  , 999529510 |
+---------
+
+---------
+Compartimento 15, letra P:
+Nível:1 | Piettro Barbosa, 974394289 |
+Nível:2 | Piettro Souza  , 961216424 || Piettro Freitas, 984763663 |
+Nível:3 | Piettro Machado, 954392832 || Piettro Martins, 969904009 || Piettro Freitas, 977907210 || Piettro Souza  , 990452401 |
+Nível:4 | Piettro Freitas, 950186297 || Pamella Rodrigues, 955173015 || Piettro Silva  , 961893049 || Pamella Barbosa, 973123310 || Pamella Martins, 975274044 || Pamella Moura  , 982357887 || Piettro Martins, 990058019 || Pamella Moura  , 995006078 |
+Nível:5 | Pamella Pereira, 950703803 || Pamella Souza  , 969300271 || Pamella Costa  , 972607915 || Pamella Santos , 973283585 || Piettro Torres , 973888400 |
+---------
+
+---------
+Compartimento 17, letra R:
+Nível:1 | Roberto Martins, 967828497 |
+Nível:2 | Roberto Barbosa, 964163007 || Roberto Barros , 980040703 |
+Nível:3 | Roberto Freitas, 952862350 || Roberto Rodrigues, 966669452 || Roberto Silva  , 977964561 || Roberto Porto  , 990366818 |
+Nível:4 | Roberto Souza  , 950773441 || Roberto Machado, 965381960 || Roberto Machado, 967003251 || Roberto Moura  , 973079926 || Roberto Souza  , 978053544 || Roberto Alves  , 982365369 || Roberto Silva  , 998535597 || Roberto Machado, 980757555 |
+Nível:5 | Roberto Alves  , 985464278 || Roberto Martins, 992848433 |
+---------
+
+---------
+Compartimento 21, letra V:
+Nível:1 | Vanessa Coelho , 967230729 |
+Nível:2 | Vanessa Campos , 957554329 || Vanessa Martins, 992641688 |
+Nível:3 | Vanessa Freitas, 955355373 || Vanessa Rodrigues, 960862516 || Vanessa Coelho , 980269480 || Vanessa Barbosa, 992931927 |
+Nível:4 | Vanessa Martins, 952303299 || Vanessa Barros , 958291947 || Vanessa Porto  , 966870911 || Vanessa Machado, 973329930 || Vanessa Souza  , 991132853 || Vanessa Porto  , 996290752 |
+---------
+
+---------
+Compartimento 22, letra W:
+Nível:1 | Washington Rodrigues, 962840590 |
+Nível:2 | Washington Machado, 955446445 || Washington Costa, 974050329 |
+Nível:3 | Washington Torres, 954026800 || Washington Moura, 961697749 || Washington Santos, 966945826 || Washington Rodrigues, 986307423 |
+Nível:4 | Washington Coelho, 951300701 || Washington Campos, 955012119 || Washington Barros, 958678462 || Washington Pereira, 962181569 || Washington Coelho, 967521637 || Washington Farias, 976087312 || Washington Martins, 987735642 || Washington Alves, 976017582 |
+Nível:5 | Washington Silva, 978326149 |
+---------
+
+---------
+Compartimento 24, letra Y:
+Nível:1 | Yago Barbosa   , 976786212 |
+Nível:2 | Yago Costa     , 970946418 || Yago Santos    , 980740362 |
+Nível:3 | Yago Farias    , 953720569 || Yago Coelho    , 974069061 || Yago Costa     , 977426233 || Yago Costa     , 994390255 |
+Nível:4 | Yago Costa     , 973031060 |
+---------

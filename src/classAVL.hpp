@@ -5,6 +5,22 @@
 
 using namespace std;   // declaração global do espaço de nomes
 
+/* Apaga espaços no final da string */
+string strTrim(string nome){
+    string strRetorno="";
+    int tam=nome.length();
+    for (int i=tam; i>0; i--){
+        if (nome[i-1]!=' '){
+            tam=i;
+            break;
+        }
+    }
+    for (int i=0; i<tam; i++){
+        strRetorno+=nome[i];
+    }
+    return strRetorno;
+}
+
 struct No_AVL {
     int numTelefone;
     string nome;
@@ -21,6 +37,7 @@ public:
     No_AVL* T; 
     char hAum[2];
     AVL();
+    bool chaveNaoEncontrada=false;
 
     /*
     /* Libera a memória ocupada pela árvore AVL (dispensável, pois os objetos AVL estão sendo deletados junto com os elementos de listaPessoas)
@@ -36,7 +53,19 @@ public:
             }
         }        
     } 
-    */
+    */ 
+    /* Informa o(s) telefone(s) associado(s) a um determinado nome */
+    void buscaRegistrosPeloNome(string nome, No_AVL* noAtual){
+        if (noAtual->nome==nome) {
+            printf("Encontrado o telefone %d vinculado ao nome %s.\n", noAtual->numTelefone, strTrim(nome).c_str());
+        } 
+        if (noAtual->esq!=NULL){
+            buscaRegistrosPeloNome(nome, noAtual->esq);
+        }
+        if (noAtual->dir!=NULL){
+            buscaRegistrosPeloNome(nome, noAtual->dir);
+        }
+    }
     
     void atualizaBalanceamentoNoEsq(No_AVL** T, char * hAum){
         if ((**T).fb==1){
@@ -181,13 +210,13 @@ public:
             }
             fila.pop();
             noAtual=frente;                      
-            nivelAnterior=(int) (i);
+            nivelAnterior=(int) log2(i);
             i++;                       
-            nivelAtual=(int) (i); 
+            nivelAtual=(int) log2(i); 
             if(nivelAtual!=nivelAnterior){
                 printf("\nNível:%d ", nivelAtual+1);
             }           
-            printf("| %s, %d |", noAtual->nome.c_str(), noAtual->numTelefone );  
+            printf("| %s, %d |", strTrim(noAtual->nome).c_str(), noAtual->numTelefone );  
         }
     }
 	
@@ -201,7 +230,7 @@ public:
         
           if((*T)->esq == (*T)->dir){ // é uma folha
          
-            printf("\nr = %d\n",chave);
+            //printf("\nDebug: r = %d\n",chave);
             free(*T); 
             *T = NULL; 
             strcpy(hAum,"V\0");
@@ -241,6 +270,7 @@ public:
         }         
       } else {// Chave não encontrada
     	perror("chave não encontrada");
+        this->chaveNaoEncontrada=true;  //Esta variável é checada após a execução desta função.
       }
     
     };
