@@ -24,7 +24,7 @@ string strTrim(string nome){
 struct No_AVL {
     int numTelefone;
     string nome;
-    int chave;
+    //int chave;
     int fb; // Fator de Balanço
     No_AVL* esq;  // aponta subárvore esquerda
     No_AVL* dir;  // aponta subárvore direita
@@ -97,41 +97,51 @@ public:
     
     void rotacaoDireita(No_AVL** T){
         No_AVL* noTemp;
-        noTemp=((No_AVL*)(**T).esq);
-        if ((char) noTemp->fb==-1){
-            rotacaoDireitaSimples(T);
-        } else {
-    		rotacaoEsquerdaSimples(&(*T)->esq);
-    		rotacaoDireitaSimples(T);
+        if ((No_AVL*)(**T).esq!=NULL){
+            noTemp=((No_AVL*)(**T).esq);
+            if ((char) noTemp->fb==-1){
+                rotacaoDireitaSimples(T);
+            } else {
+                rotacaoEsquerdaSimples(&(*T)->esq);
+                rotacaoDireitaSimples(T);
+            }
         }
     };
     
     
     void rotacaoEsquerda(No_AVL** T){
         No_AVL* noTemp;
-        noTemp=((No_AVL*)(**T).dir);
-    	if ((char) noTemp->fb==1){
-    		   rotacaoEsquerdaSimples(T);
-    	} else{
-    		rotacaoDireitaSimples(&(*T)->dir);
-    		rotacaoEsquerdaSimples(T);
-    	}
+        if ((No_AVL*)(**T).dir !=NULL){
+            noTemp=((No_AVL*)(**T).dir);
+            if ((char) noTemp->fb==1){
+                rotacaoEsquerdaSimples(T);
+            } else{
+                rotacaoDireitaSimples(&(*T)->dir);
+                rotacaoEsquerdaSimples(T);
+            }
+        }
     };
     
     void rotacaoDireitaSimples(No_AVL** T){
-        No_AVL* noTemp = (No_AVL*)(*T)->esq;
-        (*T)->esq=noTemp->dir;
-        noTemp->dir=*T;
-        atualizafbT(*T);
-        *T=noTemp;
+        No_AVL* noTemp;
+        if ((*T)->esq!= NULL){
+            noTemp = (No_AVL*)(*T)->esq;
+            (*T)->esq=noTemp->dir;        
+            noTemp->dir=*T;
+            atualizafbT(*T);
+            *T=noTemp;
+        }
     };
     
     void rotacaoEsquerdaSimples(No_AVL** T){
-        No_AVL* noTemp = (*T)->dir;
-        (*T)->dir = noTemp->esq;
-        noTemp->esq=*T;
-        atualizafbT(*T);
-        *T=noTemp;
+        No_AVL* noTemp;
+        if ((*T)->dir!= NULL){
+            noTemp = (*T)->dir;
+            (*T)->dir = noTemp->esq;        
+            noTemp->esq=*T;
+            atualizafbT(*T);
+            *T=noTemp;
+        }
     };
         
     void atualizafbT(No_AVL* T){
@@ -166,27 +176,27 @@ public:
             strcpy(hAum,"V\0");
             //printf("T: %p, *T:%p, **T: %p, pNo:%p, *pNo: %p, T->chave %d\n", T, (*T), (**T), pNo, *pNo, (**T).chave);
     		
-        } else if ((**T).chave>(*pNo).chave){
+        } else if ((**T).numTelefone>(*pNo).numTelefone){
             insere(&(**T).esq, pNo);
             if (hAum[0]=='V'){
                 atualizaBalanceamentoNoEsq(T, hAum);
             }
     		
-        } else if ((**T).chave<(*pNo).chave){
+        } else if ((**T).numTelefone<(*pNo).numTelefone){
             insere(&(**T).dir, pNo);
             if (hAum[0]=='V'){
                 atualizaBalanceamentoNoDir(T, hAum);
             }
         } else {
-            printf("Chave já existe: %d \n", (*T)->chave);
+            printf("Número de telefone já existe: %d \n", (*T)->numTelefone);
           //  perror("Chave ja existente ");
         }
     };
         
     void imprime(No_AVL* T){
         if(T != NULL){
-            if (T->chave != (int) 0){
-                printf("%d, ", T->chave);
+            if (T->numTelefone != (int) 0){
+                printf("%d, ", T->numTelefone);
             }
             imprime(T->esq);
             imprime(T->dir);
@@ -220,18 +230,18 @@ public:
         }
     }
 	
-   void exclui(No_AVL **T, int chave){
+   void exclui(No_AVL **T, int telefone){
       No_AVL** aux1, *aux2;
       No_AVL*  aux = *T; 
       
       if(*T != NULL) {
       
-        if((*T)->chave == chave){  // Chave encontrada
+        if((*T)->numTelefone == telefone){  // Chave encontrada
         
           if((*T)->esq == (*T)->dir){ // é uma folha
          
             //printf("\nDebug: r = %d\n",chave);
-            free(*T); 
+            //free(*T); 
             *T = NULL; 
             strcpy(hAum,"V\0");
     
@@ -246,22 +256,22 @@ public:
               aux2 = *aux1; 
               (*aux1) = (*aux1)->dir;
             }
-            (*T)->chave = aux2->chave; 
-            free(aux2); 
+            (*T)->numTelefone = aux2->numTelefone; 
+            //free(aux2); 
             aux2 = NULL; 
             strcpy(hAum,"V\0");
     
           }
-        } else if((*T)->chave < chave){ // Desce até encontrar ou não encontrar a chave.
+        } else if((*T)->numTelefone < telefone){ // Desce até encontrar ou não encontrar a chave.
     
-            exclui(&(*T)->dir,chave);
+            exclui(&(*T)->dir,telefone);
             if (hAum[0]=='V'){
                 atualizaBalanceamentoNoEsq(T, hAum);
             }
     
-        } else if((*T)->chave > chave) {
+        } else if((*T)->numTelefone > telefone) {
     
-           exclui(&(*T)->esq,chave);
+           exclui(&(*T)->esq,telefone);
            
             if (hAum[0]=='V'){
                 atualizaBalanceamentoNoDir(T, hAum);
@@ -271,8 +281,7 @@ public:
       } else {// Chave não encontrada
     	perror("chave não encontrada");
         this->chaveNaoEncontrada=true;  //Esta variável é checada após a execução desta função.
-      }
-    
+      }    
     };
     
     No_AVL** menorDireito(No_AVL *T)

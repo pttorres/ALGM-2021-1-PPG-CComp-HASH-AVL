@@ -11,7 +11,7 @@
 
 #define QTD_PESSOAS 200  // número de pessoas na lista de nomes fictícios
 #define QTD_BEAMS 26  //número de compartimentos = número de letras do alfabeto
-#define QTD_EXCLUSOES 10
+#define QTD_EXCLUSOES 80
 
 using namespace std;   // declaração global do espaço de nomes
 /* retorna um vetor formado pelas palavras separadas pelo caracter delimitador encontrado na string de entrada
@@ -91,7 +91,7 @@ int main()
                 telefone=std::stoi(nomeEtelefone[1]);
                 listaPessoas[i-1]->numTelefone=telefone; 
                 //listaPessoas[i-1]->chave = telefone + rand() % 100; // chave de telefone
-                listaPessoas[i-1]->chave = telefone ; // chave de telefone
+                //listaPessoas[i-1]->chave = telefone ; // chave de telefone
                 printf(fixSize(listaPessoas[i-1]->nome, 18).c_str());
                 printf("\t");
                 printf("%d",listaPessoas[i-1]->numTelefone);
