@@ -7,7 +7,7 @@
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
 
-#include "classAVL.cpp"
+#include "classAVL.hpp"
 
 #define QTD_PESSOAS 200  // número de pessoas na lista de nomes fictícios
 #define QTD_BEAMS 26  //número de compartimentos = número de letras do alfabeto
@@ -100,17 +100,17 @@ int main()
         int idBEAM=listaPessoas[i]->nome[0]-65;
         printf ("Debug: número do idBEAM: %d\n", idBEAM);
         //A implementar (método insere da classe AVL):
-        lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[i], listaPessoas[i]);
+        lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[idBEAM], listaPessoas[idBEAM]);
         if (lstBEAMS[idBEAM]->N % 10==0){  //Quando chegar a 10, 20, 30... elementos na AVL, ela é apresentada:
             lstBEAMS[idBEAM]->imprime(lstBEAMS[idBEAM]->T);
         }
     }
     //Impressão da Floresta
-    /*for (int i=0; i< 27-1; i++){
+    for (int i=0; i< 27-1; i++){
         printf("\n\n---------\n");
-        lstBEAMS[i]->imprime(lstBEAMS[i]->T);
+        lstBEAMS[i]->imprime(lstBEAMS_TreeRoot[i]);
         printf("\n\n---------\n");
-    }*/
+    }
     /* inicializa a semente (seed): */
     srand (time(NULL));
     for (int i=0; i< QTD_EXCLUSOES; i++){

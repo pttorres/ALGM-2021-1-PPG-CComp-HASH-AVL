@@ -118,7 +118,7 @@ public:
             (**T).dir=NULL;
             this->N++;
             strcpy(hAum,"V\0");
-         //   printf("T: %p, *T:%p, **T: %p, pNo:%p, *pNo: %p, T->chave %d\n", T, (*T), (**T), pNo, *pNo, (**T).chave);
+            //printf("T: %p, *T:%p, **T: %p, pNo:%p, *pNo: %p, T->chave %d\n", T, (*T), (**T), pNo, *pNo, (**T).chave);
     		
         } else if ((**T).chave>(*pNo).chave){
             insere(&(**T).esq, pNo);
@@ -132,14 +132,14 @@ public:
                 atualizaBalanceamentoNoDir(T, hAum);
             }
         } else {
-            perror("Chave ja existente!");
+            printf("Chave já existe: %d \n", (*T)->chave);
+          //  perror("Chave ja existente ");
         }
     };
         
     void imprime(No_AVL* T){
-        
         if(T != NULL){
-            printf(" %d ", T->chave);
+            printf(", %d ", T->chave);
             imprime(T->esq);
             imprime(T->dir);
         }
