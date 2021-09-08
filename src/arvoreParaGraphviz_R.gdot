@@ -1,0 +1,11 @@
+digraph BST {
+	"Roberto Martins,967828497" -> "Roberto Barbosa,964163007";
+	"Roberto Barbosa,964163007" -> "Roberto Freitas,952862350";
+	"Roberto Barbosa,964163007" -> "Roberto Rodrigues,966669452";
+	"Roberto Rodrigues,966669452" -> "Roberto Machado,965381960";
+	"Roberto Rodrigues,966669452" -> "Roberto Machado,967003251";
+	"Roberto Martins,967828497" -> "Roberto Barros,977964561";
+	"Roberto Barros,977964561" -> "Roberto Moura,973079926";
+	"Roberto Barros,977964561" -> "Roberto Porto,985464278";
+	"Roberto Porto,985464278" -> "Roberto Alves,982365369";
+}

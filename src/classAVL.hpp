@@ -1,7 +1,10 @@
-#include<iostream>
-#include<cstring>
-#include<string>
-#include<queue>
+#include <iostream>
+#include <cstring>
+#include <string>
+#include <queue>
+#include <math.h> //abs por exemplo
+#include <fstream> //Para escrita do arquivo de saída contendo a representação da árvore
+#include "ExecCommand.hpp"
 
 using namespace std;   // declaração global do espaço de nomes
 
@@ -54,6 +57,38 @@ public:
         }        
     } 
     */ 
+    /*Visita em pré-ordem os nós da árvore para obtenção da representação gráfica (Graphviz)*/
+    void visitaEmPreOrdemParaArquivoGraphviz(No_AVL* noAtual, ofstream* arq){
+        if (noAtual==0) return;                
+        if (noAtual->esq!=0){
+            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << "\" -> \""<< noAtual->esq->nome << ","<< noAtual->esq->numTelefone<<"\";\n";
+            visitaEmPreOrdemParaArquivoGraphviz(noAtual->esq, arq);        
+        }
+        if (noAtual->dir!=0){
+            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << "\" -> \""<< noAtual->dir->nome << ","<< noAtual->dir->numTelefone<<"\";\n";
+            visitaEmPreOrdemParaArquivoGraphviz(noAtual->dir, arq);       
+        }
+    }
+    /* Imprime a representação da árvore, para ser exportada em formato Graphviz
+    O texto gerado pode ser levado a um editor on-line como, por exemplo, este abaixo referido:
+    https://dreampuf.github.io/GraphvizOnline/
+    A imagem da árvore gerada segue em anexo a este trabalho.
+     */
+    void imprimeRepresentacaoGraficaArvore(){
+        ofstream arq;
+        char c=(this->T->nome[0]);                
+        string nomeArq="arvoreParaGraphviz_";
+        nomeArq.push_back(c);
+        nomeArq+=".gdot";
+        arq.open (nomeArq);
+        arq << "digraph BST {\n";
+        ofstream* pArq=&arq;
+        visitaEmPreOrdemParaArquivoGraphviz(this->T, pArq); 
+        arq << "}\n";       
+        arq.close();
+        string comandoGDot="dot -Tsvg "+nomeArq+" > "+nomeArq+".svg";
+        exec(comandoGDot.c_str());
+    }
     /* Informa o(s) telefone(s) associado(s) a um determinado nome */
     void buscaRegistrosPeloNome(string nome, No_AVL* noAtual){
         if (noAtual->nome==nome) {

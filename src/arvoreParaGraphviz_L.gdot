@@ -1,0 +1,19 @@
+digraph BST {
+	"Luciano Moura,986476438" -> "Luciano Barbosa,957188337";
+	"Luciano Barbosa,957188337" -> "Luiz Souza,955830623";
+	"Luiz Souza,955830623" -> "Leonardo Moura,952857172";
+	"Luciano Barbosa,957188337" -> "Luciano Alves,966049029";
+	"Luciano Alves,966049029" -> "Luciano Alves,958295711";
+	"Luciano Alves,958295711" -> "Lucas Machado,957445164";
+	"Luciano Alves,958295711" -> "Leonardo Porto,958339091";
+	"Luciano Alves,966049029" -> "Luciano Porto,984121948";
+	"Luciano Porto,984121948" -> "Luiz Souza,984718198";
+	"Luciano Moura,986476438" -> "Luiz Silva,996877113";
+	"Luiz Silva,996877113" -> "Luciano Rodrigues,991669981";
+	"Luciano Rodrigues,991669981" -> "Luciano Campos,988176352";
+	"Luciano Campos,988176352" -> "Luiz Silva,990920197";
+	"Luiz Silva,996877113" -> "Lucas Porto,999152157";
+	"Lucas Porto,999152157" -> "Lucas Pereira,998665777";
+	"Lucas Pereira,998665777" -> "Lucas Torres,998532786";
+	"Lucas Porto,999152157" -> "Leonardo Rodrigues,999746207";
+}

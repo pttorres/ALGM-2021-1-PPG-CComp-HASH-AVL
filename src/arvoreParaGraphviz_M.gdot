@@ -1,0 +1,8 @@
+digraph BST {
+	"Marcel Silva,962499508" -> "Márcio Machado,951425568";
+	"Márcio Machado,951425568" -> "Marcel Freitas,950313546";
+	"Márcio Machado,951425568" -> "Marcel Torres,961020719";
+	"Marcel Silva,962499508" -> "Márcio Moura,967440374";
+	"Márcio Moura,967440374" -> "Márcio Barros,969853543";
+	"Márcio Barros,969853543" -> "Márcio Moura,979688182";
+}

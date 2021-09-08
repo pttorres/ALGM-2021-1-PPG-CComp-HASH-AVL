@@ -1,0 +1,5 @@
+digraph BST {
+	"Igor Campos,964632491" -> "Igor Barros,961029324";
+	"Igor Campos,964632491" -> "Igor Silva,989918743";
+	"Igor Silva,989918743" -> "Igor Farias,997734597";
+}

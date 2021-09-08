@@ -1,0 +1,4 @@
+digraph BST {
+	"João Pereira,979323293" -> "João Souza,970206539";
+	"João Souza,970206539" -> "João Moura,971483101";
+}

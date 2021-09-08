@@ -169,6 +169,7 @@ int main()
             printf("\n---------\n");
             //printf("Compartimento %d, letra %c:", i, i+65);
             lstBEAMS[i]->imprimeVisitaEmNiveis(lstBEAMS[i]->T);
+            lstBEAMS[i]->imprimeRepresentacaoGraficaArvore();
             printf("\n---------\n");
         }
     }

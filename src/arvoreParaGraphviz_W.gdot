@@ -1,0 +1,8 @@
+digraph BST {
+	"Washington Rodrigues,961697749" -> "Washington Barros,958678462";
+	"Washington Barros,958678462" -> "Washington Machado,955446445";
+	"Washington Rodrigues,961697749" -> "Washington Costa,976017582";
+	"Washington Costa,976017582" -> "Washington Rodrigues,986307423";
+	"Washington Rodrigues,986307423" -> "Washington Silva,978326149";
+	"Washington Rodrigues,986307423" -> "Washington Martins,987735642";
+}

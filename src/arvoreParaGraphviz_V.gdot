@@ -1,0 +1,5 @@
+digraph BST {
+	"Vanessa Freitas,955355373" -> "Vanessa Martins,952303299";
+	"Vanessa Freitas,955355373" -> "Vanessa Coelho,957554329";
+	"Vanessa Coelho,957554329" -> "Vanessa Martins,996290752";
+}
