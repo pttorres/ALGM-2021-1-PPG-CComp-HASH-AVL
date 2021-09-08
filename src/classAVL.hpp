@@ -204,12 +204,17 @@ public:
     };
 
     void imprimeVisitaEmNiveis(No_AVL* noAtual){
+        if (noAtual==NULL){
+            printf("Erro!: Impossível a impressão, pois a árvore AVL está vazia.");
+            return;
+        } 
         queue<No_AVL*> fila;
         fila.push(noAtual);
         No_AVL* frente;
         int i=0;
         int nivelAtual=1;
         int nivelAnterior=1;
+        printf("Compartimento %d, letra %c, quantidade de registros %d :", this->T->nome[0]-65, this->T->nome[0], this->N);
         while (!fila.empty()){
             frente=fila.front();
             if (frente->esq!=0){
@@ -237,6 +242,8 @@ public:
       if(*T != NULL) {
       
         if((*T)->numTelefone == telefone){  // Chave encontrada
+
+          this->N--;  
         
           if((*T)->esq == (*T)->dir){ // é uma folha
          
@@ -264,15 +271,16 @@ public:
           }
         } else if((*T)->numTelefone < telefone){ // Desce até encontrar ou não encontrar a chave.
     
-            exclui(&(*T)->dir,telefone);
+            exclui(&(*T)->dir,telefone);            
+
             if (hAum[0]=='V'){
                 atualizaBalanceamentoNoEsq(T, hAum);
             }
     
         } else if((*T)->numTelefone > telefone) {
     
-           exclui(&(*T)->esq,telefone);
-           
+            exclui(&(*T)->esq,telefone);
+                       
             if (hAum[0]=='V'){
                 atualizaBalanceamentoNoDir(T, hAum);
             }

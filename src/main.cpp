@@ -11,7 +11,7 @@
 
 #define QTD_PESSOAS 200  // número de pessoas na lista de nomes fictícios
 #define QTD_BEAMS 26  //número de compartimentos = número de letras do alfabeto
-#define QTD_EXCLUSOES 80
+#define QTD_EXCLUSOES 170
 
 using namespace std;   // declaração global do espaço de nomes
 /* retorna um vetor formado pelas palavras separadas pelo caracter delimitador encontrado na string de entrada
@@ -167,7 +167,7 @@ int main()
     for (int i=0; i< QTD_BEAMS; i++){
         if (lstBEAMS[i]->T != NULL){
             printf("\n---------\n");
-            printf("Compartimento %d, letra %c:", i, i+65);
+            //printf("Compartimento %d, letra %c:", i, i+65);
             lstBEAMS[i]->imprimeVisitaEmNiveis(lstBEAMS[i]->T);
             printf("\n---------\n");
         }
