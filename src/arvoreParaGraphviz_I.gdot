@@ -1,5 +1,7 @@
 digraph BST {
-	"Igor Campos,964632491" -> "Igor Barros,961029324";
-	"Igor Campos,964632491" -> "Igor Silva,989918743";
-	"Igor Silva,989918743" -> "Igor Farias,997734597";
+	"Igor Campos,986007137 [fb:1]" -> "Igor Barbosa,968604846 [fb:-1]";
+	"Igor Barbosa,968604846 [fb:-1]" -> "Igor Farias,955554654 [fb:1]";
+	"Igor Barbosa,968604846 [fb:-1]" -> "Igor Silva,981366478 [fb:0]";
+	"Igor Campos,986007137 [fb:1]" -> "Igor Freitas,988375084 [fb:0]";
+	"Igor Freitas,988375084 [fb:0]" -> "Igor Silva,990889114 [fb:0]";
 }

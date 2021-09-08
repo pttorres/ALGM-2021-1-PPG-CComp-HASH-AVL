@@ -1,3 +1,4 @@
 digraph BST {
-	"Alexandre Silva,950500446" -> "Alexandre Rodrigues,995433080";
+	"Alexandre Coelho,958161132 [fb:0]" -> "Alexandre Rodrigues,957023242 [fb:0]";
+	"Alexandre Coelho,958161132 [fb:0]" -> "Alexandre Silva,992966968 [fb:0]";
 }

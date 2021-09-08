@@ -1,5 +1,5 @@
 digraph BST {
-	"Vanessa Freitas,955355373" -> "Vanessa Martins,952303299";
-	"Vanessa Freitas,955355373" -> "Vanessa Coelho,957554329";
-	"Vanessa Coelho,957554329" -> "Vanessa Martins,996290752";
+	"Vanessa Campos,957554329 [fb:1]" -> "Vanessa Rodrigues,960862516 [fb:1]";
+	"Vanessa Rodrigues,960862516 [fb:1]" -> "Vanessa Barros,958291947 [fb:0]";
+	"Vanessa Rodrigues,960862516 [fb:1]" -> "Vanessa Coelho,966870911 [fb:0]";
 }

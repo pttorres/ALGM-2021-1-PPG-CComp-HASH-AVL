@@ -1,5 +1,7 @@
 digraph BST {
-	"Carlos Freitas,990940187" -> "Carlos Freitas,990775211";
-	"Carlos Freitas,990775211" -> "Carlos Costa,984972895";
-	"Carlos Freitas,990940187" -> "Carlos Coelho,991472947";
+	"Carlos Costa,976849055 [fb:0]" -> "Carlos Moura,973688088 [fb:0]";
+	"Carlos Moura,973688088 [fb:0]" -> "Carlos Torres,950852179 [fb:0]";
+	"Carlos Torres,950852179 [fb:0]" -> "Carlos Barbosa,971596197 [fb:0]";
+	"Carlos Costa,976849055 [fb:0]" -> "Carlos Freitas,990775211 [fb:0]";
+	"Carlos Freitas,990775211 [fb:0]" -> "Carlos Coelho,991472947 [fb:0]";
 }

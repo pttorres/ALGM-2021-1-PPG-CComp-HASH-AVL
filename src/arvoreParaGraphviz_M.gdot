@@ -1,8 +1,12 @@
 digraph BST {
-	"Marcel Silva,962499508" -> "Márcio Machado,951425568";
-	"Márcio Machado,951425568" -> "Marcel Freitas,950313546";
-	"Márcio Machado,951425568" -> "Marcel Torres,961020719";
-	"Marcel Silva,962499508" -> "Márcio Moura,967440374";
-	"Márcio Moura,967440374" -> "Márcio Barros,969853543";
-	"Márcio Barros,969853543" -> "Márcio Moura,979688182";
+	"Marcel Torres,961020719 [fb:-1]" -> "Márcio Machado,952329784 [fb:-1]";
+	"Márcio Machado,952329784 [fb:-1]" -> "Marcel Freitas,950313546 [fb:1]";
+	"Marcel Freitas,950313546 [fb:1]" -> "Marcel Souza,951425568 [fb:0]";
+	"Márcio Machado,952329784 [fb:-1]" -> "Márcio Coelho,958939859 [fb:0]";
+	"Marcel Torres,961020719 [fb:-1]" -> "Márcio Moura,972426994 [fb:0]";
+	"Márcio Moura,972426994 [fb:0]" -> "Márcio Porto,975279080 [fb:-1]";
+	"Márcio Porto,975279080 [fb:-1]" -> "Márcio Porto,989927453 [fb:-1]";
+	"Márcio Porto,989927453 [fb:-1]" -> "Marcel Pereira,981304370 [fb:0]";
+	"Márcio Porto,989927453 [fb:-1]" -> "Marcel Santos,996988455 [fb:1]";
+	"Marcel Santos,996988455 [fb:1]" -> "Márcio Alves,999529510 [fb:0]";
 }

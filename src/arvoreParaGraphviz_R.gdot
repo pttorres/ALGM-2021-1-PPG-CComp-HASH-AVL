@@ -1,11 +1,10 @@
 digraph BST {
-	"Roberto Martins,967828497" -> "Roberto Barbosa,964163007";
-	"Roberto Barbosa,964163007" -> "Roberto Freitas,952862350";
-	"Roberto Barbosa,964163007" -> "Roberto Rodrigues,966669452";
-	"Roberto Rodrigues,966669452" -> "Roberto Machado,965381960";
-	"Roberto Rodrigues,966669452" -> "Roberto Machado,967003251";
-	"Roberto Martins,967828497" -> "Roberto Barros,977964561";
-	"Roberto Barros,977964561" -> "Roberto Moura,973079926";
-	"Roberto Barros,977964561" -> "Roberto Porto,985464278";
-	"Roberto Porto,985464278" -> "Roberto Alves,982365369";
+	"Roberto Rodrigues,966669452 [fb:0]" -> "Roberto Barbosa,964163007 [fb:0]";
+	"Roberto Barbosa,964163007 [fb:0]" -> "Roberto Machado,965381960 [fb:0]";
+	"Roberto Rodrigues,966669452 [fb:0]" -> "Roberto Martins,967828497 [fb:0]";
+	"Roberto Martins,967828497 [fb:0]" -> "Roberto Machado,967003251 [fb:0]";
+	"Roberto Martins,967828497 [fb:0]" -> "Roberto Alves,978053544 [fb:1]";
+	"Roberto Alves,978053544 [fb:1]" -> "Roberto Porto,990366818 [fb:1]";
+	"Roberto Porto,990366818 [fb:1]" -> "Roberto Alves,985464278 [fb:0]";
+	"Roberto Porto,990366818 [fb:1]" -> "Roberto Silva,998535597 [fb:0]";
 }

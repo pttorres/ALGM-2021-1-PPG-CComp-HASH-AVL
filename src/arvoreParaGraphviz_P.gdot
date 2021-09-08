@@ -1,9 +1,6 @@
 digraph BST {
-	"Piettro Martins,969904009" -> "Piettro Souza,961216424";
-	"Piettro Souza,961216424" -> "Piettro Machado,950186297";
-	"Piettro Machado,950186297" -> "Pamella Rodrigues,955173015";
-	"Piettro Souza,961216424" -> "Piettro Silva,961893049";
-	"Piettro Silva,961893049" -> "Pamella Souza,969300271";
-	"Piettro Martins,969904009" -> "Pamella Costa,972607915";
-	"Pamella Costa,972607915" -> "Pamella Barbosa,973123310";
+	"Pamella Martins,974394289 [fb:0]" -> "Pamella Barbosa,973123310 [fb:1]";
+	"Pamella Martins,974394289 [fb:0]" -> "Piettro Freitas,977907210 [fb:1]";
+	"Piettro Freitas,977907210 [fb:1]" -> "Piettro Freitas,982357887 [fb:0]";
+	"Piettro Freitas,982357887 [fb:0]" -> "Piettro Souza,990058019 [fb:-1]";
 }

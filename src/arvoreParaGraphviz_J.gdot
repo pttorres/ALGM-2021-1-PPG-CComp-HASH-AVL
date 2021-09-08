@@ -1,4 +1,4 @@
 digraph BST {
-	"João Pereira,979323293" -> "João Souza,970206539";
-	"João Souza,970206539" -> "João Moura,971483101";
+	"João Moura,971483101 [fb:0]" -> "João Souza,970206539 [fb:0]";
+	"João Moura,971483101 [fb:0]" -> "João Pereira,979323293 [fb:0]";
 }

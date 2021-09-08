@@ -60,12 +60,15 @@ public:
     /*Visita em pré-ordem os nós da árvore para obtenção da representação gráfica (Graphviz)*/
     void visitaEmPreOrdemParaArquivoGraphviz(No_AVL* noAtual, ofstream* arq){
         if (noAtual==0) return;                
-        if (noAtual->esq!=0){
-            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << "\" -> \""<< noAtual->esq->nome << ","<< noAtual->esq->numTelefone<<"\";\n";
+        int fb=noAtual->fb;  //Fator de balanceamento
+        if (noAtual->esq!=0){            
+            int fbEsq=noAtual->esq->fb;  //Fator de balanceamento do filho à esquerda
+            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << " [fb:"<< fb<<"]\" -> \""<< noAtual->esq->nome << ","<< noAtual->esq->numTelefone<<" [fb:"<< fbEsq<<"]\";\n";
             visitaEmPreOrdemParaArquivoGraphviz(noAtual->esq, arq);        
         }
         if (noAtual->dir!=0){
-            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << "\" -> \""<< noAtual->dir->nome << ","<< noAtual->dir->numTelefone<<"\";\n";
+            int fbDir=noAtual->dir->fb;  //Fator de balanceamento do filho à direita
+            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone <<" [fb:"<< fb<<"]\" -> \""<< noAtual->dir->nome << ","<< noAtual->dir->numTelefone<<" [fb:"<< fbDir<<"]\";\n";
             visitaEmPreOrdemParaArquivoGraphviz(noAtual->dir, arq);       
         }
     }
