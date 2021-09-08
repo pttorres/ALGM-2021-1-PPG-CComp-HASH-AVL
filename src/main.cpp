@@ -92,7 +92,7 @@ int main()
                 listaPessoas[i-1]->numTelefone=telefone; 
                 //listaPessoas[i-1]->chave = telefone + rand() % 100; // chave de telefone
                 //listaPessoas[i-1]->chave = telefone ; // chave de telefone
-                printf(fixSize(listaPessoas[i-1]->nome, 18).c_str());
+                printf("%s", fixSize(listaPessoas[i-1]->nome, 18).c_str());
                 printf("\t");
                 printf("%d",listaPessoas[i-1]->numTelefone);
                 printf("\n");

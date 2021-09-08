@@ -287,7 +287,7 @@ public:
     
         }         
       } else {// Chave não encontrada
-    	perror("chave não encontrada");
+    	perror("Erro! Chave (número de telefone) não encontrada.\n");
         this->chaveNaoEncontrada=true;  //Esta variável é checada após a execução desta função.
       }    
     };
