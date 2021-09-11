@@ -6,7 +6,6 @@
 #include <vector>
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
-
 #include "classAVL.hpp"
 
 #define QTD_PESSOAS 200  // número de pessoas na lista de nomes fictícios
@@ -146,7 +145,8 @@ int main()
         lstBEAMS[idBEAM]->buscaRegistrosPeloNome(nome,  lstBEAMS[idBEAM]->T);
 
         //Demonstração do método de exclusão de elemento da árvore AVL
-                  
+        
+        /*          
         printf ("\nSelecionado para exclusão: %s,%d, do compartimento %d, letra %c:\n", strTrim(nome).c_str(), telefone, idBEAM, nome[0]);
         if(idBEAM >=0 && idBEAM < QTD_BEAMS){
             lstBEAMS[idBEAM]->chaveNaoEncontrada=false;
@@ -159,6 +159,8 @@ int main()
                 printf("Chave (telefone %d) não encontrada(o)!\n", telefone);
             }                  
         }
+        */
+
     }
 
     //Impressão da Floresta (lista telefônica completa), após inserções e exclusões

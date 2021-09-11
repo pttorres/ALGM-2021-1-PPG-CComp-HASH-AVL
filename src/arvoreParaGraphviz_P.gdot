@@ -1,6 +1,43 @@
 digraph BST {
-	"Pamella Martins,974394289 [fb:0]" -> "Pamella Barbosa,973123310 [fb:1]";
-	"Pamella Martins,974394289 [fb:0]" -> "Piettro Freitas,977907210 [fb:1]";
-	"Piettro Freitas,977907210 [fb:1]" -> "Piettro Freitas,982357887 [fb:0]";
-	"Piettro Freitas,982357887 [fb:0]" -> "Piettro Souza,990058019 [fb:-1]";
+	"Piettro Martins,969904009 [fb:0]" -> "Piettro Souza,961216424 [fb:-1]";
+	"Piettro Souza,961216424 [fb:-1]" -> "Piettro Machado,954392832 [fb:-1]";
+	"Piettro Machado,954392832 [fb:-1]" -> "Piettro Freitas,950186297 [fb:1]";
+	"Piettro Freitas,950186297 [fb:1]" -> "N0"; 
+	"Piettro Freitas,950186297 [fb:1]" -> "Pamella Pereira,950703803 [fb:0]";
+	"Pamella Pereira,950703803 [fb:0]" -> "N1"; 
+	"Pamella Pereira,950703803 [fb:0]" -> "N2"; 
+	"Piettro Machado,954392832 [fb:-1]" -> "Pamella Rodrigues,955173015 [fb:0]";
+	"Pamella Rodrigues,955173015 [fb:0]" -> "N3"; 
+	"Pamella Rodrigues,955173015 [fb:0]" -> "N4"; 
+	"Piettro Souza,961216424 [fb:-1]" -> "Piettro Silva,961893049 [fb:1]";
+	"Piettro Silva,961893049 [fb:1]" -> "N5"; 
+	"Piettro Silva,961893049 [fb:1]" -> "Pamella Souza,969300271 [fb:0]";
+	"Pamella Souza,969300271 [fb:0]" -> "N6"; 
+	"Pamella Souza,969300271 [fb:0]" -> "N7"; 
+	"Piettro Martins,969904009 [fb:0]" -> "Piettro Barbosa,974394289 [fb:0]";
+	"Piettro Barbosa,974394289 [fb:0]" -> "Pamella Barbosa,973123310 [fb:1]";
+	"Pamella Barbosa,973123310 [fb:1]" -> "Pamella Costa,972607915 [fb:0]";
+	"Pamella Costa,972607915 [fb:0]" -> "N8"; 
+	"Pamella Costa,972607915 [fb:0]" -> "N9"; 
+	"Pamella Barbosa,973123310 [fb:1]" -> "Pamella Santos,973283585 [fb:1]";
+	"Pamella Santos,973283585 [fb:1]" -> "N10"; 
+	"Pamella Santos,973283585 [fb:1]" -> "Piettro Torres,973888400 [fb:0]";
+	"Piettro Torres,973888400 [fb:0]" -> "N11"; 
+	"Piettro Torres,973888400 [fb:0]" -> "N12"; 
+	"Piettro Barbosa,974394289 [fb:0]" -> "Piettro Freitas,984763663 [fb:0]";
+	"Piettro Freitas,984763663 [fb:0]" -> "Piettro Freitas,977907210 [fb:0]";
+	"Piettro Freitas,977907210 [fb:0]" -> "Pamella Martins,975274044 [fb:0]";
+	"Pamella Martins,975274044 [fb:0]" -> "N13"; 
+	"Pamella Martins,975274044 [fb:0]" -> "N14"; 
+	"Piettro Freitas,977907210 [fb:0]" -> "Pamella Moura,982357887 [fb:0]";
+	"Pamella Moura,982357887 [fb:0]" -> "N15"; 
+	"Pamella Moura,982357887 [fb:0]" -> "N16"; 
+	"Piettro Freitas,984763663 [fb:0]" -> "Piettro Souza,990452401 [fb:0]";
+	"Piettro Souza,990452401 [fb:0]" -> "Piettro Martins,990058019 [fb:0]";
+	"Piettro Martins,990058019 [fb:0]" -> "N17"; 
+	"Piettro Martins,990058019 [fb:0]" -> "N18"; 
+	"Piettro Souza,990452401 [fb:0]" -> "Pamella Moura,995006078 [fb:0]";
+	"Pamella Moura,995006078 [fb:0]" -> "N19"; 
+	"Pamella Moura,995006078 [fb:0]" -> "N20"; 
+	N0,N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,N11,N12,N13,N14,N15,N16,N17,N18,N19,N20 [label=null,shape=circle]
 }

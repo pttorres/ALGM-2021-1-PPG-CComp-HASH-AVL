@@ -1,5 +1,29 @@
 digraph BST {
-	"Vanessa Campos,957554329 [fb:1]" -> "Vanessa Rodrigues,960862516 [fb:1]";
-	"Vanessa Rodrigues,960862516 [fb:1]" -> "Vanessa Barros,958291947 [fb:0]";
-	"Vanessa Rodrigues,960862516 [fb:1]" -> "Vanessa Coelho,966870911 [fb:0]";
+	"Vanessa Coelho,967230729 [fb:0]" -> "Vanessa Campos,957554329 [fb:0]";
+	"Vanessa Campos,957554329 [fb:0]" -> "Vanessa Freitas,955355373 [fb:-1]";
+	"Vanessa Freitas,955355373 [fb:-1]" -> "Vanessa Martins,952303299 [fb:0]";
+	"Vanessa Martins,952303299 [fb:0]" -> "N0"; 
+	"Vanessa Martins,952303299 [fb:0]" -> "N1"; 
+	"Vanessa Freitas,955355373 [fb:-1]" -> "N2"; 
+	"Vanessa Campos,957554329 [fb:0]" -> "Vanessa Rodrigues,960862516 [fb:0]";
+	"Vanessa Rodrigues,960862516 [fb:0]" -> "Vanessa Barros,958291947 [fb:0]";
+	"Vanessa Barros,958291947 [fb:0]" -> "N3"; 
+	"Vanessa Barros,958291947 [fb:0]" -> "N4"; 
+	"Vanessa Rodrigues,960862516 [fb:0]" -> "Vanessa Porto,966870911 [fb:0]";
+	"Vanessa Porto,966870911 [fb:0]" -> "N5"; 
+	"Vanessa Porto,966870911 [fb:0]" -> "N6"; 
+	"Vanessa Coelho,967230729 [fb:0]" -> "Vanessa Martins,992641688 [fb:0]";
+	"Vanessa Martins,992641688 [fb:0]" -> "Vanessa Coelho,980269480 [fb:0]";
+	"Vanessa Coelho,980269480 [fb:0]" -> "Vanessa Machado,973329930 [fb:0]";
+	"Vanessa Machado,973329930 [fb:0]" -> "N7"; 
+	"Vanessa Machado,973329930 [fb:0]" -> "N8"; 
+	"Vanessa Coelho,980269480 [fb:0]" -> "Vanessa Souza,991132853 [fb:0]";
+	"Vanessa Souza,991132853 [fb:0]" -> "N9"; 
+	"Vanessa Souza,991132853 [fb:0]" -> "N10"; 
+	"Vanessa Martins,992641688 [fb:0]" -> "Vanessa Barbosa,992931927 [fb:1]";
+	"Vanessa Barbosa,992931927 [fb:1]" -> "N11"; 
+	"Vanessa Barbosa,992931927 [fb:1]" -> "Vanessa Porto,996290752 [fb:0]";
+	"Vanessa Porto,996290752 [fb:0]" -> "N12"; 
+	"Vanessa Porto,996290752 [fb:0]" -> "N13"; 
+	N0,N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,N11,N12,N13 [label=null,shape=circle]
 }

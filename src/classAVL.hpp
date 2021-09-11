@@ -41,6 +41,7 @@ public:
     char hAum[2];
     AVL();
     bool chaveNaoEncontrada=false;
+    int contaNosNulos=0;
 
     /*
     /* Libera a memória ocupada pela árvore AVL (dispensável, pois os objetos AVL estão sendo deletados junto com os elementos de listaPessoas)
@@ -64,12 +65,20 @@ public:
         if (noAtual->esq!=0){            
             int fbEsq=noAtual->esq->fb;  //Fator de balanceamento do filho à esquerda
             *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << " [fb:"<< fb<<"]\" -> \""<< noAtual->esq->nome << ","<< noAtual->esq->numTelefone<<" [fb:"<< fbEsq<<"]\";\n";
-            visitaEmPreOrdemParaArquivoGraphviz(noAtual->esq, arq);        
+            visitaEmPreOrdemParaArquivoGraphviz(noAtual->esq, arq);      
+        } else {
+            string strNulo="N"+std::to_string(this->contaNosNulos);
+            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << " [fb:"<< fb<<"]\" -> \""<< strNulo << "\"; \n";            
+            this->contaNosNulos++;
         }
         if (noAtual->dir!=0){
             int fbDir=noAtual->dir->fb;  //Fator de balanceamento do filho à direita
             *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone <<" [fb:"<< fb<<"]\" -> \""<< noAtual->dir->nome << ","<< noAtual->dir->numTelefone<<" [fb:"<< fbDir<<"]\";\n";
             visitaEmPreOrdemParaArquivoGraphviz(noAtual->dir, arq);       
+        } else {
+            string strNulo="N"+std::to_string(this->contaNosNulos);
+            *arq <<"\t\""<< noAtual->nome << ","<< noAtual->numTelefone << " [fb:"<< fb<<"]\" -> \""<< strNulo << "\"; \n";            
+            this->contaNosNulos++;
         }
     }
     /* Imprime a representação da árvore, para ser exportada em formato Graphviz
@@ -86,7 +95,16 @@ public:
         arq.open (nomeArq);
         arq << "digraph BST {\n";
         ofstream* pArq=&arq;
+        this->contaNosNulos=0;
         visitaEmPreOrdemParaArquivoGraphviz(this->T, pArq); 
+        string strNrs="";
+        //Referências aos ponteiros nulos (esquerdo e direito)
+        for (int i=0; i<=this->N; i++){
+            strNrs.push_back('N');
+            strNrs=strNrs+std::to_string(i);
+            if (i<this->N) strNrs.push_back(',');
+        }
+        arq << "\t"+strNrs+" [label=null,shape=circle]\n";
         arq << "}\n";       
         arq.close();
         string comandoGDot="dot -Tsvg "+nomeArq+" > "+nomeArq+".svg";
@@ -182,7 +200,7 @@ public:
         }
     };
         
-    void atualizafbT(No_AVL* T){
+    /*void atualizafbT_OLD(No_AVL* T){
      if(T->dir==NULL && T->esq==NULL){
             T->fb=0;
     	}else {
@@ -202,6 +220,35 @@ public:
                 else T->fb=-1;
             }
         }
+    }; */
+    /* Obtém a altura da árvore ou subárvore que tem como 
+    raiz determinado nó */
+    int getAlturaDaArvore(No_AVL* noRaiz){
+        if (noRaiz==0){
+            return 0;
+        }
+        int alturaNoDir=getAlturaDaArvore(noRaiz->dir)+1;
+        int alturaNoEsq=getAlturaDaArvore(noRaiz->esq)+1;
+        if (alturaNoDir>alturaNoEsq){
+            return alturaNoDir;
+        } else {
+            return alturaNoEsq;
+        }
+    }
+
+    /*Computa o fator de balanceamento de um dado nó */
+    int getFatorBalanceamento(No_AVL* noAtual){
+        int tamSubArvoreDir=getAlturaDaArvore(noAtual->dir);
+        int tamSubArvoreEsq=getAlturaDaArvore(noAtual->esq);
+        return (tamSubArvoreDir-tamSubArvoreEsq);
+    }
+
+    /* Atualiza o fator de balanceamento
+    retorna T->fb==0 se a árvore estiver balanceada
+    retorna T->fb==número int. negativo se estiver desbalanceada à esquerda
+    retorna T->fb==número inteiro positivo se a direita estiver maior  */
+    void atualizafbT(No_AVL* T){
+        T->fb=getFatorBalanceamento(T);
     };
 	
     void insere(No_AVL** T, No_AVL* pNo){

@@ -1,2 +1,35 @@
 digraph BST {
+	"Washington Rodrigues,962840590 [fb:1]" -> "Washington Machado,955446445 [fb:0]";
+	"Washington Machado,955446445 [fb:0]" -> "Washington Torres,954026800 [fb:0]";
+	"Washington Torres,954026800 [fb:0]" -> "Washington Coelho,951300701 [fb:0]";
+	"Washington Coelho,951300701 [fb:0]" -> "N0"; 
+	"Washington Coelho,951300701 [fb:0]" -> "N1"; 
+	"Washington Torres,954026800 [fb:0]" -> "Washington Campos,955012119 [fb:0]";
+	"Washington Campos,955012119 [fb:0]" -> "N2"; 
+	"Washington Campos,955012119 [fb:0]" -> "N3"; 
+	"Washington Machado,955446445 [fb:0]" -> "Washington Moura,961697749 [fb:0]";
+	"Washington Moura,961697749 [fb:0]" -> "Washington Barros,958678462 [fb:0]";
+	"Washington Barros,958678462 [fb:0]" -> "N4"; 
+	"Washington Barros,958678462 [fb:0]" -> "N5"; 
+	"Washington Moura,961697749 [fb:0]" -> "Washington Pereira,962181569 [fb:0]";
+	"Washington Pereira,962181569 [fb:0]" -> "N6"; 
+	"Washington Pereira,962181569 [fb:0]" -> "N7"; 
+	"Washington Rodrigues,962840590 [fb:1]" -> "Washington Costa,974050329 [fb:1]";
+	"Washington Costa,974050329 [fb:1]" -> "Washington Santos,966945826 [fb:1]";
+	"Washington Santos,966945826 [fb:1]" -> "N8"; 
+	"Washington Santos,966945826 [fb:1]" -> "Washington Coelho,967521637 [fb:0]";
+	"Washington Coelho,967521637 [fb:0]" -> "N9"; 
+	"Washington Coelho,967521637 [fb:0]" -> "N10"; 
+	"Washington Costa,974050329 [fb:1]" -> "Washington Rodrigues,986307423 [fb:-1]";
+	"Washington Rodrigues,986307423 [fb:-1]" -> "Washington Farias,976087312 [fb:0]";
+	"Washington Farias,976087312 [fb:0]" -> "Washington Alves,976017582 [fb:0]";
+	"Washington Alves,976017582 [fb:0]" -> "N11"; 
+	"Washington Alves,976017582 [fb:0]" -> "N12"; 
+	"Washington Farias,976087312 [fb:0]" -> "Washington Silva,978326149 [fb:0]";
+	"Washington Silva,978326149 [fb:0]" -> "N13"; 
+	"Washington Silva,978326149 [fb:0]" -> "N14"; 
+	"Washington Rodrigues,986307423 [fb:-1]" -> "Washington Martins,987735642 [fb:0]";
+	"Washington Martins,987735642 [fb:0]" -> "N15"; 
+	"Washington Martins,987735642 [fb:0]" -> "N16"; 
+	N0,N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,N11,N12,N13,N14,N15,N16 [label=null,shape=circle]
 }
