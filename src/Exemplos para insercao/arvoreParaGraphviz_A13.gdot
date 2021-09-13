@@ -1,0 +1,29 @@
+digraph BST {
+	"Alexandre Costa,982632579 [fb:0]" -> "Alexandre Freitas,964642705 [fb:0]";
+	"Alexandre Freitas,964642705 [fb:0]" -> "Alberto Campos,960933788 [fb:-1]";
+	"Alberto Campos,960933788 [fb:-1]" -> "Alexandre Santos,955838599 [fb:0]";
+	"Alexandre Santos,955838599 [fb:0]" -> "N0"; 
+	"Alexandre Santos,955838599 [fb:0]" -> "N1"; 
+	"Alberto Campos,960933788 [fb:-1]" -> "N2"; 
+	"Alexandre Freitas,964642705 [fb:0]" -> "Alfredo Martins,967387182 [fb:1]";
+	"Alfredo Martins,967387182 [fb:1]" -> "N3"; 
+	"Alfredo Martins,967387182 [fb:1]" -> "Altair Souza,975960513 [fb:0]";
+	"Altair Souza,975960513 [fb:0]" -> "N4"; 
+	"Altair Souza,975960513 [fb:0]" -> "N5"; 
+	"Alexandre Costa,982632579 [fb:0]" -> "Alexandre Barbosa,992883178 [fb:0]";
+	"Alexandre Barbosa,992883178 [fb:0]" -> "Alexandre Machado,987340734 [fb:0]";
+	"Alexandre Machado,987340734 [fb:0]" -> "Américo Rodrigues,986979432 [fb:0]";
+	"Américo Rodrigues,986979432 [fb:0]" -> "N6"; 
+	"Américo Rodrigues,986979432 [fb:0]" -> "N7"; 
+	"Alexandre Machado,987340734 [fb:0]" -> "Alexandre Pereira,987671978 [fb:0]";
+	"Alexandre Pereira,987671978 [fb:0]" -> "N8"; 
+	"Alexandre Pereira,987671978 [fb:0]" -> "N9"; 
+	"Alexandre Barbosa,992883178 [fb:0]" -> "Ana Farias,996598918 [fb:0]";
+	"Ana Farias,996598918 [fb:0]" -> "Alexandra Moura,994116870 [fb:0]";
+	"Alexandra Moura,994116870 [fb:0]" -> "N10"; 
+	"Alexandra Moura,994116870 [fb:0]" -> "N11"; 
+	"Ana Farias,996598918 [fb:0]" -> "Alexandre Torres,997285865 [fb:0]";
+	"Alexandre Torres,997285865 [fb:0]" -> "N12"; 
+	"Alexandre Torres,997285865 [fb:0]" -> "N13"; 
+	N0,N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,N11,N12,N13 [label=null,shape=circle]
+}

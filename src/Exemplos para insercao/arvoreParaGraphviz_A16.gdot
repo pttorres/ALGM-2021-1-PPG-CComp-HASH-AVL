@@ -1,0 +1,35 @@
+digraph BST {
+	"Alexandre Costa,982632579 [fb:1]" -> "Alexandre Freitas,964642705 [fb:0]";
+	"Alexandre Freitas,964642705 [fb:0]" -> "Alberto Campos,960933788 [fb:0]";
+	"Alberto Campos,960933788 [fb:0]" -> "Alexandre Santos,955838599 [fb:0]";
+	"Alexandre Santos,955838599 [fb:0]" -> "N0"; 
+	"Alexandre Santos,955838599 [fb:0]" -> "N1"; 
+	"Alberto Campos,960933788 [fb:0]" -> "Andrea Santos,960933790 [fb:0]";
+	"Andrea Santos,960933790 [fb:0]" -> "N2"; 
+	"Andrea Santos,960933790 [fb:0]" -> "N3"; 
+	"Alexandre Freitas,964642705 [fb:0]" -> "Alfredo Martins,967387182 [fb:0]";
+	"Alfredo Martins,967387182 [fb:0]" -> "Ana Barbosa,965115082 [fb:0]";
+	"Ana Barbosa,965115082 [fb:0]" -> "N4"; 
+	"Ana Barbosa,965115082 [fb:0]" -> "N5"; 
+	"Alfredo Martins,967387182 [fb:0]" -> "Altair Souza,975960513 [fb:0]";
+	"Altair Souza,975960513 [fb:0]" -> "N6"; 
+	"Altair Souza,975960513 [fb:0]" -> "N7"; 
+	"Alexandre Costa,982632579 [fb:1]" -> "Alexandre Barbosa,992883178 [fb:-1]";
+	"Alexandre Barbosa,992883178 [fb:-1]" -> "Alexandre Machado,987340734 [fb:-1]";
+	"Alexandre Machado,987340734 [fb:-1]" -> "Américo Rodrigues,986979432 [fb:-1]";
+	"Américo Rodrigues,986979432 [fb:-1]" -> "Andrea Campos,985278999 [fb:0]";
+	"Andrea Campos,985278999 [fb:0]" -> "N8"; 
+	"Andrea Campos,985278999 [fb:0]" -> "N9"; 
+	"Américo Rodrigues,986979432 [fb:-1]" -> "N10"; 
+	"Alexandre Machado,987340734 [fb:-1]" -> "Alexandre Pereira,987671978 [fb:0]";
+	"Alexandre Pereira,987671978 [fb:0]" -> "N11"; 
+	"Alexandre Pereira,987671978 [fb:0]" -> "N12"; 
+	"Alexandre Barbosa,992883178 [fb:-1]" -> "Ana Farias,996598918 [fb:0]";
+	"Ana Farias,996598918 [fb:0]" -> "Alexandra Moura,994116870 [fb:0]";
+	"Alexandra Moura,994116870 [fb:0]" -> "N13"; 
+	"Alexandra Moura,994116870 [fb:0]" -> "N14"; 
+	"Ana Farias,996598918 [fb:0]" -> "Alexandre Torres,997285865 [fb:0]";
+	"Alexandre Torres,997285865 [fb:0]" -> "N15"; 
+	"Alexandre Torres,997285865 [fb:0]" -> "N16"; 
+	N0,N1,N2,N3,N4,N5,N6,N7,N8,N9,N10,N11,N12,N13,N14,N15,N16 [label=null,shape=circle]
+}

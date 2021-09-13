@@ -1,0 +1,11 @@
+digraph BST {
+	"Alexandre Costa,982632579 [fb:1]" -> "Alberto Campos,960933788 [fb:0]";
+	"Alberto Campos,960933788 [fb:0]" -> "N0"; 
+	"Alberto Campos,960933788 [fb:0]" -> "N1"; 
+	"Alexandre Costa,982632579 [fb:1]" -> "Alexandre Barbosa,992883178 [fb:1]";
+	"Alexandre Barbosa,992883178 [fb:1]" -> "N2"; 
+	"Alexandre Barbosa,992883178 [fb:1]" -> "Ana Farias,996598918 [fb:0]";
+	"Ana Farias,996598918 [fb:0]" -> "N3"; 
+	"Ana Farias,996598918 [fb:0]" -> "N4"; 
+	N0,N1,N2,N3,N4 [label=null,shape=circle]
+}

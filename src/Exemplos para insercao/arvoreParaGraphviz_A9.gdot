@@ -1,0 +1,21 @@
+digraph BST {
+	"Alexandre Costa,982632579 [fb:1]" -> "Alexandre Freitas,964642705 [fb:0]";
+	"Alexandre Freitas,964642705 [fb:0]" -> "Alberto Campos,960933788 [fb:0]";
+	"Alberto Campos,960933788 [fb:0]" -> "N0"; 
+	"Alberto Campos,960933788 [fb:0]" -> "N1"; 
+	"Alexandre Freitas,964642705 [fb:0]" -> "Alfredo Martins,967387182 [fb:0]";
+	"Alfredo Martins,967387182 [fb:0]" -> "N2"; 
+	"Alfredo Martins,967387182 [fb:0]" -> "N3"; 
+	"Alexandre Costa,982632579 [fb:1]" -> "Alexandre Barbosa,992883178 [fb:0]";
+	"Alexandre Barbosa,992883178 [fb:0]" -> "Alexandre Machado,987340734 [fb:1]";
+	"Alexandre Machado,987340734 [fb:1]" -> "N4"; 
+	"Alexandre Machado,987340734 [fb:1]" -> "Alexandre Pereira,987671978 [fb:0]";
+	"Alexandre Pereira,987671978 [fb:0]" -> "N5"; 
+	"Alexandre Pereira,987671978 [fb:0]" -> "N6"; 
+	"Alexandre Barbosa,992883178 [fb:0]" -> "Ana Farias,996598918 [fb:-1]";
+	"Ana Farias,996598918 [fb:-1]" -> "Alexandra Moura,994116870 [fb:0]";
+	"Alexandra Moura,994116870 [fb:0]" -> "N7"; 
+	"Alexandra Moura,994116870 [fb:0]" -> "N8"; 
+	"Ana Farias,996598918 [fb:-1]" -> "N9"; 
+	N0,N1,N2,N3,N4,N5,N6,N7,N8,N9 [label=null,shape=circle]
+}

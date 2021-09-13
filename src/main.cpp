@@ -8,7 +8,7 @@
 #include <time.h>       /* time */
 #include "classAVL.hpp"
 
-#define QTD_PESSOAS 200  // número de pessoas na lista de nomes fictícios
+#define QTD_PESSOAS 250  // número de pessoas na lista de nomes fictícios
 #define QTD_BEAMS 26  //número de compartimentos = número de letras do alfabeto
 #define QTD_EXCLUSOES 170
 
@@ -111,17 +111,20 @@ int main()
        printf("\nObservação: para a saída não ficar muito grande, só serão apresentadas as árvores de inserção com o valor de N entre 5 e 10.\n");
 
     // Insere os nomes de acordo com a primeira letra (O 'A' de ANDREA, por exemplo, é inserido na posição 0 o B na posição 1 e assim por diante)
-    for (int i=0; i< QTD_PESSOAS; i++){  
-        int idBEAM=listaPessoas[i]->nome[0]-65;        
+    for (int i=0; i< QTD_PESSOAS; i++){ 
+        char letra=listaPessoas[i]->nome[0]; 
+        int idBEAM=letra-65;        
          // Método insere da classe AVL:
         //lstBEAMS[idBEAM]->insere(&lstBEAMS_TreeRoot[idBEAM], listaPessoas[i]);
         lstBEAMS[idBEAM]->insere(&lstBEAMS[idBEAM]->T, listaPessoas[i]);
-        if (lstBEAMS[idBEAM]->N > 5 && lstBEAMS[idBEAM]->N < 10){
-            printf ("\n\nInserção #%d: %s, %d no compartimento número %d, letra %c. Árvore AVL do compartimento atualizada :", i+1, listaPessoas[i]->nome.c_str(),  listaPessoas[i]->numTelefone, idBEAM, idBEAM+65);
+        //if (lstBEAMS[idBEAM]->N > 5 && lstBEAMS[idBEAM]->N < 10){
+        if (lstBEAMS[idBEAM]->N > 0 && lstBEAMS[idBEAM]->N < 17 && letra=='A'){
+            printf ("\n\nInserção #%d: %s, %d no compartimento número %d, letra %c. Árvore AVL do compartimento atualizada :", i+1, listaPessoas[i]->nome.c_str(),  listaPessoas[i]->numTelefone, idBEAM, letra);
             lstBEAMS[idBEAM]->imprimeVisitaEmNiveis(lstBEAMS[idBEAM]->T);
             printf("\n");
+            lstBEAMS[idBEAM]->imprimeRepresentacaoGraficaArvore(i+1);
         } else {
-            printf ("\nInserção #%d: %s, %d no compartimento número %d, letra %c. Omitida a árvore atualizada após essa inserção, para economizar espaço.", i+1, listaPessoas[i]->nome.c_str(),  listaPessoas[i]->numTelefone, idBEAM, idBEAM+65);
+            printf ("\nInserção #%d: %s, %d no compartimento número %d, letra %c. Omitida a árvore atualizada após essa inserção, para economizar espaço.", i+1, listaPessoas[i]->nome.c_str(),  listaPessoas[i]->numTelefone, idBEAM, letra);
         }
     }
     printf("\n==================\nFim das inserções\n==================\n"); 
@@ -138,40 +141,45 @@ int main()
 
         string nome=strTrim(listaPessoas[idAleatorio]->nome);
         int telefone=listaPessoas[idAleatorio]->numTelefone;
-        int idBEAM=nome[0]-65; 
+        char letra= nome[0];
+        int idBEAM= letra-65; 
 
-        printf ("Buscaremos, na lista, o(s) telefone(s) vinculados ao nome de %s:\n", nome.c_str());
+        if (lstBEAMS[idBEAM]->T !=NULL){   
 
-        lstBEAMS[idBEAM]->buscaRegistrosPeloNome(nome,  lstBEAMS[idBEAM]->T);
+            printf ("Buscaremos, na lista, o(s) telefone(s) vinculados ao nome de %s:\n", nome.c_str());
 
-        //Demonstração do método de exclusão de elemento da árvore AVL
-        
-        /*          
-        printf ("\nSelecionado para exclusão: %s,%d, do compartimento %d, letra %c:\n", strTrim(nome).c_str(), telefone, idBEAM, nome[0]);
-        if(idBEAM >=0 && idBEAM < QTD_BEAMS){
-            lstBEAMS[idBEAM]->chaveNaoEncontrada=false;
-            lstBEAMS[idBEAM]->exclui(&lstBEAMS[idBEAM]->T, telefone);
-            //Apresenta a AVL após a exclusão (método imprimeAVL da classe AVL)
-            if (lstBEAMS[idBEAM]->chaveNaoEncontrada==false){
-                printf("Excluído com sucesso o nome %s, telefone %d, do compartimento %d, letra %c. Veja, abaixo, a AVL do compartimento, atualizada após a exclusão:\n", strTrim(nome).c_str(), telefone, idBEAM, idBEAM+65);
-                lstBEAMS[idBEAM]->imprimeVisitaEmNiveis(lstBEAMS[idBEAM]->T);
+            lstBEAMS[idBEAM]->chaveEncontrada=false;
+            lstBEAMS[idBEAM]->buscaRegistrosPeloNome(nome, lstBEAMS[idBEAM]->T);  //Deve retornar chaveEncontrada==true (se encontrar a chave, claro)
+
+            //Demonstração do método de exclusão de elemento da árvore AVL       
+
+            if( lstBEAMS[idBEAM]->chaveEncontrada==true){
+                if(idBEAM >=0 && idBEAM < QTD_BEAMS){   
+                    printf ("\nSelecionado para exclusão: %s,%d, do compartimento %d, letra %c:\n", strTrim(nome).c_str(), telefone, idBEAM, letra);                               
+                    lstBEAMS[idBEAM]->exclui(&lstBEAMS[idBEAM]->T, telefone);            
+                    //Apresenta a AVL após a exclusão (método imprimeAVL da classe AVL)
+                    printf("Excluído com sucesso o nome %s, telefone %d, do compartimento %d, letra %c. Veja, abaixo, a AVL do compartimento, atualizada após a exclusão:\n", strTrim(nome).c_str(), telefone, idBEAM, letra);
+                    lstBEAMS[idBEAM]->imprimeVisitaEmNiveis(lstBEAMS[idBEAM]->T);   
+                    //lstBEAMS[idBEAM]->imprimeRepresentacaoGraficaArvore(i);                            
+                } 
             } else {
-                printf("Chave (telefone %d) não encontrada(o)!\n", telefone);
-            }                  
+                printf("Chave (telefone %d) não encontrada(o), nome: %s!\n", telefone, nome.c_str());
+            }           
         }
-        */
-
     }
 
     //Impressão da Floresta (lista telefônica completa), após inserções e exclusões
     //lstBEAMS[11]->exclui(&lstBEAMS[11]->T, 971943105);
     printf("\n\n\n---------\nImpressão da Floresta (ou seja, do catálogo inteiro), após inserções e exclusões\n---------\n");    
     for (int i=0; i< QTD_BEAMS; i++){
-        if (lstBEAMS[i]->T != NULL){
-            printf("\n---------\n");
-            //printf("Compartimento %d, letra %c:", i, i+65);
+        if (lstBEAMS[i]->T != NULL && lstBEAMS[i]->N > 0){
+            printf("\nImpressão em nível: ---------\n");
+            printf("Compartimento %d, letra %c:", i, i+65);
             lstBEAMS[i]->imprimeVisitaEmNiveis(lstBEAMS[i]->T);
-            lstBEAMS[i]->imprimeRepresentacaoGraficaArvore();
+            //lstBEAMS[i]->imprimeRepresentacaoGraficaArvore((i+1)*2);
+            printf("\n---------\n");
+            printf("\nImpressão em ordem: ---------\n");
+            lstBEAMS[i]->imprimeEmOrdem(lstBEAMS[i]->T);
             printf("\n---------\n");
         }
     }
