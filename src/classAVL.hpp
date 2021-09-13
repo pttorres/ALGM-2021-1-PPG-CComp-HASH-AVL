@@ -248,6 +248,7 @@ public:
 
     void rotacaoDireita(No_AVL **T)
     {
+        if ((*T)== NULL) return;
         No_AVL *noTemp;
         if ((*T)->esq != NULL)
         {
@@ -266,6 +267,7 @@ public:
 
     void rotacaoEsquerda(No_AVL **T)
     {
+        if ((*T)== NULL) return;
         No_AVL *noTemp;
         if ((*T)->dir != NULL)
         {
