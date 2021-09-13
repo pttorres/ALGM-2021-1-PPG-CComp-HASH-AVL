@@ -292,6 +292,7 @@ public:
             noTemp->dir = *T;
             atualizafbT(T);
             *T = noTemp;
+            atualizafbT(T);
         }
     };
 
@@ -305,6 +306,7 @@ public:
             noTemp->esq = *T;
             atualizafbT(T);
             *T = noTemp;
+            atualizafbT(T);
         }
     };
 
@@ -416,7 +418,7 @@ public:
                         (*T)->fb = 0;
                         *novoSubRaiz = NULL;
                         rotacaoDireita(&(*T)->esq);
-                        this->hAum = false;
+                        this->hAum = true;
                     }
                     else if ((*T)->fb == 1)  //Nó a ser deletado está desbalanceado à direita
                     {
@@ -426,17 +428,17 @@ public:
                         (*T)->fb = 0;
                         *novoSubRaiz = NULL;
                         rotacaoEsquerda(&(*T)->dir);
-                        this->hAum = false;
+                        this->hAum = true;
                     }
                     else //Nó a ser deletado está balanceado
                     { //fb==0
-                        novoSubRaiz = maiorEsquerdo(*T);
+                        novoSubRaiz = menorDireito(*T);
                         (*T)->nome = (*novoSubRaiz)->nome;
                         (*T)->numTelefone = (*novoSubRaiz)->numTelefone;
-                        //(*T)->fb = 1;
+                        (*T)->fb = 1;
                         *novoSubRaiz = NULL;
-                        //rotacaoDireita(&(*T)->esq);
-                        this->hAum = false;
+                        rotacaoEsquerda(&(*T)->dir);
+                        this->hAum = true;
                     }
                 }
             }
@@ -447,7 +449,7 @@ public:
 
                 if (this->hAum == true)
                 {
-                    atualizaBalanceamentoNoDir(T);
+                    atualizaBalanceamentoNoEsq(T);
                 }
             }
             else if ((*T)->numTelefone > telefone)
@@ -457,7 +459,7 @@ public:
 
                 if (this->hAum == true)
                 {
-                    atualizaBalanceamentoNoEsq(T);
+                    atualizaBalanceamentoNoDir(T);
                 }
             }
         }
