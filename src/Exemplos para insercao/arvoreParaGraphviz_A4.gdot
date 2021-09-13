@@ -1,11 +1,22 @@
 digraph BST {
-	"Alexandre Costa,982632579 [fb:1]" -> "Alberto Campos,960933788 [fb:0]";
-	"Alberto Campos,960933788 [fb:0]" -> "N0"; 
-	"Alberto Campos,960933788 [fb:0]" -> "N1"; 
-	"Alexandre Costa,982632579 [fb:1]" -> "Alexandre Barbosa,992883178 [fb:1]";
-	"Alexandre Barbosa,992883178 [fb:1]" -> "N2"; 
-	"Alexandre Barbosa,992883178 [fb:1]" -> "Ana Farias,996598918 [fb:0]";
-	"Ana Farias,996598918 [fb:0]" -> "N3"; 
-	"Ana Farias,996598918 [fb:0]" -> "N4"; 
-	N0,N1,N2,N3,N4 [label=null,shape=circle]
+	No_982632579 -> No_960933788;
+	No_982632579 [label="Abel Costa\n982632579\nfb=1"];
+	No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+	No_960933788 -> NUL_0;
+	No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+	No_960933788 -> NUL_1;
+	No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+	No_982632579 -> No_992883178;
+	No_982632579 [label="Abel Costa\n982632579\nfb=1"];
+	No_992883178 [label="Alexandre Barbosa\n992883178\nfb=1"];
+	No_992883178 -> NUL_2;
+	No_992883178 [label="Alexandre Barbosa\n992883178\nfb=1"];
+	No_992883178 -> No_996598918;
+	No_992883178 [label="Alexandre Barbosa\n992883178\nfb=1"];
+	No_996598918 [label="Ana Farias\n996598918\nfb=0"];
+	No_996598918 -> NUL_3;
+	No_996598918 [label="Ana Farias\n996598918\nfb=0"];
+	No_996598918 -> NUL_4;
+	No_996598918 [label="Ana Farias\n996598918\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4 [label=null,shape=square]
 }

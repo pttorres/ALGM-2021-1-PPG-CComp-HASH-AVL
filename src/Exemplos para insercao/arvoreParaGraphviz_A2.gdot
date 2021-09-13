@@ -1,7 +1,12 @@
 digraph BST {
-	"Alexandre Barbosa,992883178 [fb:-1]" -> "Alberto Campos,960933788 [fb:0]";
-	"Alberto Campos,960933788 [fb:0]" -> "N0"; 
-	"Alberto Campos,960933788 [fb:0]" -> "N1"; 
-	"Alexandre Barbosa,992883178 [fb:-1]" -> "N2"; 
-	N0,N1,N2 [label=null,shape=circle]
+	No_992883178 -> No_960933788;
+	No_992883178 [label="Alexandre Barbosa\n992883178\nfb=-1"];
+	No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+	No_960933788 -> NUL_0;
+	No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+	No_960933788 -> NUL_1;
+	No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+	No_992883178 -> NUL_2;
+	No_992883178 [label="Alexandre Barbosa\n992883178\nfb=-1"];
+	NUL_0,NUL_1,NUL_2 [label=null,shape=square]
 }

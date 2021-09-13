@@ -1,5 +1,7 @@
 digraph BST {
-	"Alexandre Barbosa,992883178 [fb:0]" -> "N0"; 
-	"Alexandre Barbosa,992883178 [fb:0]" -> "N1"; 
-	N0,N1 [label=null,shape=circle]
+	No_992883178 -> NUL_0;
+	No_992883178 [label="Alexandre Barbosa\n992883178\nfb=0"];
+	No_992883178 -> NUL_1;
+	No_992883178 [label="Alexandre Barbosa\n992883178\nfb=0"];
+	NUL_0,NUL_1 [label=null,shape=square]
 }

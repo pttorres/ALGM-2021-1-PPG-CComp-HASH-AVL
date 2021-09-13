@@ -1,0 +1,37 @@
+digraph BST {
+	No_985278999 -> No_960933790;
+	No_985278999 [label="Acir Campos\n985278999\nfb=-1"];
+	No_960933790 [label="Andrea Santos\n960933790\nfb=0"];
+	No_960933790 -> No_955838599;
+	No_960933790 [label="Andrea Santos\n960933790\nfb=0"];
+	No_955838599 [label="Aline Santos\n955838599\nfb=0"];
+	No_955838599 -> NUL_0;
+	No_955838599 [label="Aline Santos\n955838599\nfb=0"];
+	No_955838599 -> NUL_1;
+	No_955838599 [label="Aline Santos\n955838599\nfb=0"];
+	No_960933790 -> No_965115082;
+	No_960933790 [label="Andrea Santos\n960933790\nfb=0"];
+	No_965115082 [label="Ana Barbosa\n965115082\nfb=0"];
+	No_965115082 -> NUL_2;
+	No_965115082 [label="Ana Barbosa\n965115082\nfb=0"];
+	No_965115082 -> No_975960513;
+	No_965115082 [label="Ana Barbosa\n965115082\nfb=0"];
+	No_975960513 [label="Altair Souza\n975960513\nfb=0"];
+	No_975960513 -> NUL_3;
+	No_975960513 [label="Altair Souza\n975960513\nfb=0"];
+	No_975960513 -> NUL_4;
+	No_975960513 [label="Altair Souza\n975960513\nfb=0"];
+	No_985278999 -> No_1431789496;
+	No_985278999 [label="Acir Campos\n985278999\nfb=-1"];
+	No_1431789496 [label="Alexandra Moura\n1431789496\nfb=-1"];
+	No_1431789496 -> No_986979432;
+	No_1431789496 [label="Alexandra Moura\n1431789496\nfb=-1"];
+	No_986979432 [label="Américo Rodrigues\n986979432\nfb=1"];
+	No_986979432 -> NUL_5;
+	No_986979432 [label="Américo Rodrigues\n986979432\nfb=1"];
+	No_986979432 -> NUL_6;
+	No_986979432 [label="Américo Rodrigues\n986979432\nfb=1"];
+	No_1431789496 -> NUL_7;
+	No_1431789496 [label="Alexandra Moura\n1431789496\nfb=-1"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4,NUL_5,NUL_6,NUL_7 [label=null,shape=square]
+}
