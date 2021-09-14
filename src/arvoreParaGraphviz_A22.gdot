@@ -18,10 +18,10 @@ digraph BST {
 	No_985278999 [label="Acir Campos\n985278999\nfb=1"];
 	No_985278999 -> No_997285865;
 	No_985278999 [label="Acir Campos\n985278999\nfb=1"];
-	No_997285865 [label="Almir Torres\n997285865\nfb=1"];
+	No_997285865 [label="Almir Torres\n997285865\nfb=0"];
 	No_997285865 -> NUL_4;
-	No_997285865 [label="Almir Torres\n997285865\nfb=1"];
+	No_997285865 [label="Almir Torres\n997285865\nfb=0"];
 	No_997285865 -> NUL_5;
-	No_997285865 [label="Almir Torres\n997285865\nfb=1"];
+	No_997285865 [label="Almir Torres\n997285865\nfb=0"];
 	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4,NUL_5 [label=null,shape=square]
 }

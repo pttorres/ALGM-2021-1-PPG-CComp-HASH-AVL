@@ -51,7 +51,7 @@
 <ellipse fill="none" stroke="black" cx="131.95" cy="-228.43" rx="85.62" ry="37.45"/>
 <text text-anchor="middle" x="131.95" y="-239.73" font-family="Times,serif" font-size="14.00">Andrea Santos</text>
 <text text-anchor="middle" x="131.95" y="-224.73" font-family="Times,serif" font-size="14.00">960933790</text>
-<text text-anchor="middle" x="131.95" y="-209.73" font-family="Times,serif" font-size="14.00">fb=1</text>
+<text text-anchor="middle" x="131.95" y="-209.73" font-family="Times,serif" font-size="14.00">fb=&#45;1</text>
 </g>
 <!-- No_965115082&#45;&gt;No_960933790 -->
 <g id="edge2" class="edge">
@@ -139,7 +139,7 @@
 <ellipse fill="none" stroke="black" cx="487.95" cy="-228.43" rx="74.91" ry="37.45"/>
 <text text-anchor="middle" x="487.95" y="-239.73" font-family="Times,serif" font-size="14.00">Almir Torres</text>
 <text text-anchor="middle" x="487.95" y="-224.73" font-family="Times,serif" font-size="14.00">997285865</text>
-<text text-anchor="middle" x="487.95" y="-209.73" font-family="Times,serif" font-size="14.00">fb=1</text>
+<text text-anchor="middle" x="487.95" y="-209.73" font-family="Times,serif" font-size="14.00">fb=0</text>
 </g>
 <!-- No_985278999&#45;&gt;No_997285865 -->
 <g id="edge10" class="edge">

@@ -8,7 +8,9 @@
 #include <time.h>   /* time */
 #include "classAVL.hpp"
 
-#define QTD_PESSOAS 250 // número de pessoas na lista de nomes fictícios
+//#define QTD_PESSOAS 250 // número de pessoas na lista de nomes fictícios
+#define QTD_PESSOAS 16 // número de pessoas na lista de nomes fictícios
+
 #define QTD_BEAMS 26    //número de compartimentos = número de letras do alfabeto
 #define QTD_EXCLUSOES 150
 
@@ -145,7 +147,7 @@ int main()
         while (getline(arqEntrada, linha))
         { //leitura das linhas do arquivo de entrada
             std::vector<std::string> nomeEtelefone = splitStr(linha, ';');
-            if (i > 0 && i < 251)
+            if (i > 0 && i < QTD_PESSOAS+1)
             {
                 nome = nomeEtelefone[0];
                 listaPessoas[i - 1]->nome = strTrim(nome);

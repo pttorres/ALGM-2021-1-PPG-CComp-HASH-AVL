@@ -56,7 +56,29 @@ public:
             return;
         int fb = noAtual->fb; //Fator de balanceamento
         string strNoPai = "No_" + std::to_string(noAtual->numTelefone);
-        if (noAtual->esq != 0)
+
+        /* Para fazer com que as informações pudessem usar múltiplas linhas, foi utilizado o recurso de labels
+        Exemplo de aplicação : 
+        Este exemplo pode ser visto online em:
+        https://dreampuf.github.io/GraphvizOnline/
+
+        Basta copiar e colar este código abaixo e inserir no campo de entrada do portal acima referido.
+        
+        digraph BST {
+            No_992883178 -> No_960933788;
+            No_992883178 [label="Alexandre Barbosa\n992883178\nfb=-1"];
+            No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+            No_960933788 -> NUL_0;
+            No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+            No_960933788 -> NUL_1;
+            No_960933788 [label="Alberto Campos\n960933788\nfb=0"];
+            No_992883178 -> NUL_2;
+            No_992883178 [label="Alexandre Barbosa\n992883178\nfb=-1"];
+            NUL_0,NUL_1,NUL_2 [label=null,shape=square]
+        }
+              
+        */
+        if (noAtual->esq != 0)  //Escreve as ligações entre pai e filho esquerdo
         {
             int fbEsq = noAtual->esq->fb; //Fator de balanceamento do filho à esquerda
             string strNoEsq = "No_" + std::to_string(noAtual->esq->numTelefone);
@@ -69,7 +91,7 @@ public:
             visitaEmPreOrdemParaArquivoGraphviz(noAtual->esq, arq);
         }
         else
-        {
+        {    //Escreve as ligações entre pai e filho esquerdo nulo
             string strNulo = "NUL_" + std::to_string(this->contaNosNulos);
             *arq << "\t" << strNoPai << " -> " << strNulo << ";\n";
             *arq << "\t" << strNoPai << " [label=\"" << noAtual->nome << "\\n"
@@ -77,7 +99,7 @@ public:
             this->contaNosNulos++;
         }
         if (noAtual->dir != 0)
-        {
+        {  //Escreve as ligações entre pai e filho direito não nulo
             int fbDir = noAtual->dir->fb; //Fator de balanceamento do filho à direita
             string strNoDir = "No_" + std::to_string(noAtual->dir->numTelefone);
             *arq << "\t" << strNoPai << " -> " << strNoDir << ";\n";
@@ -88,7 +110,7 @@ public:
             visitaEmPreOrdemParaArquivoGraphviz(noAtual->dir, arq);
         }
         else
-        {
+        {   //Escreve as ligações entre pai e filho direito nulo
             string strNulo = "NUL_" + std::to_string(this->contaNosNulos);
             *arq << "\t" << strNoPai << " -> " << strNulo << ";\n";
             *arq << "\t" << strNoPai << " [label=\"" << noAtual->nome << "\\n"
@@ -103,9 +125,9 @@ public:
      */
     void imprimeRepresentacaoGraficaArvore(int id)
     {
-        if (this->T == NULL)
+        if (this->T == NULL || this->N==0)
         {
-            printf("Erro! Não foi possível imprimir a árvore de id=%d", id);
+            printf("\nErro! Não foi possível imprimir a árvore de id=%d", id);
             return;
         }
         ofstream arq;
@@ -156,7 +178,7 @@ public:
     {
         if (noAtual == NULL)
         {
-            printf("Erro!: Impossível a impressão, pois a árvore AVL está vazia.");
+            printf("\nErro!: Impossível a impressão, pois a árvore AVL está vazia.");
             return;
         }
         queue<No_AVL *> fila;
@@ -225,6 +247,31 @@ public:
             (*T)->fb = 0;
             this->hAum = false;
         }
+    };
+
+    /* Atualiza o balanceamento nos casos em que o nó a ser deletado estava balanceado antes da deleção */
+    void atualizaBalanceamentoNoMeio(No_AVL **T)
+    {
+        if ((*T)!=NULL){
+            if ((*T)->esq!=NULL && (*T)->dir!=NULL){
+                atualizafbT(&(*T)->esq);
+                atualizafbT(&(*T)->dir);
+                if ((*T)->esq->fb > (*T)->dir->fb){
+                    (*T)->fb = -1;
+                } else if ((*T)->esq->fb < (*T)->dir->fb){
+                    (*T)->fb = 1;
+                } 
+                else 
+                {          
+                    (*T)->fb = 0;
+                }
+            } else if((*T)->esq!=NULL) {
+                (*T)->fb = -1;
+            } else {
+                (*T)->fb = 1;
+            }
+        }
+        this->hAum = false;
     };
 
     void atualizaBalanceamentoNoDir(No_AVL **T)
@@ -436,11 +483,12 @@ public:
                     { //fb==0
                         novoSubRaiz = menorDireito(*T);
                         (*T)->nome = (*novoSubRaiz)->nome;
-                        (*T)->numTelefone = (*novoSubRaiz)->numTelefone;
-                        (*T)->fb = 1;
+                        (*T)->numTelefone = (*novoSubRaiz)->numTelefone;                        
+                        //(*T)->fb = 1;
                         *novoSubRaiz = NULL;
-                        rotacaoEsquerda(&(*T)->dir);
-                        this->hAum = true;
+                        atualizaBalanceamentoNoMeio(T);
+                        //rotacaoEsquerda(&(*T)->dir);
+                        this->hAum = false;
                     }
                 }
             }
