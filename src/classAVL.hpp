@@ -211,6 +211,43 @@ public:
             printf("| %s, %d |", strTrim(noAtual->nome).c_str(), noAtual->numTelefone);
         }
     }
+
+    /* Obtém a altura da árvore ou subárvore que tem como raiz determinado nó 
+       Esta função retorna a altura do nó até a folha
+    */
+    int getAlturaDaArvore(No_AVL* noRaiz){
+        if (noRaiz==NULL){
+            return 0;
+        }
+        int alturaNoDir=getAlturaDaArvore(noRaiz->dir)+1;
+        int alturaNoEsq=getAlturaDaArvore(noRaiz->esq)+1;
+        if (alturaNoDir>alturaNoEsq){
+            return alturaNoDir;
+        } else {
+            return alturaNoEsq;
+        }
+    }
+
+    /* computa o fator de balanceamento de um dado nó */
+    int getFatorBalanceamento(No_AVL* noAtual){
+        int tamSubArvoreDir=getAlturaDaArvore(noAtual->dir);
+        int tamSubArvoreEsq=getAlturaDaArvore(noAtual->esq);
+        return (tamSubArvoreDir-tamSubArvoreEsq);
+    }
+
+    /* Após a exclusão de um item, percorre desde a raiz até o nó onde houve a substituição e atualiza os fatores de balanceamento
+    */
+    void atualizaFbAposDelecao(No_AVL **noAtual)
+    {
+        if ((*noAtual) != NULL)
+        {
+            (*noAtual)->fb=getFatorBalanceamento((*noAtual));
+            atualizaFbAposDelecao( &(*noAtual)->esq);
+            atualizaFbAposDelecao( &(*noAtual)->dir);
+        }
+    }
+
+
     /* Informa o(s) telefone(s) associado(s) a um determinado nome 
     No retorno, a variável this->chaveEncontrada contém o registro encontrado
     */
@@ -244,6 +281,7 @@ public:
         else
         {
             rotacaoDireita(T);
+            atualizafbT(T);
             (*T)->fb = 0;
             this->hAum = false;
         }
@@ -253,25 +291,17 @@ public:
     void atualizaBalanceamentoNoMeio(No_AVL **T)
     {
         if ((*T)!=NULL){
-            if ((*T)->esq!=NULL && (*T)->dir!=NULL){
-                atualizafbT(&(*T)->esq);
-                atualizafbT(&(*T)->dir);
-                if ((*T)->esq->fb > (*T)->dir->fb){
-                    (*T)->fb = -1;
-                } else if ((*T)->esq->fb < (*T)->dir->fb){
-                    (*T)->fb = 1;
-                } 
-                else 
-                {          
-                    (*T)->fb = 0;
-                }
+            if ((*T)->esq!=NULL && (*T)->dir!=NULL){                
+                atualizafbT(&((*T)->esq));
+                atualizafbT(&((*T)->dir));
+                atualizafbT(T);
             } else if((*T)->esq!=NULL) {
                 (*T)->fb = -1;
             } else {
                 (*T)->fb = 1;
             }
         }
-        this->hAum = false;
+        this->hAum = true;
     };
 
     void atualizaBalanceamentoNoDir(No_AVL **T)
@@ -288,6 +318,7 @@ public:
         else
         {
             rotacaoEsquerda(T);
+            atualizafbT(T);
             (*T)->fb = 0;
             this->hAum = false;
         }
@@ -440,11 +471,12 @@ public:
 
         if ((*T) != NULL)
         {
-
             if ((*T)->numTelefone == telefone)
             { // Chave encontrada
 
                 this->N--;
+
+                int telefoneSubstituto; // Número do telefone do nó que ficará na posição do nó deletado
 
                 if ((*T)->esq == (*T)->dir)
                 { // é uma folha
@@ -464,38 +496,43 @@ public:
                         novoSubRaiz = maiorEsquerdo(*T);
                         (*T)->nome = (*novoSubRaiz)->nome;
                         (*T)->numTelefone = (*novoSubRaiz)->numTelefone;
+                        telefoneSubstituto=(*novoSubRaiz)->numTelefone;
                         (*T)->fb = 0;
                         *novoSubRaiz = NULL;
-                        rotacaoDireita(&(*T)->esq);
-                        this->hAum = true;
+                        rotacaoDireita(&((*T)->esq));
+                        this->hAum = false;
                     }
                     else if ((*T)->fb == 1)  //Nó a ser deletado está desbalanceado à direita
                     {
                         novoSubRaiz = menorDireito(*T);
                         (*T)->nome = (*novoSubRaiz)->nome;
                         (*T)->numTelefone = (*novoSubRaiz)->numTelefone;
+                        telefoneSubstituto=(*novoSubRaiz)->numTelefone;
                         (*T)->fb = 0;
                         *novoSubRaiz = NULL;
-                        rotacaoEsquerda(&(*T)->dir);
-                        this->hAum = true;
+                        rotacaoEsquerda(&((*T)->dir));
+                        this->hAum = false;
                     }
                     else //Nó a ser deletado está balanceado
                     { //fb==0
                         novoSubRaiz = menorDireito(*T);
                         (*T)->nome = (*novoSubRaiz)->nome;
-                        (*T)->numTelefone = (*novoSubRaiz)->numTelefone;                        
+                        (*T)->numTelefone = (*novoSubRaiz)->numTelefone;   
+                        telefoneSubstituto=(*novoSubRaiz)->numTelefone;                  
                         //(*T)->fb = 1;
                         *novoSubRaiz = NULL;
-                        atualizaBalanceamentoNoMeio(T);
+                        //atualizaBalanceamentoNoMeio(T);
                         //rotacaoEsquerda(&(*T)->dir);
                         this->hAum = false;
                     }
                 }
+                //this->chaveEncontrada=NULL;
+                //this->atualizaFbAposDelecao(&this->T);
             }
             else if ((*T)->numTelefone < telefone)
             { // Desce em busca da chave pelo ramo à direita.
 
-                exclui(&(*T)->dir, telefone);
+                exclui(&((*T)->dir), telefone);
 
                 if (this->hAum == true)
                 {
@@ -505,13 +542,14 @@ public:
             else if ((*T)->numTelefone > telefone)
             {   // Desce em busca da chave pelo ramo à esquerda.
 
-                exclui(&(*T)->esq, telefone);
+                exclui(&((*T)->esq), telefone);
 
                 if (this->hAum == true)
                 {
                     atualizaBalanceamentoNoDir(T);
                 }
             }
+            this->atualizaFbAposDelecao(&this->T);
         }
         else
         { // Chave não encontrada

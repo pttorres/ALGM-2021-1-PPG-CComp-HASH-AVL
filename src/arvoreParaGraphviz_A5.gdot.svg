@@ -15,7 +15,7 @@
 <ellipse fill="none" stroke="black" cx="554.95" cy="-450.34" rx="75.82" ry="37.45"/>
 <text text-anchor="middle" x="554.95" y="-461.64" font-family="Times,serif" font-size="14.00">Acir Campos</text>
 <text text-anchor="middle" x="554.95" y="-446.64" font-family="Times,serif" font-size="14.00">985278999</text>
-<text text-anchor="middle" x="554.95" y="-431.64" font-family="Times,serif" font-size="14.00">fb=1</text>
+<text text-anchor="middle" x="554.95" y="-431.64" font-family="Times,serif" font-size="14.00">fb=0</text>
 </g>
 <!-- No_964642705 -->
 <g id="node2" class="node">
@@ -23,7 +23,7 @@
 <ellipse fill="none" stroke="black" cx="428.95" cy="-339.38" rx="78.48" ry="37.45"/>
 <text text-anchor="middle" x="428.95" y="-350.68" font-family="Times,serif" font-size="14.00">Alícia Freitas</text>
 <text text-anchor="middle" x="428.95" y="-335.68" font-family="Times,serif" font-size="14.00">964642705</text>
-<text text-anchor="middle" x="428.95" y="-320.68" font-family="Times,serif" font-size="14.00">fb=&#45;1</text>
+<text text-anchor="middle" x="428.95" y="-320.68" font-family="Times,serif" font-size="14.00">fb=0</text>
 </g>
 <!-- No_985278999&#45;&gt;No_964642705 -->
 <g id="edge1" class="edge">
@@ -205,7 +205,7 @@
 <ellipse fill="none" stroke="black" cx="685.95" cy="-228.43" rx="107.46" ry="37.45"/>
 <text text-anchor="middle" x="685.95" y="-239.73" font-family="Times,serif" font-size="14.00">Américo Rodrigues</text>
 <text text-anchor="middle" x="685.95" y="-224.73" font-family="Times,serif" font-size="14.00">986979432</text>
-<text text-anchor="middle" x="685.95" y="-209.73" font-family="Times,serif" font-size="14.00">fb=0</text>
+<text text-anchor="middle" x="685.95" y="-209.73" font-family="Times,serif" font-size="14.00">fb=1</text>
 </g>
 <!-- No_987671978&#45;&gt;No_986979432 -->
 <g id="edge15" class="edge">

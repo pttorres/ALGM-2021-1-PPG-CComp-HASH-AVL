@@ -78,7 +78,7 @@ void testaExclusoes(AVL *lstBEAMS[QTD_BEAMS], No_AVL *listaPessoas[QTD_PESSOAS])
 {
     /* inicializa a semente (seed): */
 
-    for (int i = 0; i < 16; i++)
+    for (int i = 0; i < QTD_PESSOAS-1; i++)
     {
         printf("\n\nNúmero do id a ser excluído: %d\n", i);
 
