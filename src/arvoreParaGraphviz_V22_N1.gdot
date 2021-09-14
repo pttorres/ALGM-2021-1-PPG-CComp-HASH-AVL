@@ -1,0 +1,7 @@
+digraph BST {
+	No_958755122 -> NUL_0;
+	No_958755122 [label="Vanessa Pereira\n958755122\nfb=0"];
+	No_958755122 -> NUL_1;
+	No_958755122 [label="Vanessa Pereira\n958755122\nfb=0"];
+	NUL_0,NUL_1 [label=null,shape=square]
+}

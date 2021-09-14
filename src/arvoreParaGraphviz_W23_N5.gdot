@@ -1,0 +1,17 @@
+digraph BST {
+	No_976828152 -> No_958334016;
+	No_976828152 [label="Washington Porto\n976828152\nfb=-2"];
+	No_958334016 [label="Washington Moura\n958334016\nfb=-1"];
+	No_958334016 -> No_950435059;
+	No_958334016 [label="Washington Moura\n958334016\nfb=-1"];
+	No_950435059 [label="Washington Coelho\n950435059\nfb=0"];
+	No_950435059 -> NUL_0;
+	No_950435059 [label="Washington Coelho\n950435059\nfb=0"];
+	No_950435059 -> NUL_1;
+	No_950435059 [label="Washington Coelho\n950435059\nfb=0"];
+	No_958334016 -> NUL_2;
+	No_958334016 [label="Washington Moura\n958334016\nfb=-1"];
+	No_976828152 -> NUL_3;
+	No_976828152 [label="Washington Porto\n976828152\nfb=-2"];
+	NUL_0,NUL_1,NUL_2,NUL_3 [label=null,shape=square]
+}

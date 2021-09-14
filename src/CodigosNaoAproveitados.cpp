@@ -207,3 +207,20 @@
         }        
     } 
     */ 
+
+       /* Atualiza o balanceamento nos casos em que o nó a ser deletado estava balanceado antes da deleção */
+    void atualizaBalanceamentoNoMeio(No_AVL **T)
+    {
+        if ((*T)!=NULL){
+            if ((*T)->esq!=NULL && (*T)->dir!=NULL){                
+                atualizafbT(&((*T)->esq));
+                atualizafbT(&((*T)->dir));
+                atualizafbT(T);
+            } else if((*T)->esq!=NULL) {
+                (*T)->fb = -1;
+            } else {
+                (*T)->fb = 1;
+            }
+        }
+        this->hAum = true;
+    };

@@ -1,0 +1,37 @@
+digraph BST {
+	No_938821119 -> No_923935650;
+	No_938821119 [label="Lucas Souza\n938821119\nfb=-2"];
+	No_923935650 [label="Lucas Barros\n923935650\nfb=0"];
+	No_923935650 -> No_1737839768;
+	No_923935650 [label="Lucas Barros\n923935650\nfb=0"];
+	No_1737839768 [label="Luana Coelho\n1737839768\nfb=-1"];
+	No_1737839768 -> No_915512455;
+	No_1737839768 [label="Luana Coelho\n1737839768\nfb=-1"];
+	No_915512455 [label="Luana Barros\n915512455\nfb=0"];
+	No_915512455 -> NUL_0;
+	No_915512455 [label="Luana Barros\n915512455\nfb=0"];
+	No_915512455 -> NUL_1;
+	No_915512455 [label="Luana Barros\n915512455\nfb=0"];
+	No_1737839768 -> NUL_2;
+	No_1737839768 [label="Luana Coelho\n1737839768\nfb=-1"];
+	No_923935650 -> No_925876652;
+	No_923935650 [label="Lucas Barros\n923935650\nfb=0"];
+	No_925876652 [label="Lucas Santos\n925876652\nfb=1"];
+	No_925876652 -> NUL_3;
+	No_925876652 [label="Lucas Santos\n925876652\nfb=1"];
+	No_925876652 -> No_931458282;
+	No_925876652 [label="Lucas Santos\n925876652\nfb=1"];
+	No_931458282 [label="Luana Freitas\n931458282\nfb=0"];
+	No_931458282 -> NUL_4;
+	No_931458282 [label="Luana Freitas\n931458282\nfb=0"];
+	No_931458282 -> NUL_5;
+	No_931458282 [label="Luana Freitas\n931458282\nfb=0"];
+	No_938821119 -> No_943838997;
+	No_938821119 [label="Lucas Souza\n938821119\nfb=-2"];
+	No_943838997 [label="Lucas Torres\n943838997\nfb=0"];
+	No_943838997 -> NUL_6;
+	No_943838997 [label="Lucas Torres\n943838997\nfb=0"];
+	No_943838997 -> NUL_7;
+	No_943838997 [label="Lucas Torres\n943838997\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4,NUL_5,NUL_6,NUL_7 [label=null,shape=square]
+}

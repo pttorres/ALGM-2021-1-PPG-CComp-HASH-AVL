@@ -1,0 +1,12 @@
+digraph BST {
+	No_958501205 -> No_955450120;
+	No_958501205 [label="Joana Porto\n958501205\nfb=-1"];
+	No_955450120 [label="Joana Barros\n955450120\nfb=0"];
+	No_955450120 -> NUL_0;
+	No_955450120 [label="Joana Barros\n955450120\nfb=0"];
+	No_955450120 -> NUL_1;
+	No_955450120 [label="Joana Barros\n955450120\nfb=0"];
+	No_958501205 -> NUL_2;
+	No_958501205 [label="Joana Porto\n958501205\nfb=-1"];
+	NUL_0,NUL_1,NUL_2 [label=null,shape=square]
+}

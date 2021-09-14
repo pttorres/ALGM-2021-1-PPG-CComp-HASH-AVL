@@ -1,0 +1,12 @@
+digraph BST {
+	No_980102864 -> No_977141888;
+	No_980102864 [label="Yago Coelho\n980102864\nfb=-1"];
+	No_977141888 [label="Yago Freitas\n977141888\nfb=0"];
+	No_977141888 -> NUL_0;
+	No_977141888 [label="Yago Freitas\n977141888\nfb=0"];
+	No_977141888 -> NUL_1;
+	No_977141888 [label="Yago Freitas\n977141888\nfb=0"];
+	No_980102864 -> NUL_2;
+	No_980102864 [label="Yago Coelho\n980102864\nfb=-1"];
+	NUL_0,NUL_1,NUL_2 [label=null,shape=square]
+}

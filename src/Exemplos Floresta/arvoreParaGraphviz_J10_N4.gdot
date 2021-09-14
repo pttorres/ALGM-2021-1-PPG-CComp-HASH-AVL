@@ -1,0 +1,22 @@
+digraph BST {
+	No_992966482 -> No_977969862;
+	No_992966482 [label="João Torres\n992966482\nfb=-1"];
+	No_977969862 [label="Joana Alves\n977969862\nfb=-1"];
+	No_977969862 -> No_958501205;
+	No_977969862 [label="Joana Alves\n977969862\nfb=-1"];
+	No_958501205 [label="Joana Porto\n958501205\nfb=0"];
+	No_958501205 -> NUL_0;
+	No_958501205 [label="Joana Porto\n958501205\nfb=0"];
+	No_958501205 -> NUL_1;
+	No_958501205 [label="Joana Porto\n958501205\nfb=0"];
+	No_977969862 -> NUL_2;
+	No_977969862 [label="Joana Alves\n977969862\nfb=-1"];
+	No_992966482 -> No_998921521;
+	No_992966482 [label="João Torres\n992966482\nfb=-1"];
+	No_998921521 [label="Joana Costa\n998921521\nfb=0"];
+	No_998921521 -> NUL_3;
+	No_998921521 [label="Joana Costa\n998921521\nfb=0"];
+	No_998921521 -> NUL_4;
+	No_998921521 [label="Joana Costa\n998921521\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4 [label=null,shape=square]
+}

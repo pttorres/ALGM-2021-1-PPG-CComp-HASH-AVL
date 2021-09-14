@@ -1,0 +1,37 @@
+digraph BST {
+	No_971087469 -> No_956132265;
+	No_971087469 [label="Washington Campos\n971087469\nfb=0"];
+	No_956132265 [label="Washington Pereira\n956132265\nfb=0"];
+	No_956132265 -> No_952449777;
+	No_956132265 [label="Washington Pereira\n956132265\nfb=0"];
+	No_952449777 [label="Washington Barros\n952449777\nfb=0"];
+	No_952449777 -> NUL_0;
+	No_952449777 [label="Washington Barros\n952449777\nfb=0"];
+	No_952449777 -> NUL_1;
+	No_952449777 [label="Washington Barros\n952449777\nfb=0"];
+	No_956132265 -> No_967265153;
+	No_956132265 [label="Washington Pereira\n956132265\nfb=0"];
+	No_967265153 [label="Washington Rodrigues\n967265153\nfb=0"];
+	No_967265153 -> NUL_2;
+	No_967265153 [label="Washington Rodrigues\n967265153\nfb=0"];
+	No_967265153 -> NUL_3;
+	No_967265153 [label="Washington Rodrigues\n967265153\nfb=0"];
+	No_971087469 -> No_984823612;
+	No_971087469 [label="Washington Campos\n971087469\nfb=0"];
+	No_984823612 [label="Washington Martins\n984823612\nfb=0"];
+	No_984823612 -> No_983969826;
+	No_984823612 [label="Washington Martins\n984823612\nfb=0"];
+	No_983969826 [label="Washington Silva\n983969826\nfb=0"];
+	No_983969826 -> NUL_4;
+	No_983969826 [label="Washington Silva\n983969826\nfb=0"];
+	No_983969826 -> NUL_5;
+	No_983969826 [label="Washington Silva\n983969826\nfb=0"];
+	No_984823612 -> No_985180900;
+	No_984823612 [label="Washington Martins\n984823612\nfb=0"];
+	No_985180900 [label="Washington Souza\n985180900\nfb=0"];
+	No_985180900 -> NUL_6;
+	No_985180900 [label="Washington Souza\n985180900\nfb=0"];
+	No_985180900 -> NUL_7;
+	No_985180900 [label="Washington Souza\n985180900\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4,NUL_5,NUL_6,NUL_7 [label=null,shape=square]
+}

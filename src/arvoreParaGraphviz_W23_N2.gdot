@@ -1,0 +1,12 @@
+digraph BST {
+	No_977522470 -> No_976828152;
+	No_977522470 [label="Washington Barbosa\n977522470\nfb=-1"];
+	No_976828152 [label="Washington Porto\n976828152\nfb=0"];
+	No_976828152 -> NUL_0;
+	No_976828152 [label="Washington Porto\n976828152\nfb=0"];
+	No_976828152 -> NUL_1;
+	No_976828152 [label="Washington Porto\n976828152\nfb=0"];
+	No_977522470 -> NUL_2;
+	No_977522470 [label="Washington Barbosa\n977522470\nfb=-1"];
+	NUL_0,NUL_1,NUL_2 [label=null,shape=square]
+}

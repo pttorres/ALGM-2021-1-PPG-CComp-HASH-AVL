@@ -1,0 +1,27 @@
+digraph BST {
+	No_988544965 -> No_980994344;
+	No_988544965 [label="Vanessa Martins\n988544965\nfb=0"];
+	No_980994344 [label="Vanessa Silva\n980994344\nfb=-1"];
+	No_980994344 -> No_970678322;
+	No_980994344 [label="Vanessa Silva\n980994344\nfb=-1"];
+	No_970678322 [label="Vanessa Farias\n970678322\nfb=0"];
+	No_970678322 -> NUL_0;
+	No_970678322 [label="Vanessa Farias\n970678322\nfb=0"];
+	No_970678322 -> NUL_1;
+	No_970678322 [label="Vanessa Farias\n970678322\nfb=0"];
+	No_980994344 -> NUL_2;
+	No_980994344 [label="Vanessa Silva\n980994344\nfb=-1"];
+	No_988544965 -> No_999100434;
+	No_988544965 [label="Vanessa Martins\n988544965\nfb=0"];
+	No_999100434 [label="Vanessa Barbosa\n999100434\nfb=-1"];
+	No_999100434 -> No_990886749;
+	No_999100434 [label="Vanessa Barbosa\n999100434\nfb=-1"];
+	No_990886749 [label="Vanessa Rodrigues\n990886749\nfb=0"];
+	No_990886749 -> NUL_3;
+	No_990886749 [label="Vanessa Rodrigues\n990886749\nfb=0"];
+	No_990886749 -> NUL_4;
+	No_990886749 [label="Vanessa Rodrigues\n990886749\nfb=0"];
+	No_999100434 -> NUL_5;
+	No_999100434 [label="Vanessa Barbosa\n999100434\nfb=-1"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4,NUL_5 [label=null,shape=square]
+}

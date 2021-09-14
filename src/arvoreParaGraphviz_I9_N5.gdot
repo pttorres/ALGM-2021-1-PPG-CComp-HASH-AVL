@@ -1,0 +1,27 @@
+digraph BST {
+	No_982820241 -> No_978691066;
+	No_982820241 [label="Igor Silva\n982820241\nfb=-1"];
+	No_978691066 [label="Igor Torres\n978691066\nfb=0"];
+	No_978691066 -> No_951709707;
+	No_978691066 [label="Igor Torres\n978691066\nfb=0"];
+	No_951709707 [label="Igor Barros\n951709707\nfb=0"];
+	No_951709707 -> NUL_0;
+	No_951709707 [label="Igor Barros\n951709707\nfb=0"];
+	No_951709707 -> NUL_1;
+	No_951709707 [label="Igor Barros\n951709707\nfb=0"];
+	No_978691066 -> No_978838552;
+	No_978691066 [label="Igor Torres\n978691066\nfb=0"];
+	No_978838552 [label="Igor Martins\n978838552\nfb=0"];
+	No_978838552 -> NUL_2;
+	No_978838552 [label="Igor Martins\n978838552\nfb=0"];
+	No_978838552 -> NUL_3;
+	No_978838552 [label="Igor Martins\n978838552\nfb=0"];
+	No_982820241 -> No_986590593;
+	No_982820241 [label="Igor Silva\n982820241\nfb=-1"];
+	No_986590593 [label="Igor Souza\n986590593\nfb=0"];
+	No_986590593 -> NUL_4;
+	No_986590593 [label="Igor Souza\n986590593\nfb=0"];
+	No_986590593 -> NUL_5;
+	No_986590593 [label="Igor Souza\n986590593\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4,NUL_5 [label=null,shape=square]
+}

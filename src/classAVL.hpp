@@ -1,3 +1,22 @@
+/*
+Trabalho sobre Tabela Hash com colisão linear e árvores AVL
+Alunos: Piettro Alessandro Rodrigues Torres - mat. ME2112004, 
+	     Roberto Carlos dos Santos - mat. ME2112005
+Professor: Igor Machado Coelho
+Disciplina: Algoritmos (Algoritmos-2021-1-PPG-CComp)
+Data de apresentação: 15/09/2021
+***
+Observação sobre a notação utilizada para informar a complexidade do código da aplicação: toda linha que não contiver explicitamente a 
+indicação de sua complexidade deve ser considerada como sendo de complexidade O(1). As linhas de código que tiverem complexidade diferente
+disso terão explicitamente indicadas sua complexidade, em comentários ao lado do código, por exemplo:
+      for (int i=0; i<n; i++){ // Complexidade do bloco: O(n^2) 
+          for (int j=0; j<n; j++){ Complexidade do bloco: O(n)
+              ...      // Nas linhas de complexidade O(1), não escreveremos nada ao lado
+          }
+      }
+
+*/
+
 #include <iostream>
 #include <cstring>
 #include <string>
@@ -13,9 +32,9 @@ using namespace std; // declaração global do espaço de nomes
 /* retorna um vetor formado pelas palavras separadas pelo caracter delimitador encontrado na string de entrada
    Exemplo: splitStr("abc;def", ';') retorna o vetor ["abc","def"]
  */
-std::vector<std::string> splitStr(string strEntrada, char delimitador)
-{
-    int contaPalavras = 1;
+std::vector<std::string> splitStr(string strEntrada, char delimitador) //Complexidade desta função: podemos considerá-la como O(1),
+{                                                                      //uma vez que somente trabalhará com entradas bem pequenas 
+    int contaPalavras = 1;                                             // (algo em torno de 15 a 20 caracteres em média)     
     char letra;
     string palavra = "";
     int tamStrEntrada = strEntrada.length();
@@ -46,8 +65,8 @@ std::vector<std::string> splitStr(string strEntrada, char delimitador)
     return retorno;
 }
 /* Padroniza um tamanho fixo para todos os nomes - acrescenta espaços ao final, para igualar tamanhos */
-string fixSize(string nome, int tam)
-{
+string fixSize(string nome, int tam)  //Podemos considerar que esta função tem complexidade O(1), pois trabalha com entradas pequenas (em geral
+{                                     //  em torno de 15 a 20 caracteres).
     string strRetorno = nome;
     if (strRetorno.length() < tam)
     {
@@ -70,7 +89,8 @@ string fixSize(string nome, int tam)
 }
 
 /* Apaga espaços no final da string */
-string strTrim(string nome)
+string strTrim(string nome)        //Podemos considerar que esta função tem complexidade O(1), pois trabalha com entradas pequenas (em geral
+                                     //  em torno de 15 a 20 caracteres).
 {
     string strRetorno = "";
     int tam = nome.length();
@@ -115,7 +135,7 @@ public:
 
     /*Visita em pré-ordem os nós da árvore para obtenção da representação gráfica (Graphviz)*/
     void visitaEmPreOrdemParaArquivoGraphviz(No_AVL *noAtual, ofstream *arq)
-    {
+    {                           // Complexidade desta função: O(1)
         if (noAtual == NULL)
             return;
         int fb = noAtual->fb; //Fator de balanceamento
@@ -185,9 +205,9 @@ public:
     /* Imprime a representação da árvore, para ser exportada em formato Graphviz
     O texto gerado pode ser levado a um editor on-line como, por exemplo, este abaixo referido:
     https://dreampuf.github.io/GraphvizOnline/
-    A imagem da árvore gerada segue em anexo a este trabalho.
+    As imagens das árvores geradas são apresentadas no relatório deste trabalho.
      */
-    void imprimeRepresentacaoGraficaArvore(int id)
+    void imprimeRepresentacaoGraficaArvore(int id)   //Complexidade: O(1)
     {
         if (this->T == NULL || this->N==0)
         {
@@ -208,8 +228,8 @@ public:
         visitaEmPreOrdemParaArquivoGraphviz(this->T, pArq);
         string strNosNulos = "";
         //Referências aos ponteiros nulos (esquerdo e direito)
-        for (int i = 0; i < this->contaNosNulos; i++)
-        {
+        for (int i = 0; i < this->contaNosNulos; i++)   //Podemos considerar este loop como O(1) pois trabalhará com valores pequenos de N
+        {                                               //que são insignificantes sob o ponto de vista do crescimento assintótico
             strNosNulos += "NUL_" + std::to_string(i);
             if (i < this->contaNosNulos - 1)
                 strNosNulos.push_back(',');
@@ -223,7 +243,8 @@ public:
         exec(comandoGDot.c_str());
     }
 
-    void imprimeEmOrdem(No_AVL *T)
+    /* Realiza a impressão da árvore AVL em ordem */ 
+    void imprimeEmOrdem(No_AVL *T)  //Complexidade: O(N)
     {
         if (T != NULL)
         {
@@ -236,7 +257,8 @@ public:
         }
     };
 
-    void imprimeVisitaEmNiveis(No_AVL *noAtual)
+    /* Realiza a impressão da árvore AVL em níveis */
+    void imprimeVisitaEmNiveis(No_AVL *noAtual)   // Complexidade: O(N)
     {
         if (noAtual == NULL)
         {
@@ -250,7 +272,7 @@ public:
         int nivelAtual = 1;
         int nivelAnterior = 1;
         printf("Compartimento %d, letra %c, quantidade de registros %d :", this->T->nome[0] - 65, this->T->nome[0], this->N);
-        while (!fila.empty())
+        while (!fila.empty())    //Complexidade: O(N)
         {
             frente = fila.front();
             if (frente->esq != 0)
@@ -277,12 +299,12 @@ public:
     /* Obtém a altura da árvore ou subárvore que tem como raiz determinado nó 
        Esta função retorna a altura do nó até a folha
     */
-    int getAlturaDaArvore(No_AVL* noRaiz){
+    int getAlturaDaArvore(No_AVL* noRaiz){     //Complexidade: O(log(N))
         if (noRaiz==NULL){
             return 0;
         }
-        int alturaNoDir=getAlturaDaArvore(noRaiz->dir)+1;
-        int alturaNoEsq=getAlturaDaArvore(noRaiz->esq)+1;
+        int alturaNoDir=getAlturaDaArvore(noRaiz->dir)+1;  //Complexidade: O(log(N))
+        int alturaNoEsq=getAlturaDaArvore(noRaiz->esq)+1;  //Complexidade: O(log(N))
         if (alturaNoDir>alturaNoEsq){
             return alturaNoDir;
         } else {
@@ -291,21 +313,21 @@ public:
     }
 
     /* computa o fator de balanceamento de um dado nó */
-    int getFatorBalanceamento(No_AVL* noAtual){
-        int tamSubArvoreDir=getAlturaDaArvore(noAtual->dir);
-        int tamSubArvoreEsq=getAlturaDaArvore(noAtual->esq);
+    int getFatorBalanceamento(No_AVL* noAtual){                 //Complexidade: O(log(N))
+        int tamSubArvoreDir=getAlturaDaArvore(noAtual->dir);    //Complexidade: O(log(N))
+        int tamSubArvoreEsq=getAlturaDaArvore(noAtual->esq);    //Complexidade: O(log(N)) 
         return (tamSubArvoreDir-tamSubArvoreEsq);
     }
 
     /* Após a exclusão de um item, percorre desde a raiz até o nó onde houve a substituição e atualiza os fatores de balanceamento
     */
-    void atualizaFbAposDelecao(No_AVL **noAtual)
+    void atualizaFbAposDelecao(No_AVL **noAtual)      //Complexidade: O(N)
     {
         if ((*noAtual) != NULL)
         {
-            (*noAtual)->fb=getFatorBalanceamento((*noAtual));
-            atualizaFbAposDelecao( &(*noAtual)->esq);
-            atualizaFbAposDelecao( &(*noAtual)->dir);
+            (*noAtual)->fb=getFatorBalanceamento((*noAtual));   //Complexidade: O(log(N))
+            atualizaFbAposDelecao( &(*noAtual)->esq);           //Complexidade: O(N)
+            atualizaFbAposDelecao( &(*noAtual)->dir);           //Complexidade: O(N)
         }
     }
 
@@ -313,7 +335,7 @@ public:
     /* Informa o(s) telefone(s) associado(s) a um determinado nome 
     No retorno, a variável this->chaveEncontrada contém o registro encontrado
     */
-    void buscaRegistrosPeloNome(string nome, No_AVL *noAtual)
+    void buscaRegistrosPeloNome(string nome, No_AVL *noAtual)   //Complexidade: O(N)
     {
         if (this->chaveEncontrada != NULL)
             return;
@@ -321,15 +343,38 @@ public:
         {
             if (noAtual->nome == nome)
             {
-                printf("Encontrado o telefone %d vinculado ao nome %s.\n", noAtual->numTelefone, strTrim(nome).c_str());
+                printf("\nEncontrado o telefone %d vinculado ao nome %s.\n", noAtual->numTelefone, strTrim(nome).c_str());
                 this->chaveEncontrada = noAtual;
             }
-            buscaRegistrosPeloNome(nome, noAtual->esq);
-            buscaRegistrosPeloNome(nome, noAtual->dir);
+            buscaRegistrosPeloNome(nome, noAtual->esq);     //Complexidade: O(N)
+            buscaRegistrosPeloNome(nome, noAtual->dir);     //Complexidade: O(N)
         }
     }
 
-    void atualizaBalanceamentoNoEsq(No_AVL **T)
+    /* retorna o registro associado a um determinado telefone
+    No retorno, a variável this->chaveEncontrada contém o registro encontrado   
+    */
+    void buscaRegistrosPeloTelefone(int telefone, No_AVL *noAtual)   //Complexidade: O(N)
+    {
+        if (this->chaveEncontrada != NULL)
+            return;
+        if (noAtual != NULL)
+        {
+            if (noAtual->numTelefone == telefone)
+            {
+                string nome=noAtual->nome;
+                printf("\nEncontrado o nome %s vinculado ao telefone %d.\n", strTrim(nome).c_str(), telefone);
+                this->chaveEncontrada = noAtual;
+            } else if (noAtual->numTelefone > telefone){
+                buscaRegistrosPeloTelefone(telefone, noAtual->esq);    //Complexidade: O(N)
+            } else {
+                buscaRegistrosPeloTelefone(telefone, noAtual->dir);    //Complexidade: O(N)
+            }
+        }
+    }
+
+    /* Atualiza o balanceamento no nó esquerdo */
+    void atualizaBalanceamentoNoEsq(No_AVL **T)     //Complexidade: O(1)
     {
         if ((*T)->fb == 1)
         {
@@ -342,31 +387,15 @@ public:
         }
         else
         {
-            rotacaoDireita(T);
-            atualizafbT(T);
+            rotacaoDireita(T);                       //Complexidade: O(1)
+            atualizafbT(T);                          //Complexidade: O(1)
             (*T)->fb = 0;
             this->hAum = false;
         }
     };
 
-    /* Atualiza o balanceamento nos casos em que o nó a ser deletado estava balanceado antes da deleção */
-    void atualizaBalanceamentoNoMeio(No_AVL **T)
-    {
-        if ((*T)!=NULL){
-            if ((*T)->esq!=NULL && (*T)->dir!=NULL){                
-                atualizafbT(&((*T)->esq));
-                atualizafbT(&((*T)->dir));
-                atualizafbT(T);
-            } else if((*T)->esq!=NULL) {
-                (*T)->fb = -1;
-            } else {
-                (*T)->fb = 1;
-            }
-        }
-        this->hAum = true;
-    };
-
-    void atualizaBalanceamentoNoDir(No_AVL **T)
+    /* Atualiza o fator de balanceamento do filho à direita */
+    void atualizaBalanceamentoNoDir(No_AVL **T)                    //Complexidade: O(1)
     {
         if ((*T)->fb == -1)
         {
@@ -379,14 +408,15 @@ public:
         }
         else
         {
-            rotacaoEsquerda(T);
-            atualizafbT(T);
+            rotacaoEsquerda(T);                    //Complexidade: O(1)
+            atualizafbT(T);                         //Complexidade: O(1)
             (*T)->fb = 0;
             this->hAum = false;
         }
     };
 
-    void rotacaoDireita(No_AVL **T)
+    /*Realiza rotação dos nós à direita */
+    void rotacaoDireita(No_AVL **T)                                //Complexidade: O(1)
     {
         if ((*T)== NULL) return;
         No_AVL *noTemp;
@@ -395,17 +425,18 @@ public:
             noTemp = ((*T)->esq);
             if (noTemp->fb == -1)
             {
-                rotacaoDireitaSimples(T);
+                rotacaoDireitaSimples(T);                         //Complexidade: O(1)
             }
             else
             {
-                rotacaoEsquerdaSimples(&(*T)->esq);
-                rotacaoDireitaSimples(T);
+                rotacaoEsquerdaSimples(&(*T)->esq);            //Complexidade: O(1)
+                rotacaoDireitaSimples(T);                       //Complexidade: O(1)
             }
         }
     };
 
-    void rotacaoEsquerda(No_AVL **T)
+    /* Realiza um rotação à esquerda */
+    void rotacaoEsquerda(No_AVL **T)                        //Complexidade: O(1)
     {
         if ((*T)== NULL) return;
         No_AVL *noTemp;
@@ -414,17 +445,18 @@ public:
             noTemp = ((*T)->dir);
             if (noTemp->fb == 1)
             {
-                rotacaoEsquerdaSimples(T);
+                rotacaoEsquerdaSimples(T);                  //Complexidade: O(1)
             }
             else
             {
-                rotacaoDireitaSimples(&(*T)->dir);
-                rotacaoEsquerdaSimples(T);
+                rotacaoDireitaSimples(&(*T)->dir);        //Complexidade: O(1)
+                rotacaoEsquerdaSimples(T);                 //Complexidade: O(1)
             }
         }
     };
 
-    void rotacaoDireitaSimples(No_AVL **T)
+    /* Realiza um rotação simples à direita */
+    void rotacaoDireitaSimples(No_AVL **T)              //Complexidade: O(1)
     {
         No_AVL *noTemp;
         if ((*T)->esq != NULL)
@@ -432,13 +464,14 @@ public:
             noTemp = (*T)->esq;
             (*T)->esq = noTemp->dir;
             noTemp->dir = *T;
-            atualizafbT(T);
+            atualizafbT(T);            //Complexidade: O(1)
             *T = noTemp;
-            atualizafbT(T);
+            atualizafbT(T);             //Complexidade: O(1)
         }
     };
 
-    void rotacaoEsquerdaSimples(No_AVL **T)
+    /* Realiza um rotação simples à esquerda */
+    void rotacaoEsquerdaSimples(No_AVL **T)         //Complexidade: O(1)
     {
         No_AVL *noTemp;
         if ((*T)->dir != NULL)
@@ -446,13 +479,14 @@ public:
             noTemp = (*T)->dir;
             (*T)->dir = noTemp->esq;
             noTemp->esq = *T;
-            atualizafbT(T);
+            atualizafbT(T);                      //Complexidade: O(1)
             *T = noTemp;
-            atualizafbT(T);
+            atualizafbT(T);                     //Complexidade: O(1)
         }
     };
 
-    void atualizafbT(No_AVL **T)
+    /* Atualiza o fator de balanceamento de um dado nó */
+    void atualizafbT(No_AVL **T)                                    //Complexidade: O(1)
     {
         if ((*T)->dir == NULL && (*T)->esq == NULL)
         {
@@ -491,7 +525,8 @@ public:
         }
     };
 
-    void insere(No_AVL **T, No_AVL *pNo)
+    /* Realiza a inserção de cada um dos nós */
+    void insere(No_AVL **T, No_AVL *pNo)                       //Complexidade: O(1)
     {
         if (*T == NULL)
         {
@@ -504,18 +539,18 @@ public:
         }
         else if ((*T)->numTelefone > pNo->numTelefone)
         {
-            insere(&(*T)->esq, pNo);
+            insere(&(*T)->esq, pNo);                          //Complexidade: O(1)
             if (this->hAum == true)
             {
-                atualizaBalanceamentoNoEsq(T);
+                atualizaBalanceamentoNoEsq(T);                //Complexidade: O(1)
             }
         }
         else if ((*T)->numTelefone < pNo->numTelefone)
         {
-            insere(&(*T)->dir, pNo);
+            insere(&(*T)->dir, pNo);                           //Complexidade: O(1)
             if (this->hAum == true)
             {
-                atualizaBalanceamentoNoDir(T);
+                atualizaBalanceamentoNoDir(T);                  //Complexidade: O(1)
             }
         }
         else
@@ -525,16 +560,17 @@ public:
         }
     };
 
-    void exclui(No_AVL **T, int telefone)
+    /* Realiza a remoção de cada um dos nós */
+    void exclui(No_AVL **T, int telefone)              //Complexidade O(N)  (observação: pode ser otimizada)
     {
         No_AVL *novoEsq;
         No_AVL *novoDir;
         No_AVL **novoSubRaiz;
 
 
-        if (telefone==975960513){  //Apenas para DEBUG:
-            int pararEmDebug=0;
-        }
+        //if (telefone==975960513){  //Apenas para DEBUG:
+         //   int pararEmDebug=0;
+        //}
 
         if ((*T) != NULL)
         {
@@ -570,7 +606,7 @@ public:
                         } else {
                             *novoSubRaiz = NULL;
                         } 
-                        rotacaoDireita(&((*T)->esq));                                                                     
+                        rotacaoDireita(&((*T)->esq));                  //Complexidade: O(1)                                                    
                         this->hAum = false;
                     }
                     else if ((*T)->fb == 1)  //Nó a ser deletado está desbalanceado à direita
@@ -585,7 +621,7 @@ public:
                         } else {
                             *novoSubRaiz = NULL;
                         }
-                        rotacaoEsquerda(&((*T)->dir));                                                
+                        rotacaoEsquerda(&((*T)->dir));                        //Complexidade: O(1)                         
                         this->hAum = false;
                     }
                     else //Nó a ser deletado está balanceado
@@ -597,25 +633,22 @@ public:
                         //(*T)->fb = 1;
                         if ((*novoSubRaiz)->dir !=NULL){
                             (*T)->dir=(*novoSubRaiz)->dir;
+                            rotacaoEsquerda(&(*T)->dir);                     //Complexidade: O(1)
                         } else {
                             *novoSubRaiz = NULL;
-                        }
-                        //atualizaBalanceamentoNoMeio(T);
-                        //rotacaoEsquerda(&(*T)->dir);
+                        }                        
                         this->hAum = false;
                     }
                 }
-                //this->chaveEncontrada=NULL;
-                //this->atualizaFbAposDelecao(&this->T);
             }
             else if ((*T)->numTelefone < telefone)
             { // Desce em busca da chave pelo ramo à direita.
 
-                exclui(&((*T)->dir), telefone);
+                exclui(&((*T)->dir), telefone);                          //Complexidade: O(log(N))
 
                 if (this->hAum == true)
                 {
-                    atualizaBalanceamentoNoEsq(T);
+                    atualizaBalanceamentoNoEsq(T);                       //Complexidade: O(1)
                 }
             }
             else if ((*T)->numTelefone > telefone)
@@ -625,25 +658,26 @@ public:
 
                 if (this->hAum == true)
                 {
-                    atualizaBalanceamentoNoDir(T);
+                    atualizaBalanceamentoNoDir(T);                      //Complexidade: O(1)
                 }
             }
-            this->atualizaFbAposDelecao(&this->T);
-        }
-        else
+            this->atualizaFbAposDelecao(&this->T);                      //Complexidade O(N)  (observação: inserimos essa linha para tentar
+        }                                                               // sanar bugs nesta função de exclusão - ou seja, esta função pode     
+        else                                                            // ser otimizada)             
         { // Chave não encontrada
             perror("Erro! Chave (número de telefone) não encontrada.\n");
             this->chaveEncontrada = NULL; //Esta variável é checada após a execução desta função.
         }
     };
 
-    No_AVL **menorDireito(No_AVL *T)
+    /* Encontra o antecessor do nó a ser deletado, em ordem */ 
+    No_AVL **menorDireito(No_AVL *T)                                //Complexidade: O(log(N))
     {
         No_AVL **aux = &T;
         if ((*aux)->dir != NULL)
         {
             aux = &(*aux)->dir;
-            while ((*aux)->esq != NULL)
+            while ((*aux)->esq != NULL)         //Complexidade: O(log(N))
             {
                 aux = &(*aux)->esq;
             }
@@ -651,13 +685,14 @@ public:
         return aux;
     };
 
-    No_AVL **maiorEsquerdo(No_AVL *T)
+    /* Encontra o sucessor do nó a ser deletado, em ordem */ 
+    No_AVL **maiorEsquerdo(No_AVL *T)                           //Complexidade: O(log(N))
     {
         No_AVL **aux = &T;
         if ((*aux)->esq != NULL)
         {
             aux = &(*aux)->esq;
-            while ((*aux)->dir != NULL)
+            while ((*aux)->dir != NULL)             //Complexidade: O(log(N))
             {
                 aux = &(*aux)->dir;
             }
@@ -672,43 +707,3 @@ AVL::AVL()
     this->N = 0;    //O(1)
     this->chaveEncontrada = NULL;
 };
-
-/*
-int main(){
-    
-    AVL* avl_tree[1];
-    avl_tree[0] = new AVL();
-    No_AVL* X;
-    
-    No_AVL* T[1];
-    T[0] = NULL;
-    
-    for(int i; i< 15; i++){
-        X = new No_AVL();
-        X->nome = "Piettro";
-        X->numTelefone = 95682;
-        X->chave = 95682 +  (rand() % 100);
-        X->fb = 0;
-        printf("\nnumero: %d", X->chave);
-        avl_tree[0]->insere(&T[0], X);
-    }
-    
-    //No_AVL* x1 = new No_AVL();
-   // x1->chave = 10;
-  //  No_AVL* x2 = new No_AVL();
-//    No_AVL* x3 = new No_AVL();
- //   x1->chave = 17;
- //   x2->chave = 3;
- //   x3->chave = 15;
-    
-  //  avl_tree->remocao(&T, x2);
-   // avl_tree->remocao(&T, x3);
-    
-    printf("passou aqui %d\n\n", avl_tree[0]->N);
-    
-    avl_tree[0]->imprime(T[0]);
-    printf("\n\n\n -----------------Remocao ------------------- \n\n");
-    int xteste = 10;
-   // avl_tree->remocao(&T, 10);
-    
-}*/

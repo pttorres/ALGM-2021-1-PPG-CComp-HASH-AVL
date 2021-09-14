@@ -1,0 +1,7 @@
+digraph BST {
+	No_977798643 -> NUL_0;
+	No_977798643 [label="Roberto Martins\n977798643\nfb=0"];
+	No_977798643 -> NUL_1;
+	No_977798643 [label="Roberto Martins\n977798643\nfb=0"];
+	NUL_0,NUL_1 [label=null,shape=square]
+}

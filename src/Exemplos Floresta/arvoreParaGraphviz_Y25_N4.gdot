@@ -1,0 +1,22 @@
+digraph BST {
+	No_980733597 -> No_980460411;
+	No_980733597 [label="Yago Costa\n980733597\nfb=1"];
+	No_980460411 [label="Yago Souza\n980460411\nfb=0"];
+	No_980460411 -> NUL_0;
+	No_980460411 [label="Yago Souza\n980460411\nfb=0"];
+	No_980460411 -> NUL_1;
+	No_980460411 [label="Yago Souza\n980460411\nfb=0"];
+	No_980733597 -> No_988932196;
+	No_980733597 [label="Yago Costa\n980733597\nfb=1"];
+	No_988932196 [label="Yago Barros\n988932196\nfb=1"];
+	No_988932196 -> NUL_2;
+	No_988932196 [label="Yago Barros\n988932196\nfb=1"];
+	No_988932196 -> No_995110918;
+	No_988932196 [label="Yago Barros\n988932196\nfb=1"];
+	No_995110918 [label="Yago Moura\n995110918\nfb=0"];
+	No_995110918 -> NUL_3;
+	No_995110918 [label="Yago Moura\n995110918\nfb=0"];
+	No_995110918 -> NUL_4;
+	No_995110918 [label="Yago Moura\n995110918\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4 [label=null,shape=square]
+}

@@ -1,0 +1,17 @@
+digraph BST {
+	No_979669469 -> No_970130538;
+	No_979669469 [label="Vanessa Moura\n979669469\nfb=0"];
+	No_970130538 [label="Vanessa Porto\n970130538\nfb=0"];
+	No_970130538 -> NUL_0;
+	No_970130538 [label="Vanessa Porto\n970130538\nfb=0"];
+	No_970130538 -> NUL_1;
+	No_970130538 [label="Vanessa Porto\n970130538\nfb=0"];
+	No_979669469 -> No_988544965;
+	No_979669469 [label="Vanessa Moura\n979669469\nfb=0"];
+	No_988544965 [label="Vanessa Martins\n988544965\nfb=0"];
+	No_988544965 -> NUL_2;
+	No_988544965 [label="Vanessa Martins\n988544965\nfb=0"];
+	No_988544965 -> NUL_3;
+	No_988544965 [label="Vanessa Martins\n988544965\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3 [label=null,shape=square]
+}

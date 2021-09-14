@@ -1,0 +1,37 @@
+digraph BST {
+	No_978691066 -> No_925540313;
+	No_978691066 [label="Igor Torres\n978691066\nfb=1"];
+	No_925540313 [label="Igor Costa\n925540313\nfb=1"];
+	No_925540313 -> NUL_0;
+	No_925540313 [label="Igor Costa\n925540313\nfb=1"];
+	No_925540313 -> No_951709707;
+	No_925540313 [label="Igor Costa\n925540313\nfb=1"];
+	No_951709707 [label="Igor Barros\n951709707\nfb=0"];
+	No_951709707 -> NUL_1;
+	No_951709707 [label="Igor Barros\n951709707\nfb=0"];
+	No_951709707 -> NUL_2;
+	No_951709707 [label="Igor Barros\n951709707\nfb=0"];
+	No_978691066 -> No_994709372;
+	No_978691066 [label="Igor Torres\n978691066\nfb=1"];
+	No_994709372 [label="Igor Moura\n994709372\nfb=-1"];
+	No_994709372 -> No_991915980;
+	No_994709372 [label="Igor Moura\n994709372\nfb=-1"];
+	No_991915980 [label="Igor Farias\n991915980\nfb=-1"];
+	No_991915980 -> No_982820241;
+	No_991915980 [label="Igor Farias\n991915980\nfb=-1"];
+	No_982820241 [label="Igor Silva\n982820241\nfb=0"];
+	No_982820241 -> NUL_3;
+	No_982820241 [label="Igor Silva\n982820241\nfb=0"];
+	No_982820241 -> NUL_4;
+	No_982820241 [label="Igor Silva\n982820241\nfb=0"];
+	No_991915980 -> NUL_5;
+	No_991915980 [label="Igor Farias\n991915980\nfb=-1"];
+	No_994709372 -> No_997164286;
+	No_994709372 [label="Igor Moura\n994709372\nfb=-1"];
+	No_997164286 [label="Igor Porto\n997164286\nfb=0"];
+	No_997164286 -> NUL_6;
+	No_997164286 [label="Igor Porto\n997164286\nfb=0"];
+	No_997164286 -> NUL_7;
+	No_997164286 [label="Igor Porto\n997164286\nfb=0"];
+	NUL_0,NUL_1,NUL_2,NUL_3,NUL_4,NUL_5,NUL_6,NUL_7 [label=null,shape=square]
+}
