@@ -8,6 +8,67 @@
 
 using namespace std; // declaração global do espaço de nomes
 
+/** Funções genéricas (não especificamente da classe AVL): ************** */
+
+/* retorna um vetor formado pelas palavras separadas pelo caracter delimitador encontrado na string de entrada
+   Exemplo: splitStr("abc;def", ';') retorna o vetor ["abc","def"]
+ */
+std::vector<std::string> splitStr(string strEntrada, char delimitador)
+{
+    int contaPalavras = 1;
+    char letra;
+    string palavra = "";
+    int tamStrEntrada = strEntrada.length();
+    for (int i = 0; i < tamStrEntrada; i++)
+    {
+        letra = strEntrada[i];
+        if (letra == delimitador)
+        {
+            contaPalavras++;
+        }
+    }
+    std::vector<std::string> retorno(contaPalavras);
+    int j = 0;
+    for (int i = 0; i < tamStrEntrada; i++)
+    {
+        letra = strEntrada[i];
+        if (letra != delimitador && i + 1 < tamStrEntrada)
+        {
+            palavra += letra;
+        }
+        else
+        {
+            retorno[j] = palavra;
+            palavra = "";
+            j++;
+        }
+    }
+    return retorno;
+}
+/* Padroniza um tamanho fixo para todos os nomes - acrescenta espaços ao final, para igualar tamanhos */
+string fixSize(string nome, int tam)
+{
+    string strRetorno = nome;
+    if (strRetorno.length() < tam)
+    {
+        while (strRetorno.length() < tam)
+        {
+            strRetorno += ' ';
+        }
+    }
+    else
+    {
+        strRetorno = "";
+        int i = 0;
+        while (strRetorno.length() < tam)
+        {
+            strRetorno += nome[i];
+            i++;
+        }
+    }
+    return strRetorno;
+}
+
 /* Apaga espaços no final da string */
 string strTrim(string nome)
 {
@@ -27,6 +88,9 @@ string strTrim(string nome)
     }
     return strRetorno;
 }
+/*******************************************************************/
+// Aqui começam as rotinas, funções e definições da classe AVL
+/******************************************************************/
 
 struct No_AVL
 {
@@ -134,12 +198,8 @@ public:
         char c = (this->T->nome[0]);
         string nomeArq = "arvoreParaGraphviz_";
         nomeArq.push_back(c);
-        string strId = std::to_string(id);
-        int tamStrId = strId.length();
-        for (int i = 0; i < tamStrId; i++)
-        {
-            nomeArq.push_back(strId[i]);
-        }
+        string strId = std::to_string(id);                
+        nomeArq+=strId+"_N"+to_string(this->N);
         nomeArq += ".gdot";
         arq.open(nomeArq);
         arq << "digraph BST {\n";
@@ -157,7 +217,9 @@ public:
         arq << "\t" + strNosNulos + " [label=null,shape=square]\n";
         arq << "}\n";
         arq.close();
-        string comandoGDot = "dot -Tsvg " + nomeArq + " > " + nomeArq + ".svg";
+        nomeArq=fixSize(nomeArq, nomeArq.length()-5);
+        string comandoGDot = "dot -Tsvg " + nomeArq + ".gdot > " + nomeArq + ".svg";
+        //printf("\nDebug: %s\n", comandoGDot.c_str());
         exec(comandoGDot.c_str());
     }
 
@@ -469,6 +531,11 @@ public:
         No_AVL *novoDir;
         No_AVL **novoSubRaiz;
 
+
+        if (telefone==975960513){  //Apenas para DEBUG:
+            int pararEmDebug=0;
+        }
+
         if ((*T) != NULL)
         {
             if ((*T)->numTelefone == telefone)
@@ -497,9 +564,13 @@ public:
                         (*T)->nome = (*novoSubRaiz)->nome;
                         (*T)->numTelefone = (*novoSubRaiz)->numTelefone;
                         telefoneSubstituto=(*novoSubRaiz)->numTelefone;
-                        (*T)->fb = 0;
-                        *novoSubRaiz = NULL;
-                        rotacaoDireita(&((*T)->esq));
+                        (*T)->fb = 0;                        
+                        if ((*novoSubRaiz)->esq !=NULL){
+                            (*T)->esq=(*novoSubRaiz)->esq;
+                        } else {
+                            *novoSubRaiz = NULL;
+                        } 
+                        rotacaoDireita(&((*T)->esq));                                                                     
                         this->hAum = false;
                     }
                     else if ((*T)->fb == 1)  //Nó a ser deletado está desbalanceado à direita
@@ -508,9 +579,13 @@ public:
                         (*T)->nome = (*novoSubRaiz)->nome;
                         (*T)->numTelefone = (*novoSubRaiz)->numTelefone;
                         telefoneSubstituto=(*novoSubRaiz)->numTelefone;
-                        (*T)->fb = 0;
-                        *novoSubRaiz = NULL;
-                        rotacaoEsquerda(&((*T)->dir));
+                        (*T)->fb = 0;                 
+                        if ((*novoSubRaiz)->dir !=NULL){
+                            (*T)->dir=(*novoSubRaiz)->dir;
+                        } else {
+                            *novoSubRaiz = NULL;
+                        }
+                        rotacaoEsquerda(&((*T)->dir));                                                
                         this->hAum = false;
                     }
                     else //Nó a ser deletado está balanceado
@@ -520,7 +595,11 @@ public:
                         (*T)->numTelefone = (*novoSubRaiz)->numTelefone;   
                         telefoneSubstituto=(*novoSubRaiz)->numTelefone;                  
                         //(*T)->fb = 1;
-                        *novoSubRaiz = NULL;
+                        if ((*novoSubRaiz)->dir !=NULL){
+                            (*T)->dir=(*novoSubRaiz)->dir;
+                        } else {
+                            *novoSubRaiz = NULL;
+                        }
                         //atualizaBalanceamentoNoMeio(T);
                         //rotacaoEsquerda(&(*T)->dir);
                         this->hAum = false;
